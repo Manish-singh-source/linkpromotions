@@ -1150,15 +1150,23 @@ Tags:          event, conference, marketing, business
   color: #f05a00;
 }
 
+.lp-news-section .news-block-two .inner-box .image-box .date-box,
+.lp-news-section .news-block-two .inner-box.active .image-box .date-box {
+  background: #d9d9d9;
+}
+
+.lp-news-section .news-block-two .inner-box .image-box .date-box .date,
+.lp-news-section .news-block-two .inner-box .image-box .date-box .month,
+.lp-news-section .news-block-two .inner-box.active .image-box .date-box .date,
+.lp-news-section .news-block-two .inner-box.active .image-box .date-box .month {
+  color: #24262c;
+}
+
 .lp-news-section .news-block-two .inner-box.active .content-box .cat,
 .lp-news-section .news-block-two .inner-box.active .content-box .post-meta li,
 .lp-news-section .news-block-two .inner-box.active .content-box .post-meta li .icon,
 .lp-news-section .news-block-two .inner-box.active .content-box .title a {
   color: #ffffff;
-}
-
-.lp-news-section .news-block-two .inner-box.active .image-box .date-box {
-  background: #ffffff;
 }
 
 .lp-news-section .news-block-two .inner-box .image-box .btn-box .read-more {
@@ -2730,7 +2738,7 @@ Tags:          event, conference, marketing, business
   position: relative;
   overflow: hidden;
   padding: 50px 0 34px;
-  background: #e6e6e8;
+  background: #d9d9d9;
   color: #24262c;
 }
 
@@ -3039,6 +3047,16 @@ Tags:          event, conference, marketing, business
   opacity: 1;
 }
 
+.progress-wrap {
+  right: 40px;
+  bottom: 110px;
+  z-index: 998;
+}
+
+.progress-wrap.active-progress {
+  bottom: 110px;
+}
+
 .lp-testimonial-orange .bg-box:before,
 .lp-testimonial-orange .bg-box .bg-image:after {
   background-color: #fff3ec;
@@ -3251,6 +3269,24 @@ Tags:          event, conference, marketing, business
 
 .lp-proposal-form textarea {
   min-height: 170px;
+}
+
+.lp-form-alert {
+  margin-bottom: 18px;
+  padding: 13px 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.lp-form-alert.success {
+  color: #1e6738;
+  background: #e3f6e9;
+}
+
+.lp-form-alert.error {
+  color: #8c2114;
+  background: #ffe7e0;
 }
 
 .lp-proposal-aside {
@@ -3506,7 +3542,7 @@ Tags:          event, conference, marketing, business
 
 .lp-about-mission-section {
   padding: 92px 0;
-  background: #24262c;
+  background: #d9d9d9;
 }
 
 .lp-about-mission-grid {
@@ -3515,9 +3551,9 @@ Tags:          event, conference, marketing, business
 
 .lp-about-mission-grid article {
   padding: 42px;
-  border: 1px solid rgba(255, 255, 255, .14);
+  border: 1px solid rgba(36, 38, 44, .14);
   border-radius: 18px;
-  background: rgba(255, 255, 255, .06);
+  background: rgba(255, 255, 255, .42);
 }
 
 .lp-about-mission-grid span {
@@ -3529,13 +3565,13 @@ Tags:          event, conference, marketing, business
 
 .lp-about-mission-grid h3 {
   margin: 14px 0 16px;
-  color: #ffffff;
+  color: #24262c;
   font-size: 34px;
   line-height: 1.2;
 }
 
 .lp-about-mission-grid p {
-  color: rgba(255, 255, 255, .78);
+  color: #34363b;
 }
 
 .lp-about-cta-section {
@@ -4409,12 +4445,26 @@ Tags:          event, conference, marketing, business
 
   .lp-whatsapp-float {
     right: 18px;
-    bottom: 86px;
+    bottom: 18px;
     justify-content: center;
     width: 50px;
     min-width: 50px;
     height: 50px;
     padding: 0;
+  }
+
+  .progress-wrap,
+  .progress-wrap.active-progress {
+    right: 18px;
+    bottom: 86px;
+    width: 52px;
+    height: 52px;
+  }
+
+  .progress-wrap:after {
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
   }
 
   .lp-whatsapp-float span {

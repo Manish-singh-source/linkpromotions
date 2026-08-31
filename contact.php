@@ -1,3 +1,31 @@
+<?php
+$contactSuccess = '';
+$contactError = '';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['form_type'] ?? '') === 'contact') {
+    require __DIR__ . '/admin/config.php';
+
+    $firstName = trim((string)($_POST['firstName'] ?? ''));
+    $lastName = trim((string)($_POST['lastName'] ?? ''));
+    $email = strtolower(trim((string)($_POST['email'] ?? '')));
+    $phone = trim((string)($_POST['phone'] ?? ''));
+    $showName = trim((string)($_POST['showName'] ?? ''));
+    $message = trim((string)($_POST['message'] ?? ''));
+
+    if ($firstName === '' || $lastName === '' || $email === '' || $phone === '' || $message === '') {
+        $contactError = 'Please fill all required fields.';
+    } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $contactError = 'Please enter a valid email address.';
+    } else {
+        $stmt = $conn->prepare('INSERT INTO contact_inquiries (first_name, last_name, email, phone, show_name, message) VALUES (?, ?, ?, ?, ?, ?)');
+        $stmt->bind_param('ssssss', $firstName, $lastName, $email, $phone, $showName, $message);
+        $stmt->execute();
+        $stmt->close();
+        $contactSuccess = 'Thank you. Your inquiry has been submitted.';
+        $_POST = [];
+    }
+}
+?>
 <?php include 'header.php'; ?>
 <?php include 'navbar.php'; ?>
 
@@ -24,10 +52,18 @@
                 <div class="form-column col-xl-7 col-lg-12 col-sm-12">
                     <div class="inner-column">
                         <div class="contact-form lp-contact-form">
-                            <form action="#" method="post" id="email-form" novalidate>
+                            <form action="" method="post" id="email-form">
+                                <input type="hidden" name="form_type" value="contact">
                                 <div class="row">
                                     <div class="form-group col-lg-12">
-                                        <div class="response"></div>
+                                        <div class="response">
+                                            <?php if ($contactSuccess): ?>
+                                                <div class="lp-form-alert success"><?php echo htmlspecialchars($contactSuccess, ENT_QUOTES, 'UTF-8'); ?></div>
+                                            <?php endif; ?>
+                                            <?php if ($contactError): ?>
+                                                <div class="lp-form-alert error"><?php echo htmlspecialchars($contactError, ENT_QUOTES, 'UTF-8'); ?></div>
+                                            <?php endif; ?>
+                                        </div>
                                     </div>
                                     <div class="form-group col-sm-6">
                                         <input name="firstName" class="firstname" type="text" placeholder="First Name" required>
@@ -48,7 +84,7 @@
                                         <textarea name="message" class="message" placeholder="Tell us your stall size, location, timeline and requirement" required></textarea>
                                     </div>
                                     <div class="form-group col-sm-12">
-                                        <button type="button" id="submit" class="theme-btn btn-style-one bg-orange">
+                                        <button type="submit" id="contact-submit" class="theme-btn btn-style-one bg-orange">
                                             <span class="btn-title">Send Message <i class="fa fa-arrow-right"></i></span>
                                         </button>
                                     </div>

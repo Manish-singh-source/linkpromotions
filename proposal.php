@@ -1,3 +1,36 @@
+<?php
+$proposalSuccess = '';
+$proposalError = '';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['form_type'] ?? '') === 'proposal') {
+    require __DIR__ . '/admin/config.php';
+
+    $name = trim((string)($_POST['name'] ?? ''));
+    $company = trim((string)($_POST['company'] ?? ''));
+    $email = strtolower(trim((string)($_POST['email'] ?? '')));
+    $phone = trim((string)($_POST['phone'] ?? ''));
+    $showName = trim((string)($_POST['showName'] ?? ''));
+    $showLocation = trim((string)($_POST['showLocation'] ?? ''));
+    $stallSize = trim((string)($_POST['stallSize'] ?? ''));
+    $buildType = trim((string)($_POST['buildType'] ?? ''));
+    $showDate = trim((string)($_POST['showDate'] ?? ''));
+    $budget = trim((string)($_POST['budget'] ?? ''));
+    $message = trim((string)($_POST['message'] ?? ''));
+
+    if ($name === '' || $company === '' || $email === '' || $phone === '' || $showName === '' || $showLocation === '' || $stallSize === '' || $buildType === '' || $message === '') {
+        $proposalError = 'Please fill all required fields.';
+    } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $proposalError = 'Please enter a valid email address.';
+    } else {
+        $stmt = $conn->prepare('INSERT INTO proposal_requests (name, company, email, phone, show_name, show_location, stall_size, build_type, show_date, budget, message) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)');
+        $stmt->bind_param('sssssssssss', $name, $company, $email, $phone, $showName, $showLocation, $stallSize, $buildType, $showDate, $budget, $message);
+        $stmt->execute();
+        $stmt->close();
+        $proposalSuccess = 'Thank you. Your proposal request has been submitted.';
+        $_POST = [];
+    }
+}
+?>
 <?php include 'header.php'; ?>
 <?php include 'navbar.php'; ?>
 
@@ -24,10 +57,18 @@
                 <div class="form-column col-xl-8 col-lg-12 col-sm-12">
                     <div class="inner-column">
                         <div class="contact-form lp-contact-form lp-proposal-form">
-                            <form action="#" method="post" id="proposal-form" novalidate>
+                            <form action="" method="post" id="proposal-form">
+                                <input type="hidden" name="form_type" value="proposal">
                                 <div class="row">
                                     <div class="form-group col-lg-12">
-                                        <div class="response"></div>
+                                        <div class="response">
+                                            <?php if ($proposalSuccess): ?>
+                                                <div class="lp-form-alert success"><?php echo htmlspecialchars($proposalSuccess, ENT_QUOTES, 'UTF-8'); ?></div>
+                                            <?php endif; ?>
+                                            <?php if ($proposalError): ?>
+                                                <div class="lp-form-alert error"><?php echo htmlspecialchars($proposalError, ENT_QUOTES, 'UTF-8'); ?></div>
+                                            <?php endif; ?>
+                                        </div>
                                     </div>
                                     <div class="form-group col-sm-6">
                                         <input name="name" type="text" placeholder="Full Name" required>
@@ -69,7 +110,7 @@
                                         <textarea name="message" placeholder="Tell us about your products, open sides, storage, meeting room, display counters, AV, or any special requirement" required></textarea>
                                     </div>
                                     <div class="form-group col-sm-12">
-                                        <button type="button" id="proposal-submit" class="theme-btn btn-style-one bg-orange">
+                                        <button type="submit" id="proposal-submit" class="theme-btn btn-style-one bg-orange">
                                             <span class="btn-title">Submit Proposal Request <i class="fa fa-arrow-right"></i></span>
                                         </button>
                                     </div>

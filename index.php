@@ -192,7 +192,6 @@
                 <!-- Content Column -->
                  <div class="content-column col-xl-5 col-lg-12 col-md-12 col-sm-12 wow fadeInUp">
                     <div class="inner-column">
-                        <div class="shape-twentyfive bounce-x"></div>
                         <div class="sec-title orange">
                             <span class="sub-title">Our Work</span>
                             <h2 class="text-reveal-anim">Recent Work, Real Results</h2>
