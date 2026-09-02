@@ -15,7 +15,7 @@
 <!-- Stylesheets -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/master.css" rel="stylesheet">
-<link href="style.css?v=6" rel="stylesheet">
+<link href="style.css?v=9" rel="stylesheet">
 </head>
 <body>
 

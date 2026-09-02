@@ -24,7 +24,7 @@
                     </div>
                     <div class="lp-stat count-box">
                         <i class="fa fa-building"></i>
-                        <strong><span class="count-text" data-stop="1800" data-speed="1900" data-suffix="+" data-format="comma">0</span></strong>
+                        <strong><span class="count-text" data-stop="2100" data-speed="1900" data-suffix="+" data-format="comma">0</span></strong>
                         <span>Exhibition Stalls Delivered Worldwide</span>
                     </div>
                     <div class="lp-stat count-box">
@@ -58,7 +58,7 @@
                         </figure>
                         <div class="lp-project-badge">
                             <span><i class="fa fa-chart-line"></i></span>
-                            <strong>500+</strong>
+                            <strong>2100+</strong>
                             <small>Projects Delivered</small>
                         </div>
                     </div>
@@ -718,6 +718,32 @@
         </div>
     </section>
     <!-- End Industries Section -->
+
+    <!-- Clients Section -->
+    <section class="lp-home-clients-section">
+        <div class="auto-container">
+            <div class="lp-home-clients-head">
+                <div>
+                    <span class="lp-section-tag">Our Clients</span>
+                    <h2>Trusted by brands across industries</h2>
+                </div>
+                <a href="clients.php" class="theme-btn btn-style-one bg-orange lp-home-clients-btn"><span class="btn-title">View All Clients <i class="fa fa-arrow-right"></i></span></a>
+            </div>
+
+            <div class="lp-home-clients-slider-wrap">
+                <div class="swiper lp-home-clients-slider">
+                    <div class="swiper-wrapper">
+                        <?php for ($client = 1; $client <= 20; $client++) : ?>
+                            <article class="swiper-slide lp-home-client-logo">
+                                <img src="images/myimage/c<?php echo $client; ?>.png" alt="Client logo <?php echo $client; ?>">
+                            </article>
+                        <?php endfor; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Clients Section -->
     
      <!-- Testimonial Section -->
      <section class="testimonial-section-two lp-testimonial-orange parallax-section">

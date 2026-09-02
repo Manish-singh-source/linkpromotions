@@ -2588,6 +2588,69 @@ Tags:          event, conference, marketing, business
   opacity: 1;
 }
 
+.lp-home-clients-section {
+  padding: 92px 0;
+  background: #f2f3f5;
+}
+
+.lp-home-clients-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 28px;
+  margin-bottom: 34px;
+}
+
+.lp-home-clients-head h2 {
+  max-width: 720px;
+  margin: 12px 0 0;
+  color: #24262c;
+  font-size: 48px;
+  line-height: 1.1;
+}
+
+.lp-home-clients-btn,
+.lp-home-clients-btn .btn-title,
+.lp-home-clients-btn i {
+  color: #ffffff;
+}
+
+.lp-home-clients-slider-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.lp-home-clients-slider {
+  overflow: visible;
+}
+
+.lp-home-client-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 128px;
+  padding: 12px 14px;
+  border: 1px solid rgba(36, 38, 44, .06);
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 10px 28px rgba(36, 38, 44, .05);
+  transition: all 280ms ease;
+}
+
+.lp-home-client-logo:hover {
+  border-color: rgba(240, 90, 0, .28);
+  background: #ffffff;
+  transform: translateY(-4px);
+}
+
+.lp-home-client-logo img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: 104px;
+  object-fit: contain;
+}
+
 @media (max-width: 1199px) {
   .lp-industries-layout { grid-template-columns: 270px minmax(0, 1fr); gap: 35px; }
   .lp-industries-intro h2 { font-size: 38px; }
@@ -2599,6 +2662,19 @@ Tags:          event, conference, marketing, business
   .lp-industries-intro { max-width: 680px; }
   .lp-industries-kicker { margin-bottom: 28px; }
   .lp-industries-carousel-wrap { margin: 0 25px; }
+
+  .lp-home-clients-section {
+    padding: 72px 0;
+  }
+
+  .lp-home-clients-head {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .lp-home-clients-head h2 {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -2609,6 +2685,19 @@ Tags:          event, conference, marketing, business
   .lp-industries-prev { left: -20px; }
   .lp-industries-next { right: -20px; }
   .lp-industry-card { min-height: 460px; }
+
+  .lp-home-clients-section {
+    padding: 58px 0;
+  }
+
+  .lp-home-clients-head h2 {
+    font-size: 32px;
+  }
+
+  .lp-home-client-logo {
+    height: 104px;
+    padding: 10px 12px;
+  }
 }
 
 .lp-footer {
@@ -3574,6 +3663,125 @@ Tags:          event, conference, marketing, business
   color: #34363b;
 }
 
+.lp-about-achievements-section {
+  position: relative;
+  overflow: hidden;
+  padding: 98px 0;
+  background:
+    linear-gradient(115deg, transparent 0 18%, rgba(36, 38, 44, .045) 18% 19.5%, transparent 19.5% 41%, rgba(36, 38, 44, .04) 41% 42.5%, transparent 42.5% 72%, rgba(36, 38, 44, .045) 72% 73.5%, transparent 73.5% 100%),
+    #f7f8fa;
+}
+
+.lp-about-achievements-section .auto-container {
+  position: relative;
+  z-index: 1;
+}
+
+.lp-about-achievements-layout {
+  display: grid;
+  grid-template-columns: minmax(270px, .72fr) minmax(0, 1.28fr);
+  align-items: center;
+  gap: 42px;
+}
+
+.lp-about-achievements-content {
+  max-width: 480px;
+}
+
+.lp-about-achievements-content h2 {
+  margin: 12px 0 18px;
+  color: #24262c;
+  font-size: 48px;
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+
+.lp-about-achievements-content p {
+  margin: 0;
+  color: #5b5d64;
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+.lp-achievement-stat {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 34px;
+  padding: 20px 24px;
+  border-left: 5px solid #f05a00;
+  background: #ffffff;
+  box-shadow: 0 18px 44px rgba(36, 38, 44, .07);
+}
+
+.lp-achievement-stat strong {
+  color: #f05a00;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.lp-achievement-stat span {
+  max-width: 180px;
+  color: #24262c;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.lp-about-achievements-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-rows: 220px;
+  gap: 16px;
+}
+
+.lp-achievement-card {
+  overflow: hidden;
+  margin: 0;
+  border: 2px solid rgba(240, 90, 0, .12);
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 18px 38px rgba(36, 38, 44, .09);
+  transition: all 280ms ease;
+}
+
+.lp-achievement-card:hover {
+  border-color: rgba(240, 90, 0, .55);
+  box-shadow: 0 24px 54px rgba(240, 90, 0, .16);
+  transform: translateY(-5px);
+}
+
+.lp-achievement-card img {
+  display: block;
+  width: 100%;
+  height: calc(100% - 38px);
+  padding: 6px;
+  object-fit: contain;
+  background: linear-gradient(180deg, #ffffff 0%, #fff8f3 100%);
+}
+
+.lp-achievement-card figcaption {
+  display: flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 7px 12px;
+  color: #24262c;
+  border-top: 1px solid rgba(240, 90, 0, .16);
+  background: #fff7f1;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.lp-achievement-card-wide {
+  grid-column: span 2;
+}
+
+.lp-achievement-card-tall {
+  grid-row: span 2;
+}
+
 .lp-about-cta-section {
   padding: 80px 0;
   background: #fff7f1;
@@ -3610,6 +3818,73 @@ Tags:          event, conference, marketing, business
 .lp-about-cta-box .theme-btn .btn-title,
 .lp-about-cta-box .theme-btn i {
   color: #ffffff;
+}
+
+.lp-clients-page-title {
+  background: #f05a00;
+}
+
+.lp-clients-page-section {
+  position: relative;
+  padding: 105px 0 98px;
+  background: #f2f3f5;
+}
+
+.lp-clients-intro {
+  max-width: 820px;
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.lp-clients-intro h2 {
+  margin: 12px 0 18px;
+  color: #24262c;
+  font-size: 52px;
+  line-height: 1.08;
+}
+
+.lp-clients-intro p {
+  margin: 0;
+  color: #5b5d64;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.lp-clients-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.lp-client-logo-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  padding: 28px 24px;
+  border: 1px solid rgba(36, 38, 44, .08);
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 16px 42px rgba(36, 38, 44, .07);
+  transition: all 280ms ease;
+}
+
+.lp-client-logo-card:hover {
+  border-color: rgba(240, 90, 0, .3);
+  box-shadow: 0 22px 48px rgba(36, 38, 44, .11);
+  transform: translateY(-5px);
+}
+
+.lp-client-logo-card img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: 82px;
+  object-fit: contain;
+}
+
+.lp-clients-cta-section {
+  background: #ffffff;
 }
 
 .lp-exhibition-title .title {
@@ -3910,9 +4185,9 @@ Tags:          event, conference, marketing, business
 
 .lp-exhibition-achievement-box {
   display: grid;
-  grid-template-columns: .85fr 1.15fr;
+  grid-template-columns: .9fr 1.1fr;
   gap: 55px;
-  align-items: center;
+  align-items: start;
   padding: 50px;
   border-radius: 24px;
   background: #ffffff;
@@ -3946,6 +4221,32 @@ Tags:          event, conference, marketing, business
   color: #ffffff;
   border-radius: 50%;
   background: #f05a00;
+}
+
+.lp-exhibition-award-photo {
+  margin: 34px 0 0;
+  overflow: hidden;
+  max-width: 560px;
+  border: 1px solid rgba(240, 90, 0, .12);
+  border-radius: 8px;
+  background: #f7f4f1;
+  box-shadow: 0 18px 40px rgba(36, 38, 44, .08);
+}
+
+.lp-exhibition-award-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.lp-exhibition-award-photo figcaption {
+  padding: 12px 16px;
+  color: #24262c;
+  border-top: 1px solid rgba(240, 90, 0, .12);
+  background: #fff7f1;
+  font-size: 15px;
+  font-weight: 800;
 }
 
 .lp-event-page-title .title {
@@ -4193,13 +4494,35 @@ Tags:          event, conference, marketing, business
   }
 
   .lp-about-highlights-grid,
-  .lp-about-page-stats {
+  .lp-about-page-stats,
+  .lp-clients-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .lp-clients-page-section {
+    padding: 78px 0;
+  }
+
+  .lp-clients-intro h2 {
+    font-size: 42px;
   }
 
   .lp-about-cta-box {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .lp-about-achievements-layout {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+
+  .lp-about-achievements-content {
+    max-width: 760px;
+  }
+
+  .lp-about-achievements-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .lp-exhibition-title .title {
@@ -4254,6 +4577,7 @@ Tags:          event, conference, marketing, business
   .lp-about-story-section,
   .lp-about-highlights-section,
   .lp-about-mission-section,
+  .lp-about-achievements-section,
   .lp-about-cta-section {
     padding: 58px 0;
   }
@@ -4278,8 +4602,25 @@ Tags:          event, conference, marketing, business
   }
 
   .lp-about-highlights-grid,
-  .lp-about-page-stats {
+  .lp-about-page-stats,
+  .lp-clients-grid {
     grid-template-columns: 1fr;
+  }
+
+  .lp-clients-page-section {
+    padding: 58px 0;
+  }
+
+  .lp-clients-intro {
+    margin-bottom: 32px;
+  }
+
+  .lp-clients-intro h2 {
+    font-size: 32px;
+  }
+
+  .lp-client-logo-card {
+    min-height: 132px;
   }
 
   .lp-about-story-text,
@@ -4290,6 +4631,35 @@ Tags:          event, conference, marketing, business
 
   .lp-about-cta-box h2 {
     font-size: 30px;
+  }
+
+  .lp-about-achievements-content h2 {
+    font-size: 34px;
+  }
+
+  .lp-about-achievements-gallery {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    gap: 18px;
+  }
+
+  .lp-achievement-card-wide,
+  .lp-achievement-card-tall {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .lp-achievement-card img {
+    height: 245px;
+    padding: 6px;
+  }
+
+  .lp-achievement-stat {
+    width: 100%;
+  }
+
+  .lp-achievement-stat strong {
+    font-size: 46px;
   }
 
   .lp-exhibition-title .title {

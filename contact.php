@@ -103,6 +103,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['form_type'] ?? '') === 'co
                                     <h4 class="title">Have any question?</h4>
                                     <div class="text">
                                         <a href="tel:+919821337161">+91 9821337161</a><br>
+                                        <a href="tel:+919930097161">+91 9930097161</a><br>
                                         <a href="tel:+919769140669">+91 9769140669</a>
                                     </div>
                                 </div>
@@ -112,7 +113,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['form_type'] ?? '') === 'co
                                 <div class="content">
                                     <h4 class="title">Write email</h4>
                                     <div class="text">
-                                        <a href="mailto:amar@linkpromotions.co.in">amar@linkpromotions.co.in</a><br>
                                         <a href="mailto:mktg@linkpromotions.co.in">mktg@linkpromotions.co.in</a>
                                     </div>
                                 </div>

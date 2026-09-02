@@ -40,7 +40,7 @@
                             <span>Years in Exhibition Design &amp; Fabrication</span>
                         </div>
                         <div class="count-box">
-                            <strong><span class="count-text" data-stop="1800" data-speed="1900" data-suffix="+" data-format="comma">0</span></strong>
+                            <strong><span class="count-text" data-stop="2100" data-speed="1900" data-suffix="+" data-format="comma">0</span></strong>
                             <span>Stalls Designed and Executed</span>
                         </div>
                         <div class="count-box">
@@ -138,6 +138,51 @@
         </div>
     </section>
     <!-- End Mission Vision Section -->
+
+    <!-- Achievements Section -->
+    <section class="lp-about-achievements-section">
+        <div class="auto-container">
+            <div class="lp-about-achievements-layout">
+                <div class="lp-about-achievements-content">
+                    <span class="lp-section-tag">Awards &amp; Recognition</span>
+                    <h2>Achievements earned through consistent delivery.</h2>
+                    <p>Our work has been recognised across exhibitions, brand environments and sustainable execution practices, backed by more than 50 award-winning projects completed worldwide.</p>
+                    <div class="lp-achievement-stat">
+                        <strong>50+</strong>
+                        <span>Award winning exhibition projects</span>
+                    </div>
+                </div>
+
+                <div class="lp-about-achievements-gallery">
+                    <figure class="lp-achievement-card lp-achievement-card-tall reveal overlay-anim">
+                        <img src="images/myimage/ac1.png" alt="Quality Brand of India award">
+                        <figcaption>Quality Brand Of India</figcaption>
+                    </figure>
+                    <figure class="lp-achievement-card reveal overlay-anim">
+                        <img src="images/myimage/ac2.png" alt="Rashtriya Udyog Ratna award">
+                        <figcaption>Rashtriya Udyog Ratna Award</figcaption>
+                    </figure>
+                    <figure class="lp-achievement-card lp-achievement-card-wide reveal overlay-anim">
+                        <img src="images/myimage/ac3.png" alt="EEA 2026 award ceremony">
+                        <figcaption>EEA 2026 Recognition</figcaption>
+                    </figure>
+                    <figure class="lp-achievement-card lp-achievement-card-wide reveal overlay-anim">
+                        <img src="images/myimage/ac4.png" alt="Award ceremony moment">
+                        <figcaption>Award Ceremony Moments</figcaption>
+                    </figure>
+                    <figure class="lp-achievement-card reveal overlay-anim">
+                        <img src="images/myimage/ac5.png" alt="Press coverage about Amar Devani">
+                        <figcaption>Media Coverage</figcaption>
+                    </figure>
+                    <figure class="lp-achievement-card reveal overlay-anim">
+                        <img src="images/myimage/ac6.png" alt="Sustainable lifestyle practices certificate">
+                        <figcaption>Sustainable Practices</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Achievements Section -->
 
     <!-- About CTA Section -->
     <section class="lp-about-cta-section">

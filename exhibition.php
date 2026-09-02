@@ -28,7 +28,7 @@
                 <div class="lp-exhibition-hero-image">
                     <img src="images/resource/event3-2.jpg" alt="Premium exhibition stand">
                     <div class="lp-exhibition-project-badge">
-                        <strong>1,800+</strong>
+                        <strong>2,100+</strong>
                         <span>Stalls Delivered Worldwide</span>
                     </div>
                 </div>
@@ -160,7 +160,7 @@
             <div class="lp-exhibition-reach">
                 <div><strong>40+</strong><span>Shows Per Year</span></div>
                 <div><strong>15+</strong><span>Countries</span></div>
-                <div><strong>50+</strong><span>Unique Shows</span></div>
+                <div><strong>100+</strong><span>Shows</span></div>
                 <div><strong>25+</strong><span>Award Winning Projects</span></div>
             </div>
         </div>
@@ -193,11 +193,16 @@
                 <div>
                     <span class="lp-section-tag">Achievements</span>
                     <h2>Recognition earned through consistent delivery.</h2>
+                    <figure class="lp-exhibition-award-photo">
+                        <img src="images/myimage/ac3.png" alt="Amar Sir winning the EEA Award">
+                        <figcaption>EEA Awards</figcaption>
+                    </figure>
                 </div>
                 <ul>
                     <li><i class="fa fa-award"></i> More than 25 award-winning exhibition projects completed worldwide.</li>
                     <li><i class="fa fa-medal"></i> Link Promotions awarded "Quality Brand of India".</li>
                     <li><i class="fa fa-trophy"></i> Mr. Amar D. Devani awarded Rashtriya Udyog Ratna Award for excellence in his field.</li>
+                    <li><i class="fa fa-star"></i> EEA Awards recognition for excellence in exhibition execution.</li>
                 </ul>
             </div>
         </div>

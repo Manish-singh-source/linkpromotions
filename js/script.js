@@ -279,6 +279,32 @@
 		});
 	}
 
+	// Home Clients Slider
+	if ($('.lp-home-clients-slider').length) {
+		$('.lp-home-clients-slider').each(function () {
+			new Swiper(this, {
+				slidesPerView: 6,
+				spaceBetween: 18,
+				speed: 900,
+				loop: true,
+				grabCursor: true,
+				watchOverflow: true,
+				autoplay: {
+					delay: 1700,
+					disableOnInteraction: false,
+					pauseOnMouseEnter: true,
+				},
+				breakpoints: {
+					1200: { slidesPerView: 6, spaceBetween: 18 },
+					992: { slidesPerView: 5, spaceBetween: 16 },
+					768: { slidesPerView: 4, spaceBetween: 16 },
+					576: { slidesPerView: 3, spaceBetween: 14 },
+					0: { slidesPerView: 2, spaceBetween: 12 },
+				},
+			});
+		});
+	}
+
 	// Gallery Slider
 	if ($('.gallery-swiper-two').length) {  
 		var swiper = new Swiper(".gallery-swiper-two", {

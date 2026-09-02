@@ -18,7 +18,7 @@ if ($lp_current_page === '' || $lp_current_page === 'index.html') {
                 <ul class="lp-topbar-info">
                     <li><i class="fa fa-map-marker-alt"></i> Mumbai, Maharashtra, India</li>
                     <li><i class="fa fa-phone"></i> <a href="tel:+919769140669">+91 9769140669</a></li>
-                    <li><i class="fa fa-envelope"></i> <a href="mailto:mktg@linkpromotions.co.in">mktg@linkpromotions.co.in</a></li>
+                    <li><i class="fa fa-envelope"></i> <a href="mailto:amar@linkpromotions.co.in">amar@linkpromotions.co.in</a></li>
                 </ul>
                 <div class="lp-topbar-associates">
                     Associates: Europe | UK | USA | South East Asia
@@ -40,6 +40,7 @@ if ($lp_current_page === '' || $lp_current_page === 'index.html') {
                             <ul class="navigation">
                                 <li class="<?php echo $lp_current_page === 'index.php' ? 'current' : ''; ?>"><a href="index.php">Home</a></li>
                                 <li class="<?php echo $lp_current_page === 'about.php' ? 'current' : ''; ?>"><a href="about.php">About Us</a></li>
+                                <li class="<?php echo $lp_current_page === 'clients.php' ? 'current' : ''; ?>"><a href="clients.php">Our Clients</a></li>
                                 <li class="<?php echo $lp_current_page === 'exhibition.php' ? 'current' : ''; ?>"><a href="exhibition.php">Exhibitions Worldwide</a></li>
                                 <li class="<?php echo $lp_current_page === 'event.php' ? 'current' : ''; ?>"><a href="event.php">Events</a></li>
                                 <li class="<?php echo $lp_current_page === 'contact.php' ? 'current' : ''; ?>"><a href="contact.php">Contact Us</a></li>
@@ -89,7 +90,7 @@ if ($lp_current_page === '' || $lp_current_page === 'index.html') {
                     <li>
                         <i class="icon lnr-icon-envelope1"></i>
                         <span class="title">Send Email</span>
-                        <div class="text"><a href="mailto:mktg@linkpromotions.co.in">mktg@linkpromotions.co.in</a></div>
+                        <div class="text"><a href="mailto:amar@linkpromotions.co.in">amar@linkpromotions.co.in</a></div>
                     </li>
                     <li>
                         <i class="icon lnr-icon-map-marker"></i>
@@ -170,7 +171,7 @@ if ($lp_current_page === '' || $lp_current_page === 'index.html') {
 				<li>
 					<i class="icon lnr-icon-envelope1"></i>
 					<span class="title">Send Email</span>
-					<div class="text"><a href="mailto:mktg@linkpromotions.co.in">mktg@linkpromotions.co.in</a></div>
+					<div class="text"><a href="mailto:amar@linkpromotions.co.in">amar@linkpromotions.co.in</a></div>
 				</li>
 				<li>
 					<i class="icon lnr-icon-map-marker"></i>
