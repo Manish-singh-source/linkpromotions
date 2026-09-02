@@ -510,7 +510,211 @@
         </div>
 	</section>
 	<!-- End Event Section -->
+    <!-- Gallery Section -->
+    <section class="gallery-section p-0">
+        <div class="outer-box">
+            <div class="gallery one">
 
+                <!-- Gallery Block -->
+                <div class="gallery-block">
+                    <div class="inner-box">
+                        <figure class="image">
+                            <a href="images/myimage/ev1.jpg" data-rel="lightcase">
+                                <img src="images/myimage/ev1.jpg" alt="Event glimpse">
+                                <img src="images/myimage/ev1.jpg" alt="Event glimpse">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+                
+                <!-- Gallery Block -->
+                <div class="gallery-block">
+                    <div class="inner-box">
+                        <figure class="image">
+                            <a href="images/myimage/ev2.jpg" data-rel="lightcase">
+                                <img src="images/myimage/ev2.jpg" alt="Event glimpse">
+                                <img src="images/myimage/ev2.jpg" alt="Event glimpse">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+                
+                 <!-- Gallery Block -->
+                <div class="gallery-block">
+                    <div class="inner-box">
+                        <figure class="image">
+                        <a href="images/myimage/ev3.jpg" data-rel="lightcase">
+                            <img src="images/myimage/ev3.jpg" alt="Event glimpse">
+                            <img src="images/myimage/ev3.jpg" alt="Event glimpse">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            
+                <!-- Gallery Block -->
+                <div class="gallery-block">
+                    <div class="inner-box">
+                        <figure class="image">
+                        <a href="images/myimage/ev4.jpg" data-rel="lightcase">
+                            <img src="images/myimage/ev4.jpg" alt="Event glimpse">
+                            <img src="images/myimage/ev4.jpg" alt="Event glimpse">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+
+                <!-- Gallery Block -->
+                <div class="gallery-block">
+                    <div class="inner-box">
+                        <figure class="image">
+                            <a href="images/myimage/ev5.jpg" data-rel="lightcase">
+                                <img src="images/myimage/ev5.jpg" alt="Event glimpse">
+                                <img src="images/myimage/ev5.jpg" alt="Event glimpse">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+                
+                <!-- Gallery Block -->
+                <div class="gallery-block">
+                    <div class="inner-box">
+                        <figure class="image">
+                            <a href="images/myimage/ev6.jpg" data-rel="lightcase">
+                                <img src="images/myimage/ev6.jpg" alt="Event glimpse">
+                                <img src="images/myimage/ev6.jpg" alt="Event glimpse">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+                
+                 <!-- Gallery Block -->
+                <div class="gallery-block">
+                    <div class="inner-box">
+                        <figure class="image">
+                        <a href="images/myimage/ev7.jpg" data-rel="lightcase">
+                            <img src="images/myimage/ev7.jpg" alt="Event glimpse">
+                            <img src="images/myimage/ev7.jpg" alt="Event glimpse">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            
+                <!-- Gallery Block -->
+                <div class="gallery-block">
+                    <div class="inner-box">
+                        <figure class="image">
+                        <a href="images/myimage/ev8.jpg" data-rel="lightcase">
+                            <img src="images/myimage/ev8.jpg" alt="Event glimpse">
+                            <img src="images/myimage/ev8.jpg" alt="Event glimpse">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="outer-box">
+            <div class="gallery two">
+
+                <!-- Gallery Block -->
+                <div class="gallery-block">
+                    <div class="inner-box">
+                        <figure class="image">
+                            <a href="images/myimage/ev9.jpeg" data-rel="lightcase">
+                                <img src="images/myimage/ev9.jpeg" alt="Event glimpse">
+                                <img src="images/myimage/ev9.jpeg" alt="Event glimpse">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+                
+                <!-- Gallery Block -->
+                <div class="gallery-block">
+                    <div class="inner-box">
+                        <figure class="image">
+                            <a href="images/myimage/ev10.jpg" data-rel="lightcase">
+                                <img src="images/myimage/ev10.jpg" alt="Event glimpse">
+                                <img src="images/myimage/ev10.jpg" alt="Event glimpse">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+                
+                 <!-- Gallery Block -->
+                <div class="gallery-block">
+                    <div class="inner-box">
+                        <figure class="image">
+                            <a href="images/myimage/ev11.jpeg" data-rel="lightcase">
+                                <img src="images/myimage/ev11.jpeg" alt="Event glimpse">
+                                <img src="images/myimage/ev11.jpeg" alt="Event glimpse">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            
+                <!-- Gallery Block -->
+                <div class="gallery-block">
+                    <div class="inner-box">
+                        <figure class="image">
+                            <a href="images/myimage/ev12.jpg" data-rel="lightcase">
+                                <img src="images/myimage/ev12.jpg" alt="Event glimpse">
+                                <img src="images/myimage/ev12.jpg" alt="Event glimpse">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+
+                <!-- Gallery Block -->
+                <div class="gallery-block">
+                    <div class="inner-box">
+                        <figure class="image">
+                            <a href="images/myimage/ev13.jpg" data-rel="lightcase">
+                                <img src="images/myimage/ev13.jpg" alt="Event glimpse">
+                                <img src="images/myimage/ev13.jpg" alt="Event glimpse">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+                
+                <!-- Gallery Block -->
+                <div class="gallery-block">
+                    <div class="inner-box">
+                        <figure class="image">
+                            <a href="images/myimage/ev22.jpg" data-rel="lightcase">
+                                <img src="images/myimage/ev22.jpg" alt="Event glimpse">
+                                <img src="images/myimage/ev22.jpg" alt="Event glimpse">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+                
+                 <!-- Gallery Block -->
+                <div class="gallery-block">
+                    <div class="inner-box">
+                        <figure class="image">
+                            <a href="images/myimage/ev16.jpg" data-rel="lightcase">
+                                <img src="images/myimage/ev16.jpg" alt="Event glimpse">
+                                <img src="images/myimage/ev16.jpg" alt="Event glimpse">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            
+                <!-- Gallery Block -->
+                <div class="gallery-block">
+                    <div class="inner-box">
+                        <figure class="image">
+                            <a href="images/myimage/ev17.jpg" data-rel="lightcase">
+                                <img src="images/myimage/ev17.jpg" alt="Event glimpse">
+                                <img src="images/myimage/ev17.jpg" alt="Event glimpse">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<!-- End Gallery Section -->
     <!-- Industries Section -->
     <section class="lp-industries-section">
         <div class="auto-container">

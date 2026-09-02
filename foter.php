@@ -53,6 +53,7 @@
                                 <div>
                                     <h4>Email ID</h4>
                                     <p>
+                                        <a href="mailto:amar@linkpromotions.co.in">amar@linkpromotions.co.in</a><br>
                                         <a href="mailto:mktg@linkpromotions.co.in">mktg@linkpromotions.co.in</a>
                                     </p>
                                 </div>

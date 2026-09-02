@@ -144,12 +144,15 @@
                 <h2 class="text-reveal-anim">Designed for High-Impact Brand Experiences</h2>
             </div>
             <div class="lp-event-gallery-grid">
-                <figure><img src="images/resource/event3-1.jpg" alt="Event setup"></figure>
-                <figure><img src="images/resource/event3-2.jpg" alt="Event setup"></figure>
-                <figure><img src="images/resource/event3-3.jpg" alt="Event setup"></figure>
-                <figure><img src="images/resource/event-single-1.jpg" alt="Event setup"></figure>
-                <figure><img src="images/resource/event-single-2.jpg" alt="Event setup"></figure>
-                <figure><img src="images/resource/event-single-3.jpg" alt="Event setup"></figure>
+                <figure><img src="images/myimage/ev1.jpg" alt="Event setup"></figure>
+                <figure><img src="images/myimage/ev2.jpg" alt="Event setup"></figure>
+                <figure><img src="images/myimage/ev3.jpg" alt="Event setup"></figure>
+                <figure><img src="images/myimage/ev4.jpg" alt="Event setup"></figure>
+                <figure><img src="images/myimage/ev5.jpg" alt="Event setup"></figure>
+                <figure><img src="images/myimage/ev6.jpg" alt="Event setup"></figure>
+            </div>
+            <div class="lp-event-gallery-action text-center">
+                <a href="portfolios.php" class="theme-btn btn-style-one bg-orange"><span class="btn-title">View Full Portfolio <i class="fa fa-arrow-right"></i></span></a>
             </div>
         </div>
     </section>

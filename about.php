@@ -155,27 +155,39 @@
 
                 <div class="lp-about-achievements-gallery">
                     <figure class="lp-achievement-card lp-achievement-card-tall reveal overlay-anim">
-                        <img src="images/myimage/ac1.png" alt="Quality Brand of India award">
+                        <a href="images/myimage/ac1.png" data-rel="lightcase:awards">
+                            <img src="images/myimage/ac1.png" alt="Quality Brand of India award">
+                        </a>
                         <figcaption>Quality Brand Of India</figcaption>
                     </figure>
                     <figure class="lp-achievement-card reveal overlay-anim">
-                        <img src="images/myimage/ac2.png" alt="Rashtriya Udyog Ratna award">
+                        <a href="images/myimage/ac2.png" data-rel="lightcase:awards">
+                            <img src="images/myimage/ac2.png" alt="Rashtriya Udyog Ratna award">
+                        </a>
                         <figcaption>Rashtriya Udyog Ratna Award</figcaption>
                     </figure>
                     <figure class="lp-achievement-card lp-achievement-card-wide reveal overlay-anim">
-                        <img src="images/myimage/ac3.png" alt="EEA 2026 award ceremony">
+                        <a href="images/myimage/ac3.png" data-rel="lightcase:awards">
+                            <img src="images/myimage/ac3.png" alt="EEA 2026 award ceremony">
+                        </a>
                         <figcaption>EEA 2026 Recognition</figcaption>
                     </figure>
                     <figure class="lp-achievement-card lp-achievement-card-wide reveal overlay-anim">
-                        <img src="images/myimage/ac4.png" alt="Award ceremony moment">
+                        <a href="images/myimage/ac4.png" data-rel="lightcase:awards">
+                            <img src="images/myimage/ac4.png" alt="Award ceremony moment">
+                        </a>
                         <figcaption>Award Ceremony Moments</figcaption>
                     </figure>
                     <figure class="lp-achievement-card reveal overlay-anim">
-                        <img src="images/myimage/ac5.png" alt="Press coverage about Amar Devani">
+                        <a href="images/myimage/ac5.png" data-rel="lightcase:awards">
+                            <img src="images/myimage/ac5.png" alt="Press coverage about Amar Devani">
+                        </a>
                         <figcaption>Media Coverage</figcaption>
                     </figure>
                     <figure class="lp-achievement-card reveal overlay-anim">
-                        <img src="images/myimage/ac6.png" alt="Sustainable lifestyle practices certificate">
+                        <a href="images/myimage/ac6.png" data-rel="lightcase:awards">
+                            <img src="images/myimage/ac6.png" alt="Sustainable lifestyle practices certificate">
+                        </a>
                         <figcaption>Sustainable Practices</figcaption>
                     </figure>
                 </div>

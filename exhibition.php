@@ -175,12 +175,15 @@
                 <h2 class="text-reveal-anim">Designed for Real Exhibition Floors</h2>
             </div>
             <div class="lp-exhibition-gallery-grid">
-                <figure><img src="images/resource/gallery2-1.jpg" alt="Exhibition project"></figure>
-                <figure><img src="images/resource/gallery2-2.jpg" alt="Exhibition project"></figure>
-                <figure><img src="images/resource/gallery2-3.jpg" alt="Exhibition project"></figure>
-                <figure><img src="images/resource/gallery2-4.jpg" alt="Exhibition project"></figure>
-                <figure><img src="images/resource/gallery2-5.jpg" alt="Exhibition project"></figure>
-                <figure><img src="images/resource/gallery2-6.jpg" alt="Exhibition project"></figure>
+                <figure><img src="images/myimage/ex1.jpg" alt="Exhibition project"></figure>
+                <figure><img src="images/myimage/ex2.jpeg" alt="Exhibition project"></figure>
+                <figure><img src="images/myimage/ex3.jpg" alt="Exhibition project"></figure>
+                <figure><img src="images/myimage/ex4.jpg" alt="Exhibition project"></figure>
+                <figure><img src="images/myimage/ex5.jpg" alt="Exhibition project"></figure>
+                <figure><img src="images/myimage/ex6.jpg" alt="Exhibition project"></figure>
+            </div>
+            <div class="lp-exhibition-gallery-action text-center">
+                <a href="portfolios.php" class="theme-btn btn-style-one bg-orange"><span class="btn-title">View Full Portfolio <i class="fa fa-arrow-right"></i></span></a>
             </div>
         </div>
     </section>

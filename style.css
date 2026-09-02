@@ -37,6 +37,7 @@ Tags:          event, conference, marketing, business
 }
 
 .lp-header .lp-topbar .auto-container {
+  position: relative;
   min-height: 38px;
   display: flex;
   align-items: center;
@@ -60,6 +61,31 @@ Tags:          event, conference, marketing, business
 
 .lp-topbar-info i {
   margin-right: 8px;
+}
+
+.lp-topbar-swastik {
+  position: absolute;
+  left: 52%;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  padding: 3px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, .14);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.lp-topbar-swastik img {
+  display: block;
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
 }
 
 .lp-topbar-associates {
@@ -438,6 +464,12 @@ Tags:          event, conference, marketing, business
   .lp-header .main-menu .navigation > li > a,
   .lp-header.header-style-one .main-box .nav-outer .navigation > li > a {
     font-size: 15px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .lp-topbar-swastik {
+    display: none;
   }
 }
 
@@ -3752,10 +3784,16 @@ Tags:          event, conference, marketing, business
   transform: translateY(-5px);
 }
 
+.lp-achievement-card a {
+  display: block;
+  height: calc(100% - 38px);
+  cursor: zoom-in;
+}
+
 .lp-achievement-card img {
   display: block;
   width: 100%;
-  height: calc(100% - 38px);
+  height: 100%;
   padding: 6px;
   object-fit: contain;
   background: linear-gradient(180deg, #ffffff 0%, #fff8f3 100%);
@@ -4839,5 +4877,91 @@ Tags:          event, conference, marketing, business
 
   .lp-whatsapp-float span {
     display: none;
+  }
+}
+
+.lp-portfolio-section {
+  position: relative;
+  padding: 110px 0 90px;
+  background: #f7f7f4;
+}
+
+.lp-event-gallery-action {
+  margin-top: 42px;
+}
+
+.lp-exhibition-gallery-action {
+  margin-top: 42px;
+}
+
+.gallery-section .gallery-block .inner-box:before {
+  background-color: var(--lp-orange);
+}
+
+.lp-portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.lp-portfolio-item {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  border-radius: 8px;
+  background: #22262d;
+  box-shadow: 0 18px 42px rgba(22, 28, 38, .12);
+}
+
+.lp-portfolio-item img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform .45s ease, opacity .45s ease;
+}
+
+.lp-portfolio-item:hover img {
+  transform: scale(1.07);
+  opacity: .72;
+}
+
+.lp-portfolio-zoom {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  color: #ffffff;
+  background: #f26b21;
+  transform: translate(-50%, -50%) scale(.8);
+  opacity: 0;
+  transition: opacity .3s ease, transform .3s ease;
+}
+
+.lp-portfolio-item:hover .lp-portfolio-zoom {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+@media (max-width: 991px) {
+  .lp-portfolio-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  .lp-portfolio-section {
+    padding: 72px 0 58px;
+  }
+
+  .lp-portfolio-grid {
+    grid-template-columns: 1fr;
   }
 }

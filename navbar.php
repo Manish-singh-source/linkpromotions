@@ -1,5 +1,6 @@
 <?php
-$lp_current_page = basename(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
+$lp_request_path = $_SERVER['REQUEST_URI'] ?? $_SERVER['SCRIPT_NAME'] ?? '';
+$lp_current_page = basename(parse_url($lp_request_path, PHP_URL_PATH));
 if ($lp_current_page === '' || $lp_current_page === 'index.html') {
     $lp_current_page = 'index.php';
 }
@@ -20,6 +21,9 @@ if ($lp_current_page === '' || $lp_current_page === 'index.html') {
                     <li><i class="fa fa-phone"></i> <a href="tel:+919769140669">+91 9769140669</a></li>
                     <li><i class="fa fa-envelope"></i> <a href="mailto:amar@linkpromotions.co.in">amar@linkpromotions.co.in</a></li>
                 </ul>
+                <div class="lp-topbar-swastik" aria-hidden="true">
+                    <img src="images/myimage/swastik.png" alt="">
+                </div>
                 <div class="lp-topbar-associates">
                     Associates: Europe | UK | USA | South East Asia
                 </div>
