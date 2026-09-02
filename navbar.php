@@ -40,7 +40,6 @@ if ($lp_current_page === '' || $lp_current_page === 'index.html') {
                             <ul class="navigation">
                                 <li class="<?php echo $lp_current_page === 'index.php' ? 'current' : ''; ?>"><a href="index.php">Home</a></li>
                                 <li class="<?php echo $lp_current_page === 'about.php' ? 'current' : ''; ?>"><a href="about.php">About Us</a></li>
-                                <li class="<?php echo $lp_current_page === 'clients.php' ? 'current' : ''; ?>"><a href="clients.php">Our Clients</a></li>
                                 <li class="<?php echo $lp_current_page === 'exhibition.php' ? 'current' : ''; ?>"><a href="exhibition.php">Exhibitions Worldwide</a></li>
                                 <li class="<?php echo $lp_current_page === 'event.php' ? 'current' : ''; ?>"><a href="event.php">Events</a></li>
                                 <li class="<?php echo $lp_current_page === 'contact.php' ? 'current' : ''; ?>"><a href="contact.php">Contact Us</a></li>
