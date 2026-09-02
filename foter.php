@@ -34,7 +34,7 @@
                                 <i class="fa fa-map-marker-alt"></i>
                                 <div>
                                     <h4>Address</h4>
-                                    <p>Mumbai, Maharashtra,<br>India</p>
+                                    <p>913, Ghanshyam Enclave, Laljipada,<br>Kandivali(W), Mumbai - 400067.</p>
                                 </div>
                             </div>
                             <div class="lp-footer-info-item">
@@ -42,9 +42,9 @@
                                 <div>
                                     <h4>Contact No.</h4>
                                     <p>
-                                        <a href="tel:+919769140669">+91 9769140669</a><br>
                                         <a href="tel:+919821337161">+91 9821337161</a><br>
-                                        <a href="tel:+919930097161">+91 9930097161</a>
+                                        <a href="tel:+919930097161">+91 9930097161</a><br>
+                                        <a href="tel:+919769140669">+91 9769140669</a>
                                     </p>
                                 </div>
                             </div>

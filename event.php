@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="lp-event-page-image">
-                    <img src="images/resource/event3-1.jpg" alt="Corporate event and product launch setup">
+                    <img src="images/myimage/event.png" alt="Corporate event and product launch setup">
                     <div class="lp-event-page-badge">
                         <strong>India</strong>
                         <span>Event planning and execution across major cities</span>

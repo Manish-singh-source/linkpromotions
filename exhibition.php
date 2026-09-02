@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="lp-exhibition-hero-image">
-                    <img src="images/resource/event3-2.jpg" alt="Premium exhibition stand">
+                    <img src="images/myimage/exhbintion.png" alt="Premium exhibition stand">
                     <div class="lp-exhibition-project-badge">
                         <strong>2,100+</strong>
                         <span>Stalls Delivered Worldwide</span>
