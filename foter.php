@@ -60,7 +60,28 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
+            </div>
+
+            <div class="lp-footer-services">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="https://vasant.in/exhibition-stalls-design/" target="_blank">Exhibition Stall Design</a></li>
+                    <li><a href="https://vasant.in/exhibition-stall-fabrication/" target="_blank">Exhibition Stall Fabrication</a></li>
+                    <li><a href="https://vasant.in/exhibition-stand-design/" target="_blank">Exhibition Stand Design</a></li>
+                    <li><a href="https://vasant.in/exhibition-booth-design/" target="_blank">Exhibition Booth Design</a></li>
+                    <li><a href="https://vasant.in/mezzanine-stall-designer/" target="_blank">Mezzanine Stall Designer</a></li>
+                    <li><a href="https://vasant.in/exhibition-stall-designer-in-delhi/" target="_blank">Exhibition Stall Designer Delhi</a></li>
+                    <li><a href="https://vasant.in/exhibition-stall-designer-in-brazil/" target="_blank">Exhibition Stall Designer in Brazil</a></li>
+                    <li><a href="https://vasant.in/exhibition-stall-designer-in-china/" target="_blank">Exhibition Stall Designer in China</a></li>
+                    <li><a href="https://vasant.in/exhibition-stall-designer-in-japan/" target="_blank">Exhibition Stall Designer in Japan</a></li>
+                    <li><a href="https://vasant.in/exhibition-stall-designer-in-uae/" target="_blank">Exhibition Stall Designer in UAE</a></li>
+                    <li><a href="https://vasant.in/exhibition-stall-designer-in-uk/" target="_blank">Exhibition Stall Designer in UK</a></li>
+                    <li><a href="https://vasant.in/exhibition-stall-designer-in-italy/" target="_blank">Exhibition Stall Designer in Italy</a></li>
+                    <li><a href="https://vasant.in/exhibition-stall-designer-in-germany/" target="_blank">Exhibition Stall Designer in Germany</a></li>
+                    <li><a href="https://vasant.in/exhibition-stall-designer-in-south-africa/" target="_blank">Exhibition Stall Designer in South Africa</a></li>
+                </ul>
             </div>
         </div>
     </footer>

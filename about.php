@@ -113,6 +113,10 @@
                 </article>
             </div>
 
+            <div class="lp-about-global-image">
+                <img src="images/myimage/wld.png" alt="Worldwide network and completed projects">
+            </div>
+
             <div class="lp-about-trust-note">
                 This unwavering dedication, proven commitment and consistently high standards have earned us the trust and long-term partnership of over 500 clients across diverse industries.
             </div>
