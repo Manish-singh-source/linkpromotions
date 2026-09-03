@@ -52,6 +52,45 @@ try {
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
     ");
+
+    $conn->query("
+        CREATE TABLE IF NOT EXISTS portfolio_items (
+            id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+            title VARCHAR(190) NULL,
+            image_path VARCHAR(255) NOT NULL,
+            display_order INT UNSIGNED NOT NULL DEFAULT 0,
+            is_active TINYINT(1) NOT NULL DEFAULT 1,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
+    ");
+
+    $portfolioCount = (int)($conn->query('SELECT COUNT(*) AS total FROM portfolio_items')->fetch_assoc()['total'] ?? 0);
+    if ($portfolioCount === 0) {
+        $rootPath = dirname(__DIR__);
+        $portfolioImages = array_merge(
+            glob($rootPath . '/images/myimage/ev*.jpg') ?: [],
+            glob($rootPath . '/images/myimage/ev*.jpeg') ?: [],
+            glob($rootPath . '/images/myimage/ev*.png') ?: [],
+            glob($rootPath . '/images/myimage/ev*.webp') ?: []
+        );
+
+        usort($portfolioImages, static function (string $a, string $b): int {
+            preg_match('/ev(\d+)/i', basename($a), $aMatch);
+            preg_match('/ev(\d+)/i', basename($b), $bMatch);
+
+            return ((int)($aMatch[1] ?? 0)) <=> ((int)($bMatch[1] ?? 0));
+        });
+
+        $stmt = $conn->prepare('INSERT INTO portfolio_items (title, image_path, display_order) VALUES (?, ?, ?)');
+        foreach ($portfolioImages as $index => $image) {
+            $title = 'Portfolio ' . ($index + 1);
+            $relativePath = str_replace('\\', '/', substr($image, strlen($rootPath) + 1));
+            $displayOrder = $index + 1;
+            $stmt->bind_param('ssi', $title, $relativePath, $displayOrder);
+            $stmt->execute();
+        }
+        $stmt->close();
+    }
 } catch (Throwable $e) {
     http_response_code(500);
     exit('Database connection error: ' . htmlspecialchars($e->getMessage(), ENT_QUOTES, 'UTF-8'));

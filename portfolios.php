@@ -1,19 +1,11 @@
 <?php include 'header.php'; ?>
 <?php include 'navbar.php'; ?>
 <?php
-$portfolio_images = array_merge(
-    glob('images/myimage/ev*.jpg') ?: [],
-    glob('images/myimage/ev*.jpeg') ?: [],
-    glob('images/myimage/ev*.png') ?: [],
-    glob('images/myimage/ev*.webp') ?: []
-);
+require __DIR__ . '/admin/config.php';
 
-usort($portfolio_images, function ($a, $b) {
-    preg_match('/ev(\d+)/i', basename($a), $a_match);
-    preg_match('/ev(\d+)/i', basename($b), $b_match);
-
-    return ((int) ($a_match[1] ?? 0)) <=> ((int) ($b_match[1] ?? 0));
-});
+$portfolio_items = [];
+$result = $conn->query('SELECT title, image_path FROM portfolio_items WHERE is_active = 1 ORDER BY display_order ASC, id ASC');
+$portfolio_items = $result->fetch_all(MYSQLI_ASSOC);
 ?>
 
     <!-- Page Title -->
@@ -35,9 +27,13 @@ usort($portfolio_images, function ($a, $b) {
             </div>
 
             <div class="lp-portfolio-grid">
-                <?php foreach ($portfolio_images as $index => $image) : ?>
-                    <a class="lp-portfolio-item" href="<?php echo htmlspecialchars($image); ?>" data-fancybox="portfolio-gallery" data-caption="Portfolio <?php echo $index + 1; ?>">
-                        <img src="<?php echo htmlspecialchars($image); ?>" alt="Portfolio project <?php echo $index + 1; ?>">
+                <?php foreach ($portfolio_items as $index => $item) : ?>
+                    <?php
+                    $image = (string)$item['image_path'];
+                    $title = trim((string)($item['title'] ?? '')) ?: 'Portfolio ' . ($index + 1);
+                    ?>
+                    <a class="lp-portfolio-item" href="<?php echo htmlspecialchars($image, ENT_QUOTES, 'UTF-8'); ?>" data-fancybox="portfolio-gallery" data-caption="<?php echo htmlspecialchars($title, ENT_QUOTES, 'UTF-8'); ?>">
+                        <img src="<?php echo htmlspecialchars($image, ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($title, ENT_QUOTES, 'UTF-8'); ?>">
                         <span class="lp-portfolio-zoom"><i class="fa fa-search-plus"></i></span>
                     </a>
                 <?php endforeach; ?>
