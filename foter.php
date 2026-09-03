@@ -34,7 +34,7 @@
                                 <i class="fa fa-map-marker-alt"></i>
                                 <div>
                                     <h4>Address</h4>
-                                    <p>913, Ghanshyam Enclave, Laljipada,<br>Kandivali(W), Mumbai - 400067.</p>
+                                    <p>913, Ghanshyam Enclave,<br>Kandivali(W), Mumbai - 400067.<br>India</p>
                                 </div>
                             </div>
                             <div class="lp-footer-info-item">

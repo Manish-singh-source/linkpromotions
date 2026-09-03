@@ -44,7 +44,7 @@
                             <span>Stalls Designed and Executed</span>
                         </div>
                         <div class="count-box">
-                            <strong><span class="count-text" data-stop="6" data-speed="1200">0</span></strong>
+                            <strong><span class="count-text" data-stop="5" data-speed="1200" data-suffix="+">0</span></strong>
                             <span>Regions: India, UAE, Europe, UK, USA, South East Asia</span>
                         </div>
                     </div>
@@ -150,9 +150,9 @@
                 <div class="lp-about-achievements-content">
                     <span class="lp-section-tag">Awards &amp; Recognition</span>
                     <h2>Achievements earned through consistent delivery.</h2>
-                    <p>Our work has been recognised across exhibitions, brand environments and sustainable execution practices, backed by more than 50 award-winning projects completed worldwide.</p>
+                    <p>Our work has been recognised across exhibitions, brand environments and sustainable execution practices, backed by more than 25 award-winning projects completed worldwide.</p>
                     <div class="lp-achievement-stat">
-                        <strong>50+</strong>
+                        <strong>25+</strong>
                         <span>Award winning exhibition projects</span>
                     </div>
                 </div>

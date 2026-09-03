@@ -519,9 +519,9 @@
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev1.jpg" data-rel="lightcase">
-                                <img src="images/myimage/ev1.jpg" alt="Event glimpse">
-                                <img src="images/myimage/ev1.jpg" alt="Event glimpse">
+                            <a href="images/myimage/ev1.png" data-rel="lightcase">
+                                <img src="images/myimage/ev1.png" alt="Event glimpse">
+                                <img src="images/myimage/ev1.png" alt="Event glimpse">
                             </a>
                         </figure>
                     </div>
@@ -531,9 +531,9 @@
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev2.jpg" data-rel="lightcase">
-                                <img src="images/myimage/ev2.jpg" alt="Event glimpse">
-                                <img src="images/myimage/ev2.jpg" alt="Event glimpse">
+                            <a href="images/myimage/ev2.png" data-rel="lightcase">
+                                <img src="images/myimage/ev2.png" alt="Event glimpse">
+                                <img src="images/myimage/ev2.png" alt="Event glimpse">
                             </a>
                         </figure>
                     </div>
@@ -543,9 +543,9 @@
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                        <a href="images/myimage/ev3.jpg" data-rel="lightcase">
-                            <img src="images/myimage/ev3.jpg" alt="Event glimpse">
-                            <img src="images/myimage/ev3.jpg" alt="Event glimpse">
+                        <a href="images/myimage/ev3.png" data-rel="lightcase">
+                            <img src="images/myimage/ev3.png" alt="Event glimpse">
+                            <img src="images/myimage/ev3.png" alt="Event glimpse">
                             </a>
                         </figure>
                     </div>
@@ -555,9 +555,9 @@
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                        <a href="images/myimage/ev4.jpg" data-rel="lightcase">
-                            <img src="images/myimage/ev4.jpg" alt="Event glimpse">
-                            <img src="images/myimage/ev4.jpg" alt="Event glimpse">
+                        <a href="images/myimage/ev4.png" data-rel="lightcase">
+                            <img src="images/myimage/ev4.png" alt="Event glimpse">
+                            <img src="images/myimage/ev4.png" alt="Event glimpse">
                             </a>
                         </figure>
                     </div>
@@ -567,9 +567,9 @@
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev5.jpg" data-rel="lightcase">
-                                <img src="images/myimage/ev5.jpg" alt="Event glimpse">
-                                <img src="images/myimage/ev5.jpg" alt="Event glimpse">
+                            <a href="images/myimage/ev5.png" data-rel="lightcase">
+                                <img src="images/myimage/ev5.png" alt="Event glimpse">
+                                <img src="images/myimage/ev5.png" alt="Event glimpse">
                             </a>
                         </figure>
                     </div>
@@ -579,9 +579,9 @@
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev6.jpg" data-rel="lightcase">
-                                <img src="images/myimage/ev6.jpg" alt="Event glimpse">
-                                <img src="images/myimage/ev6.jpg" alt="Event glimpse">
+                            <a href="images/myimage/ev6.png" data-rel="lightcase">
+                                <img src="images/myimage/ev6.png" alt="Event glimpse">
+                                <img src="images/myimage/ev6.png" alt="Event glimpse">
                             </a>
                         </figure>
                     </div>
@@ -591,9 +591,9 @@
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                        <a href="images/myimage/ev7.jpg" data-rel="lightcase">
-                            <img src="images/myimage/ev7.jpg" alt="Event glimpse">
-                            <img src="images/myimage/ev7.jpg" alt="Event glimpse">
+                        <a href="images/myimage/ev7.png" data-rel="lightcase">
+                            <img src="images/myimage/ev7.png" alt="Event glimpse">
+                            <img src="images/myimage/ev7.png" alt="Event glimpse">
                             </a>
                         </figure>
                     </div>
@@ -603,9 +603,9 @@
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                        <a href="images/myimage/ev8.jpg" data-rel="lightcase">
-                            <img src="images/myimage/ev8.jpg" alt="Event glimpse">
-                            <img src="images/myimage/ev8.jpg" alt="Event glimpse">
+                        <a href="images/myimage/ev8.png" data-rel="lightcase">
+                            <img src="images/myimage/ev8.png" alt="Event glimpse">
+                            <img src="images/myimage/ev8.png" alt="Event glimpse">
                             </a>
                         </figure>
                     </div>
@@ -620,9 +620,9 @@
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev9.jpeg" data-rel="lightcase">
-                                <img src="images/myimage/ev9.jpeg" alt="Event glimpse">
-                                <img src="images/myimage/ev9.jpeg" alt="Event glimpse">
+                            <a href="images/myimage/ev9.png" data-rel="lightcase">
+                                <img src="images/myimage/ev9.png" alt="Event glimpse">
+                                <img src="images/myimage/ev9.png" alt="Event glimpse">
                             </a>
                         </figure>
                     </div>
@@ -632,9 +632,9 @@
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev10.jpg" data-rel="lightcase">
-                                <img src="images/myimage/ev10.jpg" alt="Event glimpse">
-                                <img src="images/myimage/ev10.jpg" alt="Event glimpse">
+                            <a href="images/myimage/ev10.png" data-rel="lightcase">
+                                <img src="images/myimage/ev10.png" alt="Event glimpse">
+                                <img src="images/myimage/ev10.png" alt="Event glimpse">
                             </a>
                         </figure>
                     </div>
@@ -644,9 +644,9 @@
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev11.jpeg" data-rel="lightcase">
-                                <img src="images/myimage/ev11.jpeg" alt="Event glimpse">
-                                <img src="images/myimage/ev11.jpeg" alt="Event glimpse">
+                            <a href="images/myimage/ev11.png" data-rel="lightcase">
+                                <img src="images/myimage/ev11.png" alt="Event glimpse">
+                                <img src="images/myimage/ev11.png" alt="Event glimpse">
                             </a>
                         </figure>
                     </div>
@@ -656,9 +656,9 @@
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev12.jpg" data-rel="lightcase">
-                                <img src="images/myimage/ev12.jpg" alt="Event glimpse">
-                                <img src="images/myimage/ev12.jpg" alt="Event glimpse">
+                            <a href="images/myimage/ev12.png" data-rel="lightcase">
+                                <img src="images/myimage/ev12.png" alt="Event glimpse">
+                                <img src="images/myimage/ev12.png" alt="Event glimpse">
                             </a>
                         </figure>
                     </div>
@@ -668,9 +668,9 @@
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev13.jpg" data-rel="lightcase">
-                                <img src="images/myimage/ev13.jpg" alt="Event glimpse">
-                                <img src="images/myimage/ev13.jpg" alt="Event glimpse">
+                            <a href="images/myimage/ev13.png" data-rel="lightcase">
+                                <img src="images/myimage/ev13.png" alt="Event glimpse">
+                                <img src="images/myimage/ev13.png" alt="Event glimpse">
                             </a>
                         </figure>
                     </div>
@@ -680,9 +680,9 @@
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev22.jpg" data-rel="lightcase">
-                                <img src="images/myimage/ev22.jpg" alt="Event glimpse">
-                                <img src="images/myimage/ev22.jpg" alt="Event glimpse">
+                            <a href="images/myimage/ev22.png" data-rel="lightcase">
+                                <img src="images/myimage/ev22.png" alt="Event glimpse">
+                                <img src="images/myimage/ev22.png" alt="Event glimpse">
                             </a>
                         </figure>
                     </div>
@@ -692,9 +692,9 @@
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev16.jpg" data-rel="lightcase">
-                                <img src="images/myimage/ev16.jpg" alt="Event glimpse">
-                                <img src="images/myimage/ev16.jpg" alt="Event glimpse">
+                            <a href="images/myimage/ev16.png" data-rel="lightcase">
+                                <img src="images/myimage/ev16.png" alt="Event glimpse">
+                                <img src="images/myimage/ev16.png" alt="Event glimpse">
                             </a>
                         </figure>
                     </div>
@@ -704,9 +704,9 @@
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev17.jpg" data-rel="lightcase">
-                                <img src="images/myimage/ev17.jpg" alt="Event glimpse">
-                                <img src="images/myimage/ev17.jpg" alt="Event glimpse">
+                            <a href="images/myimage/ev17.png" data-rel="lightcase">
+                                <img src="images/myimage/ev17.png" alt="Event glimpse">
+                                <img src="images/myimage/ev17.png" alt="Event glimpse">
                             </a>
                         </figure>
                     </div>

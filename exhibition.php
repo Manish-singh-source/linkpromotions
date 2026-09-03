@@ -175,12 +175,12 @@
                 <h2 class="text-reveal-anim">Designed for Real Exhibition Floors</h2>
             </div>
             <div class="lp-exhibition-gallery-grid">
-                <figure><img src="images/myimage/ex1.jpg" alt="Exhibition project"></figure>
-                <figure><img src="images/myimage/ex2.jpeg" alt="Exhibition project"></figure>
-                <figure><img src="images/myimage/ex3.jpg" alt="Exhibition project"></figure>
-                <figure><img src="images/myimage/ex4.jpg" alt="Exhibition project"></figure>
-                <figure><img src="images/myimage/ex5.jpg" alt="Exhibition project"></figure>
-                <figure><img src="images/myimage/ex6.jpg" alt="Exhibition project"></figure>
+                <figure><a href="images/myimage/ex1.png" data-rel="lightcase"><img src="images/myimage/ex1.png" alt="Exhibition project"></a></figure>
+                <figure><a href="images/myimage/ex2.png" data-rel="lightcase"><img src="images/myimage/ex2.png" alt="Exhibition project"></a></figure>
+                <figure><a href="images/myimage/ex3.png" data-rel="lightcase"><img src="images/myimage/ex3.png" alt="Exhibition project"></a></figure>
+                <figure><a href="images/myimage/ex4.png" data-rel="lightcase"><img src="images/myimage/ex4.png" alt="Exhibition project"></a></figure>
+                <figure><a href="images/myimage/ex5.png" data-rel="lightcase"><img src="images/myimage/ex5.png" alt="Exhibition project"></a></figure>
+                <figure><a href="images/myimage/ex6.png" data-rel="lightcase"><img src="images/myimage/ex6.png" alt="Exhibition project"></a></figure>
             </div>
             <div class="lp-exhibition-gallery-action text-center">
                 <a href="portfolios.php" class="theme-btn btn-style-one bg-orange"><span class="btn-title">View Full Portfolio <i class="fa fa-arrow-right"></i></span></a>
