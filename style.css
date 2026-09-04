@@ -3214,6 +3214,7 @@ Tags:          event, conference, marketing, business
   right: 40px;
   bottom: 110px;
   z-index: 998;
+  background-color: var(--lp-orange);
 }
 
 .progress-wrap.active-progress {
