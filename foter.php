@@ -6,10 +6,10 @@
                     <h2>Let's<br>Connect<span>.</span></h2>
                     <p>Link Promotions &amp; Exhibits is your trusted partner for custom exhibition stands, events &amp; launches, and commercial space design. We help brands create impactful experiences across India and worldwide.</p>
                     <ul class="lp-footer-social">
-                        <li><a href="https://www.facebook.com/linkpromotionsandexhibits" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="https://www.instagram.com/linkpromotionsandexhibits/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/link-promotions-and-exhibits/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="https://wa.me/919769140669" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.facebook.com/linkexhibits/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/linkexhibits/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/www.linkpromotions.co.in/?viewAsMember=true" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://wa.me/919769140669" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
                     </ul>
                     <div class="lp-footer-copy">Copyright 2026 <a href="https://linkpromotions.co.in/" target="_blank">LINK PROMOTIONS AND EXHIBITS</a>. All Rights Reserved.</div>
                 </div>

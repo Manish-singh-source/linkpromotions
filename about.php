@@ -77,7 +77,7 @@
         <div class="auto-container">
             <div class="sec-title text-center">
                 <span class="sub-title orange">Key Highlights</span>
-                <h2 class="text-reveal-anim">Built on Process, People and Precision</h2>
+                <h2>Built on Process, People and Precision</h2>
             </div>
 
             <div class="lp-about-highlights-grid">

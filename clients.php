@@ -1,5 +1,10 @@
 <?php include 'header.php'; ?>
 <?php include 'navbar.php'; ?>
+<?php
+$clientLogoFiles = glob('images/myimage/client-logo/*.{jpg,jpeg,png,webp,gif,svg}', GLOB_BRACE);
+
+sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
+?>
 
     <!-- Page Title -->
     <section class="page-title lp-contact-title lp-clients-page-title">
@@ -21,11 +26,16 @@
             </div>
 
             <div class="lp-clients-grid">
-                <?php for ($client = 1; $client <= 20; $client++) : ?>
+                <?php foreach ($clientLogoFiles as $clientLogoFile) : ?>
+                    <?php
+                    $clientLogoName = pathinfo($clientLogoFile, PATHINFO_FILENAME);
+                    $clientLogoName = preg_replace('/^\d+_/', '', $clientLogoName);
+                    $clientLogoName = str_replace('_', ' ', $clientLogoName);
+                    ?>
                     <article class="lp-client-logo-card">
-                        <img src="images/myimage/c<?php echo $client; ?>.png" alt="Client logo <?php echo $client; ?>">
+                        <img src="<?php echo htmlspecialchars($clientLogoFile); ?>" alt="<?php echo htmlspecialchars($clientLogoName); ?> logo">
                     </article>
-                <?php endfor; ?>
+                <?php endforeach; ?>
             </div>
         </div>
     </section>

@@ -66,7 +66,7 @@
         <div class="auto-container">
             <div class="sec-title text-center">
                 <span class="sub-title orange">What We Do</span>
-                <h2 class="text-reveal-anim">End-to-End Exhibition Solutions</h2>
+                <h2>End-to-End Exhibition Solutions</h2>
             </div>
             <div class="lp-exhibition-services-grid">
                 <article>
@@ -111,7 +111,7 @@
                 <div>
                     <span class="lp-section-tag">Network &amp; Infrastructure</span>
                     <h2>Built to support projects across major exhibition hubs.</h2>
-                    <p>Our services and warehouse support span Mumbai, Ahmedabad, Delhi, Bengaluru, Chennai, Coimbatore and Hyderabad, with a corporate office in Mumbai and branch offices in Pune and Ahmedabad.</p>
+                    <p>Our services and warehouse support span Mumbai, Ahmedabad, Delhi, Bengaluru, Chennai, Coimbatore and Hyderabad, with a corporate office in Mumbai.</p>
                 </div>
                 <div class="lp-exhibition-network-cards">
                     <article>
@@ -124,11 +124,6 @@
                         <h3>Corporate Office</h3>
                         <p>Mumbai</p>
                     </article>
-                    <article>
-                        <i class="fa fa-map-marked-alt"></i>
-                        <h3>Branch Offices</h3>
-                        <p>Pune | Ahmedabad</p>
-                    </article>
                 </div>
             </div>
         </div>
@@ -140,7 +135,7 @@
         <div class="auto-container">
             <div class="sec-title text-center">
                 <span class="sub-title orange">Our Exhibition Footprint</span>
-                <h2 class="text-reveal-anim">Exhibitions We Have Worked On</h2>
+                <h2>Exhibitions We Have Worked On</h2>
                 <div class="text">From India's largest trade fairs to the world's most prestigious international expos, our on-ground experience spans the shows that matter.</div>
             </div>
 
@@ -172,7 +167,7 @@
         <div class="auto-container">
             <div class="sec-title text-center">
                 <span class="sub-title orange">Project Glimpses</span>
-                <h2 class="text-reveal-anim">Designed for Real Exhibition Floors</h2>
+                <h2>Designed for Real Exhibition Floors</h2>
             </div>
             <div class="lp-exhibition-gallery-grid">
                 <figure><a href="images/myimage/ex1.png" data-rel="lightcase"><img src="images/myimage/ex1.png" alt="Exhibition project"></a></figure>

@@ -42,7 +42,7 @@
         <div class="auto-container">
             <div class="sec-title text-center">
                 <span class="sub-title orange">What We Manage</span>
-                <h2 class="text-reveal-anim">Brand Events Built with Purpose</h2>
+                <h2>Brand Events Built with Purpose</h2>
             </div>
 
             <div class="lp-event-types-grid">
@@ -122,7 +122,7 @@
         <div class="auto-container">
             <div class="sec-title text-center">
                 <span class="sub-title orange">Capabilities</span>
-                <h2 class="text-reveal-anim">Everything Your Event Needs to Feel Complete</h2>
+                <h2>Everything Your Event Needs to Feel Complete</h2>
             </div>
             <div class="lp-event-capabilities-grid">
                 <div><i class="fa fa-cube"></i><span>Stage &amp; Set Design</span></div>
@@ -141,7 +141,7 @@
         <div class="auto-container">
             <div class="sec-title text-center">
                 <span class="sub-title orange">Event Glimpses</span>
-                <h2 class="text-reveal-anim">Designed for High-Impact Brand Experiences</h2>
+                <h2>Designed for High-Impact Brand Experiences</h2>
             </div>
             <div class="lp-event-gallery-grid">
                 <figure><img src="images/myimage/ev1.png" alt="Event setup"></figure>

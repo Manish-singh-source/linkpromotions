@@ -104,10 +104,9 @@ if ($lp_current_page === '' || $lp_current_page === 'index.html') {
         
         
                 <ul class="social-links">
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/linkexhibits/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/linkexhibits/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/www.linkpromotions.co.in/?viewAsMember=true" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
                 </ul>
             </nav>
         </div><!-- End Mobile Menu -->
@@ -184,10 +183,9 @@ if ($lp_current_page === '' || $lp_current_page === 'index.html') {
 			</ul>
 
 			<ul class="social-links">
-				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-				<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://www.facebook.com/linkexhibits/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href="https://www.instagram.com/linkexhibits/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://www.linkedin.com/company/www.linkpromotions.co.in/?viewAsMember=true" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
 			</ul>
 		</div>
 	</section>

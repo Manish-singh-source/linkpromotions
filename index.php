@@ -1,5 +1,10 @@
 <?php include 'header.php'; ?>
 <?php include 'navbar.php'; ?>
+<?php
+$clientLogoFiles = glob('images/myimage/client-logo/*.{jpg,jpeg,png,webp,gif,svg}', GLOB_BRACE);
+
+sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
+?>
     <!-- Banner Section -->
     <section class="banner-section lp-banner">
         <div class="bg bg-image" style="background-image: url(images/myimage/banner.png);"></div>
@@ -194,7 +199,7 @@
                     <div class="inner-column">
                         <div class="sec-title orange">
                             <span class="sub-title">Our Work</span>
-                            <h2 class="text-reveal-anim">Recent Work, Real Results</h2>
+                            <h2>Recent Work, Real Results</h2>
                             <div class="text">From compact modular units to landmark double-height pavilions, our portfolio spans India, Europe, the UAE, and beyond.</div>
                         </div>
                         <div class="btn-box">
@@ -224,8 +229,8 @@
                                     <div class="date-box"><h4 class="date">01</h4><div class="month">Work</div></div>
                                     <figure class="image">
                                         <a href="exhibition.php#lp-exhibition-gallery">
-                                            <img src="images/myimage/w1.png" alt="Pharmaceutical exhibition stand">
-                                            <img src="images/myimage/w1.png" alt="Pharmaceutical exhibition stand">
+                                            <img src="images/myimage/Pharma.jpeg" alt="Pharmaceutical exhibition stand">
+                                            <img src="images/myimage/Pharma.jpeg" alt="Pharmaceutical exhibition stand">
                                         </a>
                                     </figure>
                                 </div>
@@ -250,8 +255,8 @@
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-gallery" class="read-more"><i class="fa fa-arrow-right"></i></a></div>
                                     <figure class="image">
                                         <a href="exhibition.php#lp-exhibition-gallery">
-                                            <img src="images/myimage/w2.png" alt="Engineering pavilion exhibition stand">
-                                            <img src="images/myimage/w2.png" alt="Engineering pavilion exhibition stand">
+                                            <img src="images/myimage/Hannover.jpeg" alt="Engineering pavilion exhibition stand at Hannover Messe">
+                                            <img src="images/myimage/Hannover.jpeg" alt="Engineering pavilion exhibition stand at Hannover Messe">
                                         </a>
                                     </figure>
                                 </div>
@@ -295,7 +300,7 @@
         <div class="auto-container">
             <div class="sec-title light">
                 <span class="sub-title">Our Exhibition Footprint</span>
-                <h2 class="text-reveal-anim">Exhibitions<br>We Have<br>Worked On</h2>
+                <h2>Exhibitions<br>We Have<br>Worked On</h2>
                 <div class="text">From India's largest trade fairs to the world's most prestigious international expos, our 24 years of on-the-ground experience span every major exhibition that matters.</div>
             </div>
 
@@ -326,7 +331,6 @@
                                     </div>
                                     <div class="text-box"><div class="text">Pan-India<br>Exhibition Presence</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
-                                    <div class="event-hover" style="background-image: url(images/resource/event2-1.jpg)"></div>
                                 </div>
                             </div>
                             <div class="event-block-two">
@@ -346,7 +350,6 @@
                                     </div>
                                     <div class="text-box"><div class="text">Pan-India<br>Exhibition Presence</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
-                                    <div class="event-hover" style="background-image: url(images/resource/event2-1.jpg)"></div>
                                 </div>
                             </div>
                             <div class="event-block-two">
@@ -366,7 +369,6 @@
                                     </div>
                                     <div class="text-box"><div class="text">Pan-India<br>Exhibition Presence</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
-                                    <div class="event-hover" style="background-image: url(images/resource/event2-1.jpg)"></div>
                                 </div>
                             </div>
                             <div class="event-block-two">
@@ -386,7 +388,6 @@
                                     </div>
                                     <div class="text-box"><div class="text">Pan-India<br>Exhibition Presence</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
-                                    <div class="event-hover" style="background-image: url(images/resource/event2-1.jpg)"></div>
                                 </div>
                             </div>
                         </div>
@@ -405,7 +406,6 @@
                                     </div>
                                     <div class="text-box"><div class="text">UAE, Europe,<br>Asia &amp; Beyond</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
-                                    <div class="event-hover" style="background-image: url(images/resource/event2-1.jpg)"></div>
                                 </div>
                             </div>
                             <div class="event-block-two">
@@ -419,7 +419,6 @@
                                     </div>
                                     <div class="text-box"><div class="text">UAE, Europe,<br>Asia &amp; Beyond</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
-                                    <div class="event-hover" style="background-image: url(images/resource/event2-1.jpg)"></div>
                                 </div>
                             </div>
                             <div class="event-block-two">
@@ -433,7 +432,6 @@
                                     </div>
                                     <div class="text-box"><div class="text">UAE, Europe,<br>Asia &amp; Beyond</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
-                                    <div class="event-hover" style="background-image: url(images/resource/event2-1.jpg)"></div>
                                 </div>
                             </div>
                             <div class="event-block-two">
@@ -447,7 +445,6 @@
                                     </div>
                                     <div class="text-box"><div class="text">UAE, Europe,<br>Asia &amp; Beyond</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
-                                    <div class="event-hover" style="background-image: url(images/resource/event2-1.jpg)"></div>
                                 </div>
                             </div>
                         </div>
@@ -462,7 +459,6 @@
                                     <div class="title-box"><h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">Shows Per Year</a></h4><div class="speaker-box"><i class="icon fa fa-microphone"></i><div class="speaker">Global Reach <span>— At a Glance</span></div></div></div>
                                     <div class="text-box"><div class="text">40+<br>Shows Per Year</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
-                                    <div class="event-hover" style="background-image: url(images/resource/event2-1.jpg)"></div>
                                 </div>
                             </div>
                             <div class="event-block-two">
@@ -472,7 +468,6 @@
                                     <div class="title-box"><h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">Countries</a></h4><div class="speaker-box"><i class="icon fa fa-microphone"></i><div class="speaker">Global Reach <span>— At a Glance</span></div></div></div>
                                     <div class="text-box"><div class="text">15+<br>Countries</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
-                                    <div class="event-hover" style="background-image: url(images/resource/event2-1.jpg)"></div>
                                 </div>
                             </div>
                             <div class="event-block-two">
@@ -482,7 +477,6 @@
                                     <div class="title-box"><h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">Unique Shows</a></h4><div class="speaker-box"><i class="icon fa fa-microphone"></i><div class="speaker">Global Reach <span>— At a Glance</span></div></div></div>
                                     <div class="text-box"><div class="text">50+<br>Unique Shows</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
-                                    <div class="event-hover" style="background-image: url(images/resource/event2-1.jpg)"></div>
                                 </div>
                             </div>
                             <div class="event-block-two">
@@ -500,7 +494,6 @@
                                     <div class="btn-box">
                                         <a href="proposal.php" class="read-more" aria-label="Get Show-Specific Advice"><i class="icon flaticon-arrows"></i></a>
                                     </div>
-                                    <div class="event-hover" style="background-image: url(images/resource/event2-1.jpg)"></div>
                                 </div>
                             </div>
                         </div>
@@ -937,11 +930,16 @@
             <div class="lp-home-clients-slider-wrap">
                 <div class="swiper lp-home-clients-slider">
                     <div class="swiper-wrapper">
-                        <?php for ($client = 1; $client <= 20; $client++) : ?>
+                        <?php foreach ($clientLogoFiles as $clientLogoFile) : ?>
+                            <?php
+                            $clientLogoName = pathinfo($clientLogoFile, PATHINFO_FILENAME);
+                            $clientLogoName = preg_replace('/^\d+_/', '', $clientLogoName);
+                            $clientLogoName = str_replace('_', ' ', $clientLogoName);
+                            ?>
                             <article class="swiper-slide lp-home-client-logo">
-                                <img src="images/myimage/c<?php echo $client; ?>.png" alt="Client logo <?php echo $client; ?>">
+                                <img src="<?php echo htmlspecialchars($clientLogoFile); ?>" alt="<?php echo htmlspecialchars($clientLogoName); ?> logo">
                             </article>
-                        <?php endfor; ?>
+                        <?php endforeach; ?>
                     </div>
                 </div>
             </div>
@@ -956,10 +954,10 @@
             <div class="sec-title-outer">
                 <div class="sec-title light mb-0">
                     <span class="sub-title">Client Reviews</span>
-                    <h2 class="text-reveal-anim">What Our <br> Clients Say </h2>
+                    <h2>What Our <br> Clients Say </h2>
                 </div>
                 <div class="lp-testimonial-video wow fadeInRight">
-                    <a href="#" aria-label="Watch client reviews on YouTube">
+                    <a href="https://www.youtube.com/@linkexhibits3732" target="_blank" rel="noopener" aria-label="Watch client reviews on YouTube">
                         <i class="fab fa-youtube"></i>
                     </a>
                     <span>Video reviews</span>
@@ -988,7 +986,7 @@
                                     <div class="designation">Partner Since 2014</div>
                                     <h4 class="name">OC Specialities Pvt Ltd</h4>
                                 </div>
-                                <a class="lp-testimonial-play" href="#" aria-label="Watch OC Specialities review on YouTube"><i class="fab fa-youtube"></i></a>
+                                <a class="lp-testimonial-play" href="https://youtu.be/kAytdOFBqfg?si=Oai2HvrT965bS-yi" target="_blank" rel="noopener" aria-label="Watch OC Specialities review on YouTube"><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1012,7 +1010,7 @@
                                     <div class="designation">Long-Term Partner</div>
                                     <h4 class="name">Advanced Enzyme Technologies Ltd</h4>
                                 </div>
-                                <a class="lp-testimonial-play" href="#" aria-label="Watch Advanced Enzyme review on YouTube"><i class="fab fa-youtube"></i></a>
+                                <a class="lp-testimonial-play" href="https://youtu.be/7nn6y35_B8U?si=YK_6JUbAfnK5Sc1y" target="_blank" rel="noopener" aria-label="Watch Advanced Enzyme review on YouTube"><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1036,7 +1034,7 @@
                                     <div class="designation">Partner for 5+ Years</div>
                                     <h4 class="name">Renewsys India Pvt Ltd</h4>
                                 </div>
-                                <a class="lp-testimonial-play" href="#" aria-label="Watch Renewsys India review on YouTube"><i class="fab fa-youtube"></i></a>
+                                <a class="lp-testimonial-play" href="https://youtu.be/DWnyrMHOtQY?si=71-ZMk3exduVeULH" target="_blank" rel="noopener" aria-label="Watch Renewsys India review on YouTube"><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1046,13 +1044,6 @@
             <div class="bottom-box">
                 <div class="text">Want to discuss your next exhibition stand? <a href="contact.php">Contact us.</a></div>
 
-                <!-- Counter Block Two -->
-                <div class="counter-block-two">
-                    <div class="inner-box">
-                        <div class="count-box"><span class="count-text" data-speed="1000" data-stop="20">0</span>k+</div>
-                        <div class="counter-title">Trusted Client Reviews</div>
-                    </div>
-                </div>
             </div>
         </div>
      </section>
@@ -1075,7 +1066,7 @@
                              </svg>
                              <div class="logo"><img src="images/icons/faq-fav.png" alt="Image"></div>
                          </div>
-                        <figure class="image overlay-anim  reveal"><img src="images/resource/faq1-1.jpg" alt="FAQ consultation"></figure>
+                        <figure class="image overlay-anim  reveal"><img src="images/myimage/faq.png" alt="FAQ consultation"></figure>
                         <figure class="image two overlay-anim  reveal"><img src="images/resource/faq1-2.jpg" alt="FAQ exhibition execution"></figure>
                     </div>
                 </div>
@@ -1085,7 +1076,7 @@
                     <div class="inner-column">
                         <div class="sec-title">
                             <span class="sub-title orange">FAQS</span>
-                            <h2 class="text-reveal-anim">Frequently Asked Questions</h2>
+                            <h2>Frequently Asked Questions</h2>
                         </div>
 
                         <!-- Accordion Box -->

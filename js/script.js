@@ -474,7 +474,11 @@
 	
 	
 	$(document).ready(function () {
-		$('a[data-rel="lightcase"]').lightcase();
+		$('a[data-rel^="lightcase"]').lightcase({
+			maxWidth: 1600,
+			maxHeight: 900,
+			shrinkFactor: 0.92
+		});
 	});
 	
 	
@@ -843,7 +847,7 @@
 			});
 		}
 	}
-	initTextReveal();
+	// Text reveal heading animation disabled across the site.
 
 	gsap.to(".parallax-bg", {
 		yPercent: -50, // Moves the background up

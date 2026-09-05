@@ -23,7 +23,7 @@ $portfolio_items = $result->fetch_all(MYSQLI_ASSOC);
         <div class="auto-container">
             <div class="sec-title text-center">
                 <span class="sub-title orange">Project Glimpses</span>
-                <h2 class="text-reveal-anim">More than 1800 Projects <br> Completed Worldwide</h2>
+                <h2>More than 1800 Projects <br> Completed Worldwide</h2>
             </div>
 
             <div class="lp-portfolio-grid">
