@@ -280,8 +280,8 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                     <div class="date-box"><h4 class="date">03</h4><div class="month">Work</div></div>
                                     <figure class="image">
                                         <a href="exhibition.php#lp-exhibition-gallery">
-                                            <img src="images/myimage/w3.png" alt="Custom double-height exhibition stand">
-                                            <img src="images/myimage/w3.png" alt="Custom double-height exhibition stand">
+                                            <img src="images/myimage/hm.jpeg" alt="Custom double-height exhibition stand">
+                                            <img src="images/myimage/hm.jpeg" alt="Custom double-height exhibition stand">
                                         </a>
                                     </figure>
                                 </div>
