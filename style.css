@@ -3437,7 +3437,19 @@ Tags:          event, conference, marketing, business
 }
 
 .lp-contact-list .text a:hover {
-  color: #f05a00;
+  color: #777777;
+}
+
+.lp-contact-form #contact-submit {
+  background: #777777;
+}
+
+.lp-contact-form #contact-submit:before {
+  background: #666666;
+}
+
+.lp-contact-form #contact-submit:hover {
+  color: #ffffff;
 }
 
 .lp-contact-map iframe {
@@ -3907,8 +3919,112 @@ Tags:          event, conference, marketing, business
   grid-row: span 2;
 }
 
-.lp-about-cta-section {
-  padding: 80px 0;
+.lp-about-founder-section {
+  padding: 98px 0;
+  background: #fff7f1;
+}
+
+.lp-about-founder-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(300px, .8fr);
+  gap: 70px;
+  align-items: start;
+}
+
+.lp-about-founder-content {
+  max-width: 760px;
+}
+
+.lp-about-founder-content h2 {
+  margin: 12px 0 12px;
+  color: #24262c;
+  font-size: 52px;
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+
+.lp-about-founder-role {
+  margin-bottom: 26px;
+  color: #f05a00;
+  font-size: 19px;
+  line-height: 1.4;
+}
+
+.lp-about-founder-content > p:not(.lp-about-founder-role) {
+  margin-bottom: 20px;
+  color: #55575d;
+  font-size: 17px;
+  line-height: 1.78;
+}
+
+.lp-about-founder-content p strong {
+  color: #24262c;
+  font-weight: 800;
+}
+
+.lp-about-founder-closing {
+  padding-top: 8px;
+}
+
+.lp-about-founder-profile {
+  padding: 38px 34px;
+  border-left: 6px solid #f05a00;
+  border-radius: 18px;
+  background: #24262c;
+  box-shadow: 0 22px 50px rgba(36, 38, 44, .14);
+}
+
+.lp-about-founder-stat {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.lp-about-founder-stat strong {
+  color: #ffffff;
+  font-size: 58px;
+  line-height: 1;
+}
+
+.lp-about-founder-stat span {
+  color: #f5f5f5;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.lp-about-founder-profile ul {
+  margin: 25px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lp-about-founder-profile li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .14);
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.lp-about-founder-profile li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.lp-about-founder-profile li i {
+  width: 22px;
+  flex: 0 0 22px;
+  padding-top: 3px;
+  color: #f05a00;
+  text-align: center;
+}
+
+.lp-about-cta-section {  padding: 80px 0;
   background: #fff7f1;
 }
 
@@ -4642,6 +4758,15 @@ Tags:          event, conference, marketing, business
     gap: 38px;
   }
 
+  .lp-about-founder-grid {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+
+  .lp-about-founder-content {
+    max-width: 760px;
+  }
+
   .lp-about-achievements-content {
     max-width: 760px;
   }
@@ -4703,6 +4828,7 @@ Tags:          event, conference, marketing, business
   .lp-about-highlights-section,
   .lp-about-mission-section,
   .lp-about-achievements-section,
+  .lp-about-founder-section,
   .lp-about-cta-section {
     padding: 58px 0;
   }
@@ -4760,6 +4886,14 @@ Tags:          event, conference, marketing, business
 
   .lp-about-achievements-content h2 {
     font-size: 34px;
+  }
+
+  .lp-about-founder-content h2 {
+    font-size: 34px;
+  }
+
+  .lp-about-founder-profile {
+    padding: 28px 24px;
   }
 
   .lp-about-achievements-gallery {

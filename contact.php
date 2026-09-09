@@ -104,8 +104,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['form_type'] ?? '') === 'co
                                     <div class="text">
                                         <a href="tel:+919821337161">+91 9821337161</a><br>
                                         <a href="tel:+919930097161">+91 9930097161</a><br>
-                                        <a href="tel:+919769140669">
-                                            <!-- <i class="fa-brands fa-whatsapp"></i>  -->
+                                        <a href="https://wa.me/919769140669" target="_blank" rel="noopener" aria-label="WhatsApp +91 9769140669">
+                                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
                                             +91 9769140669
                                         </a>
                                     </div>

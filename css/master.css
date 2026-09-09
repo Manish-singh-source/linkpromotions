@@ -67,7 +67,7 @@ Tags:          event, conference, marketing, business
 :root {
   --theme-color-light: #ffffff;
   --theme-color-dark: #000000;
-  --theme-color1: #D51C55;
+  --theme-color1: #777777;
   --theme-color2: #F4E412;
   --theme-color3: #9914CB;
   --theme-color4: #ED5F00;
@@ -1664,10 +1664,10 @@ Scroll To Top style
   color: var(--theme-color-light);
 }
 .btn-style-one.bg-pink {
-  background-color: var(--theme-color3);
+  background-color: #777777;
 }
 .btn-style-one.bg-pink::before {
-  background-color: var(--theme-color1);
+  background-color: #666666;
 }
 .btn-style-one.bg-pink:hover {
   color: var(--theme-color-light);
@@ -8467,27 +8467,27 @@ Scroll To Top style
   height: 80px;
 }
 .pricing-block.active.two .inner-box .pricing-btn {
-  background-color: #D51C55;
-  border-color: #D51C55;
+  background-color: #777777;
+  border-color: #777777;
 }
 .pricing-block.two .inner-box:hover .pricing-btn {
-  background-color: #D51C55;
-  border-color: #D51C55;
+  background-color: #777777;
+  border-color: #777777;
 }
 .pricing-block.two .inner-box .plan-box {
   background-color: #F33670;
 }
 .pricing-block.two .inner-box .plan-box .plan {
-  background-color: #D51C55;
+  background-color: #777777;
 }
 .pricing-block.two .inner-box .pass {
-  color: #D51C55;
+  color: #777777;
 }
 .pricing-block.two .inner-box .list-box {
-  background-color: #D51C55;
+  background-color: #777777;
 }
 .pricing-block.two .inner-box .pricing-btn:before {
-  background-color: #D51C55;
+  background-color: #777777;
 }
 .pricing-block.three .inner-box:hover .pricing-btn {
   background-color: #96B907;
@@ -13751,7 +13751,7 @@ Scroll To Top style
   width: 100%;
   height: 0;
   border-radius: 15px;
-  background: linear-gradient(180deg, #D51C55, #6F0F2C);
+  background: linear-gradient(180deg, #777777, #6F0F2C);
   transition: all 600ms ease;
 }
 .news-block .inner-box.active:before {

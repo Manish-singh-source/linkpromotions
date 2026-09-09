@@ -205,6 +205,38 @@
     </section>
     <!-- End Achievements Section -->
 
+    <!-- Founder Section -->
+    <section class="lp-about-founder-section">
+        <div class="auto-container">
+            <div class="lp-about-founder-grid">
+                <div class="lp-about-founder-content">
+                    <span class="lp-section-tag">About Founder</span>
+                    <h2>Amarr Devani</h2>
+                    <p class="lp-about-founder-role"><strong>Founder | Entrepreneur | Strategist</strong></p>
+                    <p>With <strong>25+ years of experience</strong>, Amarr Devani has built businesses and created impactful brand experiences across <strong>exhibitions, interiors, design, and marketing</strong>, serving clients across India and global markets.</p>
+                    <p>Founder of <strong>LINK PROMOTIONS AND EXHIBITS WORLDWIDE</strong> and <strong>AAKRITI SPACE DESIGNS</strong>, his vision is driven by <strong>innovation, strategic growth, design excellence, and lasting client relationships</strong>.</p>
+                    <p>A recognised leader in the trade show industry, Amarr Devani is a <strong>National Award Winner for Entrepreneurship</strong>, recipient of the <strong>Quality Brand Award</strong> for Link Promotions and Exhibits Worldwide, and the <strong>Exhibition Excellence Award 2026</strong>.</p>
+                    <p>He currently serves as <strong>Vice President of AESDAC (Association of Stand Designers and Constructors)</strong>, contributing to the growth and development of the exhibition industry.</p>
+                    <p class="lp-about-founder-closing"><strong>With a vision to shape the future of brand experiences, he continues to build businesses, inspire innovation, and create meaningful impact across the global exhibition and design industry.</strong></p>
+                </div>
+
+                <aside class="lp-about-founder-profile">
+                    <div class="lp-about-founder-stat">
+                        <strong>25+</strong>
+                        <span>Years of experience</span>
+                    </div>
+                    <ul>
+                        <li><i class="fa fa-award"></i><span>National Award Winner for Entrepreneurship</span></li>
+                        <li><i class="fa fa-certificate"></i><span>Quality Brand Award recipient</span></li>
+                        <li><i class="fa fa-trophy"></i><span>Exhibition Excellence Award 2026</span></li>
+                        <li><i class="fa fa-users"></i><span>Vice President of AESDAC</span></li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+    </section>
+    <!-- End Founder Section -->
+
     <!-- About CTA Section -->
     <section class="lp-about-cta-section">
         <div class="auto-container">
