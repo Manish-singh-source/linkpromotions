@@ -152,7 +152,7 @@
                     <h2>Achievements earned through consistent delivery.</h2>
                     <p>Our work has been recognised across exhibitions, brand environments and sustainable execution practices, backed by more than 25 award-winning projects completed worldwide.</p>
                     <div class="lp-achievement-stat">
-                        <strong>25+</strong>
+                        <strong>50+</strong>
                         <span>Award winning exhibition projects</span>
                     </div>
                 </div>

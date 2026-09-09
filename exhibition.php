@@ -115,14 +115,19 @@
                 </div>
                 <div class="lp-exhibition-network-cards">
                     <article>
-                        <i class="fa fa-warehouse"></i>
-                        <h3>Services &amp; Warehouses</h3>
-                        <p>Mumbai | Ahmedabad | Delhi | Bengaluru | Chennai | Coimbatore | Hyderabad</p>
-                    </article>
-                    <article>
                         <i class="fa fa-building"></i>
                         <h3>Corporate Office</h3>
                         <p>Mumbai</p>
+                    </article>
+                    <article>
+                        <i class="fa fa-users"></i>
+                        <h3>Associates</h3>
+                        <!-- <p>Mumbai</p> -->
+                    </article>
+                    <article>
+                        <i class="fa fa-warehouse"></i>
+                        <h3>Services &amp; Warehouses</h3>
+                        <p>Mumbai | Ahmedabad | Delhi | Bengaluru | Chennai | Coimbatore | Hyderabad</p>
                     </article>
                 </div>
             </div>
@@ -153,10 +158,10 @@
             </div>
 
             <div class="lp-exhibition-reach">
-                <div><strong>40+</strong><span>Shows Per Year</span></div>
+                <!-- <div><strong>40+</strong><span>Shows Per Year</span></div> -->
                 <div><strong>15+</strong><span>Countries</span></div>
                 <div><strong>100+</strong><span>Shows</span></div>
-                <div><strong>25+</strong><span>Award Winning Projects</span></div>
+                <div><strong>50+</strong><span>Award Winning Projects</span></div>
             </div>
         </div>
     </section>

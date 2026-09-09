@@ -104,7 +104,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['form_type'] ?? '') === 'co
                                     <div class="text">
                                         <a href="tel:+919821337161">+91 9821337161</a><br>
                                         <a href="tel:+919930097161">+91 9930097161</a><br>
-                                        <a href="tel:+919769140669">+91 9769140669</a>
+                                        <a href="tel:+919769140669">
+                                            <!-- <i class="fa-brands fa-whatsapp"></i>  -->
+                                            +91 9769140669
+                                        </a>
                                     </div>
                                 </div>
                             </li>
@@ -113,6 +116,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['form_type'] ?? '') === 'co
                                 <div class="content">
                                     <h4 class="title">Write email</h4>
                                     <div class="text">
+                                        <a href="mailto:amar@linkpromotions.co.in">amar@linkpromotions.co.in</a><br>
                                         <a href="mailto:mktg@linkpromotions.co.in">mktg@linkpromotions.co.in</a>
                                     </div>
                                 </div>
@@ -120,7 +124,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['form_type'] ?? '') === 'co
                             <li>
                                 <i class="lp-contact-icon fa fa-map-marker-alt"></i>
                                 <div class="content">
-                                    <h4 class="title">Visit anytime</h4>
+                                    <h4 class="title">Visit Us</h4>
                                     <div class="text">Ghanshyam Enclave, 913, 9th Floor, Next To Laljipada Police Station, Laljipada, Link Road, Kandivali(W), Mumbai - 400067.</div>
                                 </div>
                             </li>

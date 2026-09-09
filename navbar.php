@@ -34,7 +34,7 @@ if ($lp_current_page === '' || $lp_current_page === 'index.html') {
          <div class="auto-container">
              <div class="main-box">
                  <div class="logo-box">
-                     <div class="logo"><a href="index.php"><img src="images/myimage/logo.png" alt="Link Promotions and Exhibits" title="Link Promotions and Exhibits"></a></div>
+                     <div class="logo"><a href="index.php"><img src="images/myimage/logo.png" style="padding: 15px 0 0 15px;" alt="Link Promotions and Exhibits" title="Link Promotions and Exhibits"></a></div>
                  </div>
                  
                  <div class="header-navbar">
