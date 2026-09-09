@@ -76,7 +76,7 @@
     <section class="lp-about-highlights-section">
         <div class="auto-container">
             <div class="sec-title text-center">
-                <span class="sub-title orange">Key Highlights</span>
+                <!-- <span class="sub-title orange">Key Highlights</span> -->
                 <h2>Built on Process, People and Precision</h2>
             </div>
 

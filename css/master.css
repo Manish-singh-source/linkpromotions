@@ -4990,7 +4990,7 @@ Scroll To Top style
   line-height: 1em;
   font-weight: 400;
   font-family: var(--fa-style-family, "Font Awesome 6 Pro");
-  content: "\f130";
+  /* content: "\f130"; */
   display: none;
 }
 .rtl .sec-title .sub-title:before {
@@ -5005,7 +5005,7 @@ Scroll To Top style
   line-height: 1em;
   font-weight: 400;
   font-family: var(--fa-style-family, "Font Awesome 6 Pro");
-  content: "\f130";
+  /* content: "\f130"; */
 }
 .rtl .sec-title .sub-title:after {
   right: auto;

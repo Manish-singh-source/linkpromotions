@@ -198,7 +198,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                  <div class="content-column col-xl-5 col-lg-12 col-md-12 col-sm-12 wow fadeInUp">
                     <div class="inner-column">
                         <div class="sec-title orange">
-                            <span class="sub-title">Our Work</span>
+                            <!-- <span class="sub-title">Our Work</span> -->
                             <h2>Recent Work, Real Results</h2>
                             <div class="text">From compact modular units to landmark double-height pavilions, our portfolio spans India, Europe, the UAE, and beyond.</div>
                         </div>
@@ -248,7 +248,8 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                         <li><i class="icon fa fa-map-marker-alt"></i> Germany</li>
                                         <li><i class="icon fa fa-industry"></i> Engineering</li>
                                     </ul>
-                                    <h3 class="title"><a href="exhibition.php#lp-exhibition-gallery">Engineering Pavilion - Hannover Messe</a></h3>
+                                    <!-- <h3 class="title"><a href="exhibition.php#lp-exhibition-gallery">Engineering Pavilion - Hannover Messe</a></h3> -->
+                                    <h3 class="title"><a href="exhibition.php#lp-exhibition-gallery">Dusseldorf, Germany</a></h3>
                                 </div>
                                 <div class="image-box">
                                     <div class="date-box"><h4 class="date">02</h4><div class="month">Work</div></div>
@@ -299,20 +300,21 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
         <div class="bg bg-image" style="background-image: url(images/background/4.jpg);"></div>
         <div class="auto-container">
             <div class="sec-title light">
-                <span class="sub-title">Our Exhibition Footprint</span>
-                <h2>Exhibitions<br>We Have<br>Worked On</h2>
+                <!-- <span class="sub-title">Our Exhibition Footprint</span> -->
+                <h2>Our Exhibition Footprint</h2>
+                <!-- <h2>Exhibitions<br>We Have<br>Worked On</h2> -->
                 <div class="text">From India's largest trade fairs to the world's most prestigious international expos, our 24 years of on-the-ground experience span every major exhibition that matters.</div>
             </div>
 
             <div class="event-tabs-two tabs-box wow fadeInUp">
                 <ul class="tab-btns tab-buttons">
-                    <li class="tab-btn active-btn" data-tab="#tab1">Domestic Shows<span>Pan-India Exhibition Presence</span><div class="shape-fifteen"></div></li>
-                    <li class="tab-btn" data-tab="#tab2">International Shows<span>UAE, Europe, Asia &amp; Beyond</span><div class="shape-fifteen"></div></li>
+                    <li class="tab-btn active-btn" data-tab="#tab2">International Shows<span>UAE, Europe, Asia &amp; Beyond</span><div class="shape-fifteen"></div></li>
+                    <li class="tab-btn" data-tab="#tab1">Domestic Shows<span>Pan-India Exhibition Presence</span><div class="shape-fifteen"></div></li>
                     <li class="tab-btn" data-tab="#tab3">Global Reach<span>At a Glance</span><div class="shape-fifteen"></div></li>
                 </ul>
 
                 <div class="tabs-content">
-                    <div class="tab active-tab" id="tab1">
+                    <div class="tab" id="tab1">
                         <div class="outer-box">
                             <div class="event-block-two">
                                 <div class="inner-box event-block-inner">
@@ -393,7 +395,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                         </div>
                     </div>
 
-                    <div class="tab" id="tab2">
+                    <div class="tab active-tab" id="tab2">
                         <div class="outer-box">
                             <div class="event-block-two">
                                 <div class="inner-box event-block-inner">
@@ -455,21 +457,22 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                             <div class="event-block-two">
                                 <div class="inner-box event-block-inner">
                                     <div class="shape-thirty"></div><div class="shape-thirtyone"></div>
-                                    <div class="time-box"><i class="icon fal fa-clock"></i><h5 class="time">40+</h5></div>
+                                    <div class="time-box"><i class="icon fal fa-clock"></i><h5 class="time">100+</h5></div>
                                     <div class="title-box"><h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">Shows Per Year</a></h4><div class="speaker-box"><i class="icon fa fa-microphone"></i><div class="speaker">Global Reach <span>— At a Glance</span></div></div></div>
-                                    <div class="text-box"><div class="text">40+<br>Shows Per Year</div></div>
+                                    <div class="text-box"><div class="text">100+<br>Shows Per Year</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
                                 </div>
                             </div>
                             <div class="event-block-two">
                                 <div class="inner-box event-block-inner">
                                     <div class="shape-thirty"></div><div class="shape-thirtyone"></div>
-                                    <div class="time-box"><i class="icon fal fa-clock"></i><h5 class="time">15+</h5></div>
+                                    <div class="time-box"><i class="icon fal fa-clock"></i><h5 class="time">10+</h5></div>
                                     <div class="title-box"><h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">Countries</a></h4><div class="speaker-box"><i class="icon fa fa-microphone"></i><div class="speaker">Global Reach <span>— At a Glance</span></div></div></div>
-                                    <div class="text-box"><div class="text">15+<br>Countries</div></div>
+                                    <div class="text-box"><div class="text">10+<br>Countries</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
                                 </div>
                             </div>
+                            <!-- 
                             <div class="event-block-two">
                                 <div class="inner-box event-block-inner">
                                     <div class="shape-thirty"></div><div class="shape-thirtyone"></div>
@@ -478,7 +481,8 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                     <div class="text-box"><div class="text">50+<br>Unique Shows</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
                                 </div>
-                            </div>
+                            </div> 
+                            -->
                             <div class="event-block-two">
                                 <div class="inner-box event-block-inner">
                                     <div class="shape-thirty"></div><div class="shape-thirtyone"></div>
