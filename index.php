@@ -71,10 +71,13 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
 
                 <div class="content-column col-xl-6 col-lg-12">
                     <div class="lp-about-content">
-                        <div class="lp-section-tag">About Link Promotions and Exhibits</div>
+                        <div class="lp-section-tag">About Link Promotions and Exhibits Worldwide</div>
                         <h2>We build your space,<br><span>you build your business.</span></h2>
-                        <p>Every exhibition is a brief but critical window to convince the people who matter most - buyers, distributors, investors - that your brand deserves their attention. Link Promotions and Exhibits exists to make sure that moment works decisively in your favour.</p>
-                        <p>Link Promotions and Exhibits have designed and fabricated exhibition stalls for both B2B and B2C brands across <strong>Pharmaceuticals & Life Sciences, Industrial & Engineering, Chemicals & Process Industries, FMCG & Consumer Brands, Jewellery & Lifestyle, Textiles & Exports, Manufacturing & Industrial Machinery, Construction & Building Materials, Food & Beverage, Electronics & Electrical, Automation & Robotics, Renewable Energy, Packaging, Healthcare & Medical Devices, Logistics & Supply Chain</strong></p>
+                        <p>Every exhibition is a powerful opportunity to put your brand in front of the people who matter most — buyers, distributors, investors, and industry leaders. At Link Promotions and Exhibits Worldwide, we transform that opportunity into impactful brand experiences that capture attention, create meaningful connections, and drive business growth.</p>
+                        <p>We design and deliver exhibition spaces that position your brand with confidence, purpose, and impact.</p>
+                        <p>Link Promotions and Exhibits Worldwide have designed and fabricated exhibition stalls for both B2B and B2C brands across
+                            <strong>Pharmaceuticals & Life Sciences, Industrial & Engineering, Chemicals & Process Industries, FMCG & Consumer Brands, Jewellery & Lifestyle, Textiles & Exports, Manufacturing & Industrial Machinery, Construction & Building Materials, Food & Beverage, Electronics & Electrical, Automation & Robotics, Renewable Energy, Packaging, Healthcare & Medical Devices, Logistics & Supply Chain</strong>
+                        </p>
                         <p>What has remained constant across 21 years is our process: we begin by understanding exactly what you need to prove at that specific show, then design backward from that objective - shaping layout, materials, lighting, signage, and visitor flow around your goals, not around a template.</p>
                         <div class="lp-about-actions">
                             <a href="about.php" class="theme-btn btn-style-one bg-orange"><span class="btn-title">Know More <i class="fa fa-arrow-right"></i></span></a>
@@ -190,7 +193,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
 
     <!-- News Section -->
      <section class="news-section-two lp-news-section">
-        <div class="shape-twentyfour"></div>
+        <!-- <div class="shape-twentyfour"></div> -->
         <div class="auto-container">
             <div class="row">
 
@@ -327,7 +330,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                     <div class="title-box">
                                         <h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">IMTEX, ACETECH, PLASTINDIA, PLASTIVISION, TAGMA DIE &amp; MOULD, ELECRAMA, BROADCAST, AUTOMATION</a></h4>
                                         <div class="speaker-box">
-                                            <i class="icon fa fa-microphone"></i>
+                                            
                                             <div class="speaker">Domestic Shows <span>— Pan-India Exhibition Presence</span></div>
                                         </div>
                                     </div>
@@ -346,7 +349,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                     <div class="title-box">
                                         <h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">IIJS, INTIMASIA, IPHEX, CPHI-PMEC, CHEMEXPO, COSMOPROF, ANALYTICA</a></h4>
                                         <div class="speaker-box">
-                                            <i class="icon fa fa-microphone"></i>
+                                            
                                             <div class="speaker">Domestic Shows <span>— Pan-India Exhibition Presence</span></div>
                                         </div>
                                     </div>
@@ -365,7 +368,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                     <div class="title-box">
                                         <h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">SEMICON, ANUGA FOOD TEC, ACREX, INTEC, ACMEE, EXCON, HGH</a></h4>
                                         <div class="speaker-box">
-                                            <i class="icon fa fa-microphone"></i>
+                                            
                                             <div class="speaker">Domestic Shows <span>— Pan-India Exhibition Presence</span></div>
                                         </div>
                                     </div>
@@ -384,7 +387,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                     <div class="title-box">
                                         <h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">ROOF INDIA, SECUTECH, HPCI, FI-HI, AAHAR, INTERSOLAR, and more.</a></h4>
                                         <div class="speaker-box">
-                                            <i class="icon fa fa-microphone"></i>
+                                            
                                             <div class="speaker">Domestic Shows <span>— Pan-India Exhibition Presence</span></div>
                                         </div>
                                     </div>
@@ -404,7 +407,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                     <div class="time-box"><i class="icon fal fa-clock"></i><h5 class="time">UAE</h5></div>
                                     <div class="title-box">
                                         <h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">HEIMTEXTIL, DOMOTEX, ACHEMA, MEDICA, INTERPACK</a></h4>
-                                        <div class="speaker-box"><i class="icon fa fa-microphone"></i><div class="speaker">International Shows <span>— UAE, Europe, Asia &amp; Beyond</span></div></div>
+                                        <div class="speaker-box"><div class="speaker">International Shows <span>— UAE, Europe, Asia &amp; Beyond</span></div></div>
                                     </div>
                                     <div class="text-box"><div class="text">UAE, Europe,<br>Asia &amp; Beyond</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
@@ -417,7 +420,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                     <div class="time-box"><i class="icon fal fa-clock"></i><h5 class="time">Europe</h5></div>
                                     <div class="title-box">
                                         <h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">MESSE HANNOVER, INTERSOLAR, K SHOW, CPHI WORLDWIDE</a></h4>
-                                        <div class="speaker-box"><i class="icon fa fa-microphone"></i><div class="speaker">International Shows <span>— UAE, Europe, Asia &amp; Beyond</span></div></div>
+                                        <div class="speaker-box"><div class="speaker">International Shows <span>— UAE, Europe, Asia &amp; Beyond</span></div></div>
                                     </div>
                                     <div class="text-box"><div class="text">UAE, Europe,<br>Asia &amp; Beyond</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
@@ -430,7 +433,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                     <div class="time-box"><i class="icon fal fa-clock"></i><h5 class="time">Asia</h5></div>
                                     <div class="title-box">
                                         <h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">CHEMSPEC EUROPE, ITMA, BLECH, ANUGA, ARABPLAST</a></h4>
-                                        <div class="speaker-box"><i class="icon fa fa-microphone"></i><div class="speaker">International Shows <span>— UAE, Europe, Asia &amp; Beyond</span></div></div>
+                                        <div class="speaker-box"><div class="speaker">International Shows <span>— UAE, Europe, Asia &amp; Beyond</span></div></div>
                                     </div>
                                     <div class="text-box"><div class="text">UAE, Europe,<br>Asia &amp; Beyond</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
@@ -443,7 +446,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                     <div class="time-box"><i class="icon fal fa-clock"></i><h5 class="time">Beyond</h5></div>
                                     <div class="title-box">
                                         <h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">GULFOOD, VIV EUROPE / ASIA, SCHWEISSEN &amp; SCHNEIDEN, and many others.</a></h4>
-                                        <div class="speaker-box"><i class="icon fa fa-microphone"></i><div class="speaker">International Shows <span>— UAE, Europe, Asia &amp; Beyond</span></div></div>
+                                        <div class="speaker-box"><div class="speaker">International Shows <span>— UAE, Europe, Asia &amp; Beyond</span></div></div>
                                     </div>
                                     <div class="text-box"><div class="text">UAE, Europe,<br>Asia &amp; Beyond</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
@@ -458,7 +461,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                 <div class="inner-box event-block-inner">
                                     <div class="shape-thirty"></div><div class="shape-thirtyone"></div>
                                     <div class="time-box"><i class="icon fal fa-clock"></i><h5 class="time">100+</h5></div>
-                                    <div class="title-box"><h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">Shows Per Year</a></h4><div class="speaker-box"><i class="icon fa fa-microphone"></i><div class="speaker">Global Reach <span>— At a Glance</span></div></div></div>
+                                    <div class="title-box"><h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">Shows Per Year</a></h4><div class="speaker-box"><div class="speaker">Global Reach <span>— At a Glance</span></div></div></div>
                                     <div class="text-box"><div class="text">100+<br>Shows Per Year</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
                                 </div>
@@ -467,7 +470,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                 <div class="inner-box event-block-inner">
                                     <div class="shape-thirty"></div><div class="shape-thirtyone"></div>
                                     <div class="time-box"><i class="icon fal fa-clock"></i><h5 class="time">10+</h5></div>
-                                    <div class="title-box"><h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">Countries</a></h4><div class="speaker-box"><i class="icon fa fa-microphone"></i><div class="speaker">Global Reach <span>— At a Glance</span></div></div></div>
+                                    <div class="title-box"><h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">Countries</a></h4><div class="speaker-box"><div class="speaker">Global Reach <span>— At a Glance</span></div></div></div>
                                     <div class="text-box"><div class="text">10+<br>Countries</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
                                 </div>
@@ -477,7 +480,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                 <div class="inner-box event-block-inner">
                                     <div class="shape-thirty"></div><div class="shape-thirtyone"></div>
                                     <div class="time-box"><i class="icon fal fa-clock"></i><h5 class="time">50+</h5></div>
-                                    <div class="title-box"><h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">Unique Shows</a></h4><div class="speaker-box"><i class="icon fa fa-microphone"></i><div class="speaker">Global Reach <span>— At a Glance</span></div></div></div>
+                                    <div class="title-box"><h4 class="title"><a href="exhibition.php#lp-exhibition-footprint">Unique Shows</a></h4><div class="speaker-box"><div class="speaker">Global Reach <span>— At a Glance</span></div></div></div>
                                     <div class="text-box"><div class="text">50+<br>Unique Shows</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-footprint" class="read-more"><i class="icon flaticon-arrows"></i></a></div>
                                 </div>
@@ -490,7 +493,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                     <div class="title-box">
                                         <h4 class="title"><a href="proposal.php">Planning Your Next Show?</a></h4>
                                         <div class="speaker-box">
-                                            <i class="icon fa fa-microphone"></i>
+                                            
                                             <div class="speaker">Whether it is a domestic trade fair or an international expo, chances are we have already worked that show floor &mdash; and know exactly what it takes to succeed there.</div>
                                         </div>
                                     </div>
@@ -975,7 +978,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                     <div class="testimonial-block-two col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp">
                         <div class="inner-box">
                             <div class="content">
-                                <div class="text">We have partnered with Link Promotions and Exhibits since 2014 to design and construct our booths for exhibitions across the globe. Their customised solutions are precisely why we consider them our trusted partner.</div>
+                                <div class="text">We have been getting our stalls done from Link Promotion since few years. They are brilliant. Amazing ideas and designs they have, and they are flawless in installation. Thanks so much for helping us in our stalls.</div>
                                 <div class="icon-box"><i class="quote-icon flaticon-right-quotation-mark"></i></div>
                                 <div class="rating">
                                     <i class="flaticon-star"></i>
@@ -987,10 +990,10 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                             </div>
                             <div class="author-box">
                                 <div class="author-info">
-                                    <div class="designation">Partner Since 2014</div>
-                                    <h4 class="name">OC Specialities Pvt Ltd</h4>
+                                    <div class="designation">Google Review</div>
+                                    <h4 class="name">Viral Kenia</h4>
                                 </div>
-                                <a class="lp-testimonial-play" href="https://youtu.be/kAytdOFBqfg?si=Oai2HvrT965bS-yi" target="_blank" rel="noopener" aria-label="Watch OC Specialities review on YouTube"><i class="fab fa-youtube"></i></a>
+                                <a class="lp-testimonial-play" href="https://youtu.be/kAytdOFBqfg?si=Oai2HvrT965bS-yi" target="_blank" rel="noopener" aria-label="Watch Viral Kenia review on YouTube"><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
@@ -999,7 +1002,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                     <div class="testimonial-block-two col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="200ms">
                         <div class="inner-box">
                             <div class="content">
-                                <div class="text">Advanced Enzyme exhibits at 20+ shows annually around the globe, and Link Promotions is our trusted partner for 60-70% of them. They are detail-oriented and bring an excellent blend of skill and will to their craft.</div>
+                                <div class="text">Thank you &#x1F64F; Amar Devani for sharing and for helping us in establishing the brand. Without LINK PROMOTIONS AND EXHIBITS it wouldn&#39;t have been possible to deliver the message!</div>
                                 <div class="icon-box"><i class="quote-icon flaticon-right-quotation-mark"></i></div>
                                 <div class="rating">
                                     <i class="flaticon-star"></i>
@@ -1011,10 +1014,10 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                             </div>
                             <div class="author-box">
                                 <div class="author-info">
-                                    <div class="designation">Long-Term Partner</div>
-                                    <h4 class="name">Advanced Enzyme Technologies Ltd</h4>
+                                    <div class="designation">CEO &amp; Director, Pratap Tex-Chem Pvt. Ltd.</div>
+                                    <h4 class="name">Kunal Marathe</h4>
                                 </div>
-                                <a class="lp-testimonial-play" href="https://youtu.be/7nn6y35_B8U?si=YK_6JUbAfnK5Sc1y" target="_blank" rel="noopener" aria-label="Watch Advanced Enzyme review on YouTube"><i class="fab fa-youtube"></i></a>
+                                <a class="lp-testimonial-play" href="https://youtu.be/7nn6y35_B8U?si=YK_6JUbAfnK5Sc1y" target="_blank" rel="noopener" aria-label="Watch Kunal Marathe review on YouTube"><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1023,7 +1026,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                     <div class="testimonial-block-two col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
                         <div class="inner-box">
                             <div class="content">
-                                <div class="text">Link Promotions has managed our worldwide exhibition stands for five years. Their design and execution are always communicated clearly and professionally, and the team consistently goes the extra mile to get things right.</div>
+                                <div class="text">Heartfelt thanks to you and your team, Amar ji, for all the support throughout the show! Truly happy that everything came together so beautifully and aligned perfectly with our style. &#x1F64F; &#x1F44F;</div>
                                 <div class="icon-box"><i class="quote-icon flaticon-right-quotation-mark"></i></div>
                                 <div class="rating">
                                     <i class="flaticon-star"></i>
@@ -1035,10 +1038,10 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                             </div>
                             <div class="author-box">
                                 <div class="author-info">
-                                    <div class="designation">Partner for 5+ Years</div>
-                                    <h4 class="name">Renewsys India Pvt Ltd</h4>
+                                    <div class="designation">Client Feedback</div>
+                                    <h4 class="name">Shamjith Rahman NC</h4>
                                 </div>
-                                <a class="lp-testimonial-play" href="https://youtu.be/DWnyrMHOtQY?si=71-ZMk3exduVeULH" target="_blank" rel="noopener" aria-label="Watch Renewsys India review on YouTube"><i class="fab fa-youtube"></i></a>
+                                <a class="lp-testimonial-play" href="https://youtu.be/DWnyrMHOtQY?si=71-ZMk3exduVeULH" target="_blank" rel="noopener" aria-label="Watch Shamjith Rahman NC review on YouTube"><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1055,7 +1058,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
 
     <!-- Faq Section -->
     <section class="faq-section">
-        <div class="shape-twentythree"></div>
+        <!-- <div class="shape-twentythree"></div> -->
         <div class="auto-container">
             <div class="row">
 
@@ -1071,7 +1074,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                              <div class="logo"><img src="images/icons/faq-fav.png" alt="Image"></div>
                          </div>
                         <figure class="image overlay-anim  reveal"><img src="images/myimage/faq.png" alt="FAQ consultation"></figure>
-                        <figure class="image two overlay-anim  reveal"><img src="images/resource/faq1-2.jpg" alt="FAQ exhibition execution"></figure>
+                        <figure class="image two overlay-anim  reveal"><img src="images/myimage/faq-2.png" alt="FAQ exhibition execution"></figure>
                     </div>
                 </div>
 

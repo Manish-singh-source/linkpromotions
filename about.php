@@ -30,10 +30,13 @@
                 <div class="lp-about-page-content">
                     <span class="lp-section-tag">Our Track Record</span>
                     <h2>Over Two Decades of Precision, Delivered Show After Show</h2>
-                    <p>Exhibitions offer no second chances. There is no dress rehearsal and no opening-night retake. Since the year 2000, Link Promotions and Exhibits has built its reputation the hard way: one flawless, deadline-driven build at a time.</p>
+                    <!-- <p>Exhibitions offer no second chances. There is no dress rehearsal and no opening-night retake. Since the year 2000, Link Promotions and Exhibits has built its reputation the hard way: one flawless, deadline-driven build at a time.</p>
                     <p>Whether it is a modular unit or a double-height custom pavilion, our process has proven itself consistently - from Mumbai to Frankfurt, Dubai to Barcelona, and every major exhibition hub in between.</p>
+                    <p>Because design and fabrication both happen in-house, our clients benefit from fewer handoffs, fewer surprises, and one accountable partner guiding every project from the first sketch through to final teardown.</p> -->
+                    <p>Since 2000, Link Promotions and Exhibits Worldwide has been creating exhibition experiences that make brands stand out. With 21+ years of expertise, we combine innovative design, precision fabrication, and seamless execution to deliver impactful exhibition spaces that attract attention, engage audiences, and elevate brand presence.</p>
+                    <p>Every project reflects our commitment to quality, creativity, and on-time execution from concept to completion.</p>
+                    <p>Whether it is a modular unit or a double-height custom pavilion, our process has proven itself consistently from Mumbai to Frankfurt, Dubai to Barcelona, and every major exhibition hub in between.</p>
                     <p>Because design and fabrication both happen in-house, our clients benefit from fewer handoffs, fewer surprises, and one accountable partner guiding every project from the first sketch through to final teardown.</p>
-
                     <div class="lp-about-page-stats">
                         <div class="count-box">
                             <strong><span class="count-text" data-stop="21" data-speed="1600" data-suffix="+">0</span></strong>
@@ -59,8 +62,10 @@
         <div class="auto-container">
             <div class="lp-about-story-grid">
                 <div class="lp-about-story-intro">
-                    <span class="lp-section-tag">About Link Promotions and Exhibits</span>
                     <h2>We build your space, you build your business.</h2>
+                    <figure class="lp-about-story-video">
+                        <video src="images/myimage/video/about-video.mp4" controls muted loop playsinline preload="metadata"></video>
+                    </figure>
                 </div>
                 <div class="lp-about-story-text">
                     <p>Every exhibition is a brief but critical window to convince the people who matter most - buyers, distributors and investors - that your brand deserves their attention. Link Promotions and Exhibits exists to make sure that moment works decisively in your favour.</p>
