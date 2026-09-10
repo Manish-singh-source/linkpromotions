@@ -666,7 +666,7 @@ Tags:          event, conference, marketing, business
     padding-left: 22px;
     padding-right: 12px;
     padding-top: 4px;
-    padding-bottom: 4px;
+    padding-bottom: 10px;
     flex: 0 1 auto;
     justify-content: flex-start;
   }
@@ -724,25 +724,40 @@ Tags:          event, conference, marketing, business
   }
 
   .lp-proof-strip-section {
-    padding: 28px 0;
+    padding: 20px 0;
   }
 
   .lp-proof-strip {
     align-items: stretch;
     flex-direction: column;
-    gap: 18px;
+    gap: 12px;
   }
 
   .lp-proof-stats {
+    width: 100%;
     grid-template-columns: 1fr;
   }
 
   .lp-proof-stat,
   .lp-proof-stat:first-child {
-    min-height: 72px;
-    padding: 13px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    min-height: 58px;
+    padding: 8px 0;
     border-right: 0;
     border-bottom: 1px solid rgba(36, 38, 44, .12);
+  }
+
+  .lp-proof-stat i {
+    margin-top: 0;
+    font-size: 24px;
+  }
+
+  .lp-proof-stat > div {
+    max-width: 240px;
+    text-align: left;
   }
 
   .lp-proof-stat:last-child {
@@ -751,16 +766,20 @@ Tags:          event, conference, marketing, business
 
   .lp-proof-stat strong,
   .lp-proof-stat strong .count-text {
-    font-size: 29px;
+    font-size: 25px;
   }
 
   .lp-proof-stat > div > span {
-    margin-top: 5px;
-    font-size: 12px;
+    margin-top: 3px;
+    font-size: 11px;
   }
 
   .lp-proof-button {
-    width: 100%;
+    align-self: flex-start;
+    width: auto;
+    min-width: 0;
+    padding-right: 28px !important;
+    padding-left: 28px !important;
     margin-top: 2px;
   }
 }
@@ -5470,6 +5489,14 @@ Tags:          event, conference, marketing, business
   color: #f05a00;
 }
 
+.lp-portfolio-section .sec-title .sub-title {
+  color: #f05a00;
+}
+
+.lp-portfolio-section .sec-title h2 {
+  color: #686b72;
+}
+
 .lp-exhibition-achievements + .lp-about-cta-section .lp-about-cta-box > div > span {
   text-transform: none;
 }
@@ -5495,4 +5522,16 @@ Tags:          event, conference, marketing, business
 .lp-event-page-hero ~ .lp-about-cta-section .lp-about-cta-box > div > span {
   text-transform: none;
   color: #f05a00;
+}
+
+/* Keep section labels in their authored case across the site. */
+body .sec-title .sub-title,
+.lp-about-mission-grid span,
+.lp-about-cta-box > div > span {
+  text-transform: none;
+}
+
+.lp-proof-stat strong,
+.lp-proof-stat strong .count-text {
+  color: #686b72;
 }

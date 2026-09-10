@@ -122,7 +122,7 @@
                     <article>
                         <i class="fa fa-users"></i>
                         <h3>Associates</h3>
-                        <!-- <p>Mumbai</p> -->
+                        <p>Europe | UK | USA | South East Asia</p>
                     </article>
                     <article>
                         <i class="fa fa-warehouse"></i>
@@ -202,7 +202,7 @@
                     </figure>
                 </div>
                 <ul>
-                    <li><i class="fa fa-award"></i> More than 25 award-winning exhibition projects completed worldwide.</li>
+                    <li><i class="fa fa-award"></i> More than 50 award-winning exhibition projects completed worldwide.</li>
                     <li><i class="fa fa-medal"></i> Link Promotions awarded "Quality Brand of India".</li>
                     <li><i class="fa fa-trophy"></i> Mr. Amar D. Devani awarded Rashtriya Udyog Ratna Award for excellence in his field.</li>
                     <li><i class="fa fa-star"></i> EEA Awards recognition for excellence in exhibition execution.</li>
