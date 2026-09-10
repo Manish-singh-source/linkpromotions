@@ -136,7 +136,7 @@
     </section>
     <!-- End Event Capabilities Section -->
 
-    <!-- Event Gallery Section -->
+    <!-- Previous Event Gallery Section (commented out and replaced below)
     <section class="lp-event-gallery-section">
         <div class="auto-container">
             <div class="sec-title text-center">
@@ -156,7 +156,38 @@
             </div>
         </div>
     </section>
-    <!-- End Event Gallery Section -->
+    End Previous Event Gallery Section -->
+
+    <!-- Event Glimpses Section -->
+    <section class="lp-event-gallery-section">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <span class="sub-title orange">Event Glimpses</span>
+                <h2>Designed for High-Impact Brand Experiences</h2>
+            </div>
+            <div class="lp-event-gallery-grid">
+                <figure><a href="images/myimage/e1.png" data-fancybox="event-gallery"><img src="images/myimage/e1.png" alt="Event setup 1"></a></figure>
+                <figure><a href="images/myimage/e2.png" data-fancybox="event-gallery"><img src="images/myimage/e2.png" alt="Event setup 2"></a></figure>
+                <figure><a href="images/myimage/e3.png" data-fancybox="event-gallery"><img src="images/myimage/e3.png" alt="Event setup 3"></a></figure>
+                <figure><a href="images/myimage/e4.png" data-fancybox="event-gallery"><img src="images/myimage/e4.png" alt="Event setup 4"></a></figure>
+                <figure><a href="images/myimage/e5.png" data-fancybox="event-gallery"><img src="images/myimage/e5.png" alt="Event setup 5"></a></figure>
+                <figure><a href="images/myimage/e6.png" data-fancybox="event-gallery"><img src="images/myimage/e6.png" alt="Event setup 6"></a></figure>
+                <figure><a href="images/myimage/e7.png" data-fancybox="event-gallery"><img src="images/myimage/e7.png" alt="Event setup 7"></a></figure>
+                <figure><a href="images/myimage/e8.png" data-fancybox="event-gallery"><img src="images/myimage/e8.png" alt="Event setup 8"></a></figure>
+                <figure><a href="images/myimage/e9.png" data-fancybox="event-gallery"><img src="images/myimage/e9.png" alt="Event setup 9"></a></figure>
+                <figure><a href="images/myimage/e10.png" data-fancybox="event-gallery"><img src="images/myimage/e10.png" alt="Event setup 10"></a></figure>
+                <figure><a href="images/myimage/e11.png" data-fancybox="event-gallery"><img src="images/myimage/e11.png" alt="Event setup 11"></a></figure>
+                <figure><a href="images/myimage/e12.png" data-fancybox="event-gallery"><img src="images/myimage/e12.png" alt="Event setup 12"></a></figure>
+                <figure><a href="images/myimage/e13.png" data-fancybox="event-gallery"><img src="images/myimage/e13.png" alt="Event setup 13"></a></figure>
+                <figure><a href="images/myimage/e14.png" data-fancybox="event-gallery"><img src="images/myimage/e14.png" alt="Event setup 14"></a></figure>
+                <figure><a href="images/myimage/e15.png" data-fancybox="event-gallery"><img src="images/myimage/e15.png" alt="Event setup 15"></a></figure>
+            </div>
+            <div class="lp-event-gallery-action text-center">
+                <a href="portfolios.php" class="theme-btn btn-style-one bg-orange"><span class="btn-title">View Full Portfolio <i class="fa fa-arrow-right"></i></span></a>
+            </div>
+        </div>
+    </section>
+    <!-- End Event Glimpses Section -->
 
     <!-- Event CTA Section -->
     <section class="lp-about-cta-section">
