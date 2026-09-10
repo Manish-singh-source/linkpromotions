@@ -4,6 +4,7 @@ $contactError = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['form_type'] ?? '') === 'contact') {
     require __DIR__ . '/admin/config.php';
+    require_once __DIR__ . '/admin/mailer.php';
 
     $firstName = trim((string)($_POST['firstName'] ?? ''));
     $lastName = trim((string)($_POST['lastName'] ?? ''));
@@ -21,6 +22,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['form_type'] ?? '') === 'co
         $stmt->bind_param('ssssss', $firstName, $lastName, $email, $phone, $showName, $message);
         $stmt->execute();
         $stmt->close();
+        $emailBody = '<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border:1px solid #e3e7ea;border-radius:8px;border-collapse:separate;overflow:hidden;">'
+            . lp_email_field('Name', htmlspecialchars($firstName . ' ' . $lastName, ENT_QUOTES, 'UTF-8'))
+            . lp_email_field('Email', htmlspecialchars($email, ENT_QUOTES, 'UTF-8'))
+            . lp_email_field('Phone', htmlspecialchars($phone, ENT_QUOTES, 'UTF-8'))
+            . lp_email_field('Show', htmlspecialchars($showName ?: 'Not provided', ENT_QUOTES, 'UTF-8'))
+            . lp_email_field('Message', nl2br(htmlspecialchars($message, ENT_QUOTES, 'UTF-8')))
+            . '</table>';
+        lp_send_smtp_email('New Contact Inquiry - ' . $firstName . ' ' . $lastName, $emailBody, $email);
         $contactSuccess = 'Thank you. Your inquiry has been submitted.';
         $_POST = [];
     }

@@ -4,6 +4,7 @@ $proposalError = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['form_type'] ?? '') === 'proposal') {
     require __DIR__ . '/admin/config.php';
+    require_once __DIR__ . '/admin/mailer.php';
 
     $name = trim((string)($_POST['name'] ?? ''));
     $company = trim((string)($_POST['company'] ?? ''));
@@ -26,6 +27,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['form_type'] ?? '') === 'pr
         $stmt->bind_param('sssssssssss', $name, $company, $email, $phone, $showName, $showLocation, $stallSize, $buildType, $showDate, $budget, $message);
         $stmt->execute();
         $stmt->close();
+        $emailBody = '<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border:1px solid #e3e7ea;border-radius:8px;border-collapse:separate;overflow:hidden;">'
+            . lp_email_field('Name', htmlspecialchars($name, ENT_QUOTES, 'UTF-8'))
+            . lp_email_field('Company', htmlspecialchars($company, ENT_QUOTES, 'UTF-8'))
+            . lp_email_field('Email', htmlspecialchars($email, ENT_QUOTES, 'UTF-8'))
+            . lp_email_field('Phone', htmlspecialchars($phone, ENT_QUOTES, 'UTF-8'))
+            . lp_email_field('Show', htmlspecialchars($showName, ENT_QUOTES, 'UTF-8'))
+            . lp_email_field('Location', htmlspecialchars($showLocation, ENT_QUOTES, 'UTF-8'))
+            . lp_email_field('Stall Size', htmlspecialchars($stallSize, ENT_QUOTES, 'UTF-8'))
+            . lp_email_field('Build Type', htmlspecialchars($buildType, ENT_QUOTES, 'UTF-8'))
+            . lp_email_field('Show Date', htmlspecialchars($showDate ?: 'Not provided', ENT_QUOTES, 'UTF-8'))
+            . lp_email_field('Budget', htmlspecialchars($budget ?: 'Not provided', ENT_QUOTES, 'UTF-8'))
+            . lp_email_field('Message', nl2br(htmlspecialchars($message, ENT_QUOTES, 'UTF-8')))
+            . '</table>';
+        lp_send_smtp_email('New Proposal Request - ' . $showName, $emailBody, $email);
         $proposalSuccess = 'Thank you. Your proposal request has been submitted.';
         $_POST = [];
     }
