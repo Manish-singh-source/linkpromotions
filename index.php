@@ -8,7 +8,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
     <!-- Banner Section -->
     <section class="banner-section lp-banner">
         <video class="bg bg-video" autoplay muted loop playsinline preload="metadata" poster="images/myimage/banner.png" aria-hidden="true">
-            <source src="images/myimage/video/about-video.mp4" type="video/mp4">
+            <source src="images/myimage/websitebanner.mp4" type="video/mp4">
         </video>
     </section>
     <!-- End Banner Section -->
