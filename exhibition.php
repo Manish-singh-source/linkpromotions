@@ -17,7 +17,7 @@
             <div class="lp-exhibition-hero-grid">
                 <div class="lp-exhibition-hero-content">
                     <span class="lp-section-tag">Exhibition Stall Design &amp; Fabrication</span>
-                    <h2>Outstanding stand designs that communicate your brand clearly on the show floor.</h2>
+                    <h2>Outstanding Stand Designs That Communicate Your Brand Clearly on the Show Floor.</h2>
                     <p>Every exhibition stand has a message to communicate. Link Promotions and Exhibits works with clients to create exhibition campaigns that are innovative, informative and built for real visitor engagement.</p>
                     <p>From India to the UAE, Europe, the UK, the USA and South East Asia, we design, fabricate and manage stands for brands that need a dependable partner before, during and after show day.</p>
                     <div class="lp-exhibition-actions">
@@ -110,7 +110,7 @@
             <div class="lp-exhibition-network-grid">
                 <div>
                     <span class="lp-section-tag">Network &amp; Infrastructure</span>
-                    <h2>Built to support projects across major exhibition hubs.</h2>
+                    <h2>Built to Support Projects Across Major Exhibition Hubs.</h2>
                     <p>Our services and warehouse support span Mumbai, Ahmedabad, Delhi, Bengaluru, Chennai, Coimbatore and Hyderabad, with a corporate office in Mumbai.</p>
                 </div>
                 <div class="lp-exhibition-network-cards">
@@ -140,7 +140,7 @@
         <div class="auto-container">
             <div class="sec-title text-center">
                 <span class="sub-title orange">Our Exhibition Footprint</span>
-                <h2>Exhibitions We Have Worked On</h2>
+                <h2>Exhibitions We Have Worked on</h2>
                 <div class="text">From India's largest trade fairs to the world's most prestigious international expos, our on-ground experience spans the shows that matter.</div>
             </div>
 
@@ -195,7 +195,7 @@
             <div class="lp-exhibition-achievement-box">
                 <div>
                     <span class="lp-section-tag">Achievements</span>
-                    <h2>Recognition earned through consistent delivery.</h2>
+                    <h2>Recognition Earned Through Consistent Delivery.</h2>
                     <figure class="lp-exhibition-award-photo">
                         <img src="images/myimage/ac3.png" alt="Amar Sir winning the EEA Award">
                         <figcaption>EEA Awards</figcaption>
@@ -218,7 +218,7 @@
             <div class="lp-about-cta-box">
                 <div>
                     <span>Planning your next show?</span>
-                    <h2>Chances are, we already know that show floor.</h2>
+                    <h2>Chances Are, We Already Know that Show Floor.</h2>
                 </div>
                 <a href="proposal.php" class="theme-btn btn-style-one bg-orange"><span class="btn-title">Get Show-Specific Advice <i class="fa fa-arrow-right"></i></span></a>
             </div>

@@ -7,41 +7,46 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
 ?>
     <!-- Banner Section -->
     <section class="banner-section lp-banner">
-        <div class="bg bg-image" style="background-image: url(images/myimage/banner.png);"></div>
+        <video class="bg bg-video" autoplay muted loop playsinline preload="metadata" poster="images/myimage/banner.png" aria-hidden="true">
+            <source src="images/myimage/video/about-video.mp4" type="video/mp4">
+        </video>
+    </section>
+    <!-- End Banner Section -->
+
+    <!-- Results Strip Section -->
+    <section class="lp-proof-strip-section" aria-label="Link Promotions at a glance">
         <div class="auto-container">
-            <div class="content-box lp-hero-content">
-                <h1 class="title">
-                    Exhibition Stands That Transform
-                    <span>Floor Space into Powerful<br>Brand Experiences</span>
-                </h1>
-                <div class="lp-title-line"></div>
-                <h2>21+ Years of Proven Excellence in Exhibition<br>Stand Design and Fabrication Worldwide</h2>
-                <p>From initial concept to final teardown, Link Promotions and Exhibits designs, fabricates, and manages world-class exhibition stalls for Indian and international brands, with a trusted presence across India, the UAE, Europe, the United Kingdom, the United States, and South East Asia.</p>
-                <div class="lp-banner-actions">
-                    <a href="proposal.php" class="theme-btn btn-style-one bg-orange"><span class="btn-title">Schedule a Complimentary Design Consultation <i class="fa fa-arrow-right"></i></span></a>
-                    <a href="exhibition.php#lp-exhibition-gallery" class="theme-btn lp-outline-btn"><span>Explore Our Portfolio <i class="fa fa-arrow-right"></i></span></a>
-                </div>
-                <div class="lp-hero-stats">
-                    <div class="lp-stat count-box">
-                        <i class="fa fa-award"></i>
-                        <strong><span class="count-text" data-stop="21" data-speed="1600" data-suffix="+">0</span></strong>
-                        <span>Years of Industry Leadership</span>
+            <div class="lp-proof-strip">
+                <div class="lp-proof-stats">
+                    <div class="lp-proof-stat count-box">
+                        <i class="fa fa-award" aria-hidden="true"></i>
+                        <div>
+                            <strong><span class="count-text" data-stop="21" data-speed="1600" data-suffix="+">0</span></strong>
+                            <span>Years of Industry Leadership</span>
+                        </div>
                     </div>
-                    <div class="lp-stat count-box">
-                        <i class="fa fa-building"></i>
-                        <strong><span class="count-text" data-stop="2100" data-speed="1900" data-suffix="+" data-format="comma">0</span></strong>
-                        <span>Exhibition Stalls Delivered Worldwide</span>
+                    <div class="lp-proof-stat count-box">
+                        <i class="fa fa-building" aria-hidden="true"></i>
+                        <div>
+                            <strong><span class="count-text" data-stop="2100" data-speed="1900" data-suffix="+" data-format="comma">0</span></strong>
+                            <span>Exhibition Stalls Delivered Worldwide</span>
+                        </div>
                     </div>
-                    <div class="lp-stat count-box">
-                        <i class="fa fa-users"></i>
-                        <strong><span class="count-text" data-stop="90" data-speed="1700" data-suffix="%+">0</span></strong>
-                        <span>Client Retention Rate</span>
+                    <div class="lp-proof-stat count-box">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <div>
+                            <strong><span class="count-text" data-stop="90" data-speed="1700" data-suffix="%+">0</span></strong>
+                            <span>Client Retention Rate</span>
+                        </div>
                     </div>
                 </div>
+                <a href="exhibition.php#lp-exhibition-gallery" class="theme-btn btn-style-one bg-orange lp-proof-button">
+                    <span class="btn-title">Explore Our Portfolio <i class="fa fa-arrow-right"></i></span>
+                </a>
             </div>
         </div>
     </section>
-    <!-- End Banner Section -->
+    <!-- End Results Strip Section -->
 
     <!-- About Section -->
     <section class="lp-about-section">
@@ -72,7 +77,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                 <div class="content-column col-xl-6 col-lg-12">
                     <div class="lp-about-content">
                         <div class="lp-section-tag">About Link Promotions and Exhibits Worldwide</div>
-                        <h2>We build your space,<br><span>you build your business.</span></h2>
+                        <h2>We Build Your Space,<br><span>You Build Your Business.</span></h2>
                         <p>Every exhibition is a powerful opportunity to put your brand in front of the people who matter most — buyers, distributors, investors, and industry leaders. At Link Promotions and Exhibits Worldwide, we transform that opportunity into impactful brand experiences that capture attention, create meaningful connections, and drive business growth.</p>
                         <p>We design and deliver exhibition spaces that position your brand with confidence, purpose, and impact.</p>
                         <p>Link Promotions and Exhibits Worldwide have designed and fabricated exhibition stalls for both B2B and B2C brands across
@@ -519,7 +524,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev1.png" data-rel="lightcase">
+                            <a href="images/myimage/ev1.png" data-fancybox="home-gallery">
                                 <img src="images/myimage/ev1.png" alt="Event glimpse">
                                 <img src="images/myimage/ev1.png" alt="Event glimpse">
                             </a>
@@ -531,7 +536,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev2.png" data-rel="lightcase">
+                            <a href="images/myimage/ev2.png" data-fancybox="home-gallery">
                                 <img src="images/myimage/ev2.png" alt="Event glimpse">
                                 <img src="images/myimage/ev2.png" alt="Event glimpse">
                             </a>
@@ -543,7 +548,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                        <a href="images/myimage/ev3.png" data-rel="lightcase">
+                        <a href="images/myimage/ev3.png" data-fancybox="home-gallery">
                             <img src="images/myimage/ev3.png" alt="Event glimpse">
                             <img src="images/myimage/ev3.png" alt="Event glimpse">
                             </a>
@@ -555,7 +560,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                        <a href="images/myimage/ev4.png" data-rel="lightcase">
+                        <a href="images/myimage/ev4.png" data-fancybox="home-gallery">
                             <img src="images/myimage/ev4.png" alt="Event glimpse">
                             <img src="images/myimage/ev4.png" alt="Event glimpse">
                             </a>
@@ -567,7 +572,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev5.png" data-rel="lightcase">
+                            <a href="images/myimage/ev5.png" data-fancybox="home-gallery">
                                 <img src="images/myimage/ev5.png" alt="Event glimpse">
                                 <img src="images/myimage/ev5.png" alt="Event glimpse">
                             </a>
@@ -579,7 +584,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev6.png" data-rel="lightcase">
+                            <a href="images/myimage/ev6.png" data-fancybox="home-gallery">
                                 <img src="images/myimage/ev6.png" alt="Event glimpse">
                                 <img src="images/myimage/ev6.png" alt="Event glimpse">
                             </a>
@@ -591,7 +596,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                        <a href="images/myimage/ev7.png" data-rel="lightcase">
+                        <a href="images/myimage/ev7.png" data-fancybox="home-gallery">
                             <img src="images/myimage/ev7.png" alt="Event glimpse">
                             <img src="images/myimage/ev7.png" alt="Event glimpse">
                             </a>
@@ -603,7 +608,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                        <a href="images/myimage/ev8.png" data-rel="lightcase">
+                        <a href="images/myimage/ev8.png" data-fancybox="home-gallery">
                             <img src="images/myimage/ev8.png" alt="Event glimpse">
                             <img src="images/myimage/ev8.png" alt="Event glimpse">
                             </a>
@@ -620,7 +625,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev9.png" data-rel="lightcase">
+                            <a href="images/myimage/ev9.png" data-fancybox="home-gallery">
                                 <img src="images/myimage/ev9.png" alt="Event glimpse">
                                 <img src="images/myimage/ev9.png" alt="Event glimpse">
                             </a>
@@ -632,7 +637,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev10.png" data-rel="lightcase">
+                            <a href="images/myimage/ev10.png" data-fancybox="home-gallery">
                                 <img src="images/myimage/ev10.png" alt="Event glimpse">
                                 <img src="images/myimage/ev10.png" alt="Event glimpse">
                             </a>
@@ -644,7 +649,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev11.png" data-rel="lightcase">
+                            <a href="images/myimage/ev11.png" data-fancybox="home-gallery">
                                 <img src="images/myimage/ev11.png" alt="Event glimpse">
                                 <img src="images/myimage/ev11.png" alt="Event glimpse">
                             </a>
@@ -656,7 +661,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev12.png" data-rel="lightcase">
+                            <a href="images/myimage/ev12.png" data-fancybox="home-gallery">
                                 <img src="images/myimage/ev12.png" alt="Event glimpse">
                                 <img src="images/myimage/ev12.png" alt="Event glimpse">
                             </a>
@@ -668,7 +673,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev13.png" data-rel="lightcase">
+                            <a href="images/myimage/ev13.png" data-fancybox="home-gallery">
                                 <img src="images/myimage/ev13.png" alt="Event glimpse">
                                 <img src="images/myimage/ev13.png" alt="Event glimpse">
                             </a>
@@ -680,7 +685,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev22.png" data-rel="lightcase">
+                            <a href="images/myimage/ev22.png" data-fancybox="home-gallery">
                                 <img src="images/myimage/ev22.png" alt="Event glimpse">
                                 <img src="images/myimage/ev22.png" alt="Event glimpse">
                             </a>
@@ -692,7 +697,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev16.png" data-rel="lightcase">
+                            <a href="images/myimage/ev16.png" data-fancybox="home-gallery">
                                 <img src="images/myimage/ev16.png" alt="Event glimpse">
                                 <img src="images/myimage/ev16.png" alt="Event glimpse">
                             </a>
@@ -704,7 +709,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                 <div class="gallery-block">
                     <div class="inner-box">
                         <figure class="image">
-                            <a href="images/myimage/ev17.png" data-rel="lightcase">
+                            <a href="images/myimage/ev17.png" data-fancybox="home-gallery">
                                 <img src="images/myimage/ev17.png" alt="Event glimpse">
                                 <img src="images/myimage/ev17.png" alt="Event glimpse">
                             </a>
@@ -929,7 +934,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
             <div class="lp-home-clients-head">
                 <div>
                     <span class="lp-section-tag">Our Clients</span>
-                    <h2>Trusted by brands across industries</h2>
+                    <h2>Trusted by Brands Across Industries</h2>
                 </div>
                 <a href="clients.php" class="theme-btn btn-style-one bg-orange lp-home-clients-btn"><span class="btn-title">View All Clients <i class="fa fa-arrow-right"></i></span></a>
             </div>
@@ -1082,7 +1087,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                  <div class="content-column col-xl-5 col-lg-12 col-md-12 col-sm-12 wow fadeInRight">
                     <div class="inner-column">
                         <div class="sec-title">
-                            <span class="sub-title orange">FAQS</span>
+                            <!-- <span class="sub-title orange">FAQS</span> -->
                             <h2>Frequently Asked Questions</h2>
                         </div>
 

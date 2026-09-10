@@ -100,7 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['form_type'] ?? '') === 'co
                             <li>
                                 <i class="lp-contact-icon fa fa-phone"></i>
                                 <div class="content">
-                                    <h4 class="title">Have any question?</h4>
+                                    <h4 class="title">Have Any Questions?</h4>
                                     <div class="text">
                                         <a href="tel:+919821337161">+91 9821337161</a><br>
                                         <a href="tel:+919930097161">+91 9930097161</a><br>
@@ -114,7 +114,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['form_type'] ?? '') === 'co
                             <li>
                                 <i class="lp-contact-icon fa fa-envelope"></i>
                                 <div class="content">
-                                    <h4 class="title">Write email</h4>
+                                    <h4 class="title">Write an Email</h4>
                                     <div class="text">
                                         <a href="mailto:amar@linkpromotions.co.in">amar@linkpromotions.co.in</a><br>
                                         <a href="mailto:mktg@linkpromotions.co.in">mktg@linkpromotions.co.in</a>
@@ -142,10 +142,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['form_type'] ?? '') === 'co
         </div>
     </section>
     <!-- End Contact Section -->
-
     <!-- Map Section -->
     <section class="map-section lp-contact-map p-0">
-        <iframe src="https://maps.google.com/maps?q=Ghanshyam%20Enclave%20913%209th%20Floor%20Kandivali%20West%20Mumbai%20400067&t=&z=15&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.8179978237367!2d72.8347235!3d19.2031501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6c43e333237%3A0x8adefc0da3d1b652!2sLink%20Promotions%20And%20Exhibits!5e0!3m2!1sen!2sin!4v1789020896860!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
     <!-- End Map Section -->
 

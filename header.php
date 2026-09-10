@@ -11,7 +11,11 @@
 <!-- Page Title -->
 <title>Link Promotions and Exhibits | Exhibition Stall Design & Fabrication</title>
 <!-- Favicon Icon -->
-<link rel="shortcut icon" href="images/myimage/favicon.png" type="image/x-icon">
+<link rel="icon" href="favicon/favicon.ico" sizes="any">
+<link rel="icon" href="favicon/favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+<link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
+<link rel="manifest" href="favicon/site.webmanifest">
 <!-- Stylesheets -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/master.css" rel="stylesheet">

@@ -68,19 +68,19 @@
                 <h3>Our Services</h3>
                 <ul>
                     <li>Exhibition Stall Design</li>
-                    <li><a href="" target="_blank">Exhibition Stall Fabrication</a></li>
-                    <li><a href="" target="_blank">Exhibition Stand Design</a></li>
-                    <li><a href="" target="_blank">Exhibition Booth Design</a></li>
-                    <li><a href="" target="_blank">Mezzanine Stall Designer</a></li>
-                    <li><a href="" target="_blank">Exhibition Stall Designer Delhi</a></li>
-                    <li><a href="" target="_blank">Exhibition Stall Designer in Brazil</a></li>
-                    <li><a href="" target="_blank">Exhibition Stall Designer in China</a></li>
-                    <li><a href="" target="_blank">Exhibition Stall Designer in Japan</a></li>
-                    <li><a href="" target="_blank">Exhibition Stall Designer in UAE</a></li>
-                    <li><a href="" target="_blank">Exhibition Stall Designer in UK</a></li>
-                    <li><a href="" target="_blank">Exhibition Stall Designer in Italy</a></li>
-                    <li><a href="" target="_blank">Exhibition Stall Designer in Germany</a></li>
-                    <li><a href="" target="_blank">Exhibition Stall Designer in South Africa</a></li>
+                    <li>Exhibition Stall Fabrication</li>
+                    <li>Exhibition Stand Design</li>
+                    <li>Exhibition Booth Design</li>
+                    <li>Mezzanine Stall Designer</li>
+                    <li>Exhibition Stall Designer Delhi</li>
+                    <li>Exhibition Stall Designer in Brazil</li>
+                    <li>Exhibition Stall Designer in China</li>
+                    <li>Exhibition Stall Designer in Japan</li>
+                    <li>Exhibition Stall Designer in UAE</li>
+                    <li>Exhibition Stall Designer in UK</li>
+                    <li>Exhibition Stall Designer in Italy</li>
+                    <li>Exhibition Stall Designer in Germany</li>
+                    <li>Exhibition Stall Designer in South Africa</li>
                 </ul>
             </div>
         </div>

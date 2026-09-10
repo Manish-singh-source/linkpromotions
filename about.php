@@ -62,7 +62,7 @@
         <div class="auto-container">
             <div class="lp-about-story-grid">
                 <div class="lp-about-story-intro">
-                    <h2>We build your space, you build your business.</h2>
+                    <h2>We Build Your Space, You Build Your Business.</h2>
                     <figure class="lp-about-story-video">
                         <video src="images/myimage/video/about-video.mp4" controls muted loop playsinline preload="metadata"></video>
                     </figure>
@@ -122,9 +122,7 @@
                 <img src="images/myimage/wld.png" alt="Worldwide network and completed projects">
             </div>
 
-            <div class="lp-about-trust-note">
-                This unwavering dedication, proven commitment and consistently high standards have earned us the trust and long-term partnership of over 500 clients across diverse industries.
-            </div>
+          
         </div>
     </section>
     <!-- End Key Highlights Section -->
@@ -135,12 +133,12 @@
             <div class="lp-about-mission-grid">
                 <article>
                     <span>Our Mission</span>
-                    <h3>Free clients to focus on growth.</h3>
+                    <h3>Free Clients to Focus on Growth.</h3>
                     <p>Our mission is to empower clients with strong online and offline marketing strategies and execute them well. Whether on-ground exhibition stands or virtual experiences, our goal is to make this activity easier for clients so they can focus on their path to success.</p>
                 </article>
                 <article>
                     <span>Our Vision</span>
-                    <h3>Upgrade with technology and intent.</h3>
+                    <h3>Upgrade with Technology and Intent.</h3>
                     <p>Our vision is to consistently upgrade with technology in brand communication and create models that target the right audience for our clients, leading to mutual growth.</p>
                 </article>
             </div>
@@ -151,18 +149,15 @@
     <!-- Achievements Section -->
     <section class="lp-about-achievements-section">
         <div class="auto-container">
-            <div class="lp-about-achievements-layout">
+            <div class="lp-about-achievements-heading">
                 <div class="lp-about-achievements-content">
                     <span class="lp-section-tag">Awards &amp; Recognition</span>
-                    <h2>Achievements earned through consistent delivery.</h2>
-                    <p>Our work has been recognised across exhibitions, brand environments and sustainable execution practices, backed by more than 25 award-winning projects completed worldwide.</p>
-                    <div class="lp-achievement-stat">
-                        <strong>50+</strong>
-                        <span>Award winning exhibition projects</span>
-                    </div>
+                    <h2>Recognised for Ideas That Make an Impact.</h2>
+                    <p>Every recognition reflects our commitment to thoughtful design, seamless execution and memorable brand experiences.</p>
                 </div>
+            </div>
 
-                <div class="lp-about-achievements-gallery">
+            <div class="lp-about-achievements-gallery">
                     <figure class="lp-achievement-card lp-achievement-card-tall reveal overlay-anim">
                         <a href="images/myimage/ac1.png" data-rel="lightcase:awards">
                             <img src="images/myimage/ac1.png" alt="Quality Brand of India award">
@@ -199,7 +194,6 @@
                         </a>
                         <figcaption>Sustainable Practices</figcaption>
                     </figure>
-                </div>
             </div>
         </div>
     </section>
@@ -221,16 +215,9 @@
                 </div>
 
                 <aside class="lp-about-founder-profile">
-                    <div class="lp-about-founder-stat">
-                        <strong>25+</strong>
-                        <span>Years of experience</span>
-                    </div>
-                    <ul>
-                        <li><i class="fa fa-award"></i><span>National Award Winner for Entrepreneurship</span></li>
-                        <li><i class="fa fa-certificate"></i><span>Quality Brand Award recipient</span></li>
-                        <li><i class="fa fa-trophy"></i><span>Exhibition Excellence Award 2026</span></li>
-                        <li><i class="fa fa-users"></i><span>Vice President of AESDAC</span></li>
-                    </ul>
+                    <figure class="lp-about-founder-image">
+                        <img src="images/myimage/founder.png" alt="Amarr Devani, Founder of Link Promotions and Exhibits">
+                    </figure>
                 </aside>
             </div>
         </div>
@@ -243,7 +230,7 @@
             <div class="lp-about-cta-box">
                 <div>
                     <span>Planning your next exhibition?</span>
-                    <h2>Let us build the space that builds your business.</h2>
+                    <h2>Let Us Build the Space That Builds Your Business.</h2>
                 </div>
                 <a href="proposal.php" class="theme-btn btn-style-one bg-orange"><span class="btn-title">Get Proposal <i class="fa fa-arrow-right"></i></span></a>
             </div>

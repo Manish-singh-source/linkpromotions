@@ -299,6 +299,12 @@ Tags:          event, conference, marketing, business
   filter: grayscale(0.65);
 }
 
+.lp-banner .bg-video {
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
 .lp-banner:after {
   content: "";
   position: absolute;
@@ -446,6 +452,80 @@ Tags:          event, conference, marketing, business
   line-height: 1.3;
 }
 
+.lp-proof-strip-section {
+  position: relative;
+  padding: 34px 0;
+  background: #ffffff;
+  border-bottom: 1px solid rgba(36, 38, 44, .08);
+}
+
+.lp-proof-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 34px;
+}
+
+.lp-proof-stats {
+  display: grid;
+  flex: 1 1 auto;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.lp-proof-stat {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 70px;
+  padding: 0 28px;
+  border-right: 1px solid rgba(36, 38, 44, .14);
+}
+
+.lp-proof-stat:first-child {
+  padding-left: 0;
+}
+
+.lp-proof-stat:last-child {
+  border-right: 0;
+}
+
+.lp-proof-stat i {
+  flex: 0 0 auto;
+  color: var(--lp-orange);
+  font-size: 29px;
+}
+
+.lp-proof-stat strong,
+.lp-proof-stat strong .count-text {
+  display: block;
+  color: var(--lp-dark);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.lp-proof-stat > div > span {
+  display: block;
+  margin-top: 6px;
+  color: #62646a;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.lp-proof-button {
+  flex: 0 0 auto;
+  min-width: 216px;
+  padding: 15px 24px !important;
+  border-radius: 7px !important;
+  text-align: center;
+}
+
+.lp-proof-button i {
+  margin-left: 8px;
+  transform: rotate(-45deg);
+}
+
 @media (max-width: 1199px) {
   .lp-header.header-style-one .main-box {
     margin: 0 20px;
@@ -546,6 +626,30 @@ Tags:          event, conference, marketing, business
     font-size: 9px;
     line-height: 1.2;
   }
+
+  .lp-proof-strip {
+    gap: 22px;
+  }
+
+  .lp-proof-stat {
+    gap: 9px;
+    padding: 0 14px;
+  }
+
+  .lp-proof-stat strong,
+  .lp-proof-stat strong .count-text {
+    font-size: 25px;
+  }
+
+  .lp-proof-stat > div > span {
+    font-size: 10px;
+  }
+
+  .lp-proof-button {
+    min-width: 190px;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+  }
 }
 
 @media (max-width: 575px) {
@@ -617,6 +721,47 @@ Tags:          event, conference, marketing, business
     width: 100%;
     min-height: 56px;
     padding: 16px 18px;
+  }
+
+  .lp-proof-strip-section {
+    padding: 28px 0;
+  }
+
+  .lp-proof-strip {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .lp-proof-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .lp-proof-stat,
+  .lp-proof-stat:first-child {
+    min-height: 72px;
+    padding: 13px 0;
+    border-right: 0;
+    border-bottom: 1px solid rgba(36, 38, 44, .12);
+  }
+
+  .lp-proof-stat:last-child {
+    border-bottom: 0;
+  }
+
+  .lp-proof-stat strong,
+  .lp-proof-stat strong .count-text {
+    font-size: 29px;
+  }
+
+  .lp-proof-stat > div > span {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  .lp-proof-button {
+    width: 100%;
+    margin-top: 2px;
   }
 }
 
@@ -3156,7 +3301,7 @@ Tags:          event, conference, marketing, business
   list-style: none;
 }
 
-.lp-footer-services a {
+.lp-footer-services li {
   position: relative;
   display: inline-block;
   padding-left: 16px;
@@ -3166,7 +3311,7 @@ Tags:          event, conference, marketing, business
   line-height: 1.35;
 }
 
-.lp-footer-services a:before {
+.lp-footer-services li:before {
   content: "";
   position: absolute;
   left: 0;
@@ -3175,10 +3320,6 @@ Tags:          event, conference, marketing, business
   height: 6px;
   border-radius: 50%;
   background: #f05a00;
-}
-
-.lp-footer-services a:hover {
-  color: #f05a00;
 }
 
 .lp-whatsapp-float {
@@ -3235,6 +3376,10 @@ Tags:          event, conference, marketing, business
 
 .progress-wrap.active-progress {
   bottom: 110px;
+}
+
+.progress-wrap:hover {
+  background-color: #686b72;
 }
 
 .lp-testimonial-orange .bg-box:before,
@@ -3429,6 +3574,15 @@ Tags:          event, conference, marketing, business
   font-size: 24px;
 }
 
+.lp-contact-page .sec-title .sub-title {
+  color: #f05a00;
+}
+
+.lp-contact-page .sec-title h2,
+.lp-contact-list .title {
+  color: #686b72;
+}
+
 .lp-contact-list .text,
 .lp-contact-list .text a {
   color: #55575d;
@@ -3441,11 +3595,11 @@ Tags:          event, conference, marketing, business
 }
 
 .lp-contact-form #contact-submit {
-  background: #777777;
+  background: #f05a00;
 }
 
 .lp-contact-form #contact-submit:before {
-  background: #666666;
+  background: #686b72;
 }
 
 .lp-contact-form #contact-submit:hover {
@@ -3794,6 +3948,13 @@ Tags:          event, conference, marketing, business
   z-index: 1;
 }
 
+.lp-about-achievements-heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
 .lp-about-achievements-layout {
   display: grid;
   grid-template-columns: minmax(270px, .72fr) minmax(0, 1.28fr);
@@ -3802,19 +3963,20 @@ Tags:          event, conference, marketing, business
 }
 
 .lp-about-achievements-content {
-  max-width: 480px;
+  max-width: 760px;
 }
 
 .lp-about-achievements-content h2 {
-  margin: 12px 0 18px;
+  margin: 14px 0 16px;
   color: #24262c;
-  font-size: 48px;
+  font-size: 52px;
   line-height: 1.08;
   letter-spacing: 0;
 }
 
 .lp-about-achievements-content p {
-  margin: 0;
+  max-width: 650px;
+  margin: 0 auto;
   color: #5b5d64;
   font-size: 18px;
   line-height: 1.75;
@@ -3849,8 +4011,7 @@ Tags:          event, conference, marketing, business
 .lp-about-achievements-gallery {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  grid-auto-rows: 220px;
-  gap: 16px;
+  gap: 24px;
 }
 
 .lp-about-global-image {
@@ -3870,10 +4031,10 @@ Tags:          event, conference, marketing, business
 .lp-achievement-card {
   overflow: hidden;
   margin: 0;
-  border: 2px solid rgba(240, 90, 0, .12);
-  border-radius: 8px;
+  border: 1px solid rgba(36, 38, 44, .09);
+  border-radius: 14px;
   background: #ffffff;
-  box-shadow: 0 18px 38px rgba(36, 38, 44, .09);
+  box-shadow: 0 16px 36px rgba(36, 38, 44, .08);
   transition: all 280ms ease;
 }
 
@@ -3885,7 +4046,7 @@ Tags:          event, conference, marketing, business
 
 .lp-achievement-card a {
   display: block;
-  height: calc(100% - 38px);
+  height: 270px;
   cursor: zoom-in;
 }
 
@@ -3893,34 +4054,39 @@ Tags:          event, conference, marketing, business
   display: block;
   width: 100%;
   height: 100%;
-  padding: 6px;
+  padding: 12px;
   object-fit: contain;
-  background: linear-gradient(180deg, #ffffff 0%, #fff8f3 100%);
+  background: linear-gradient(145deg, #ffffff 0%, #fff7f1 100%);
+  transition: transform 400ms ease;
+}
+
+.lp-achievement-card:hover img {
+  transform: scale(1.04);
 }
 
 .lp-achievement-card figcaption {
   display: flex;
   align-items: center;
-  min-height: 38px;
-  padding: 7px 12px;
+  min-height: 58px;
+  padding: 12px 18px;
   color: #24262c;
-  border-top: 1px solid rgba(240, 90, 0, .16);
-  background: #fff7f1;
-  font-size: 14px;
+  border-top: 1px solid rgba(240, 90, 0, .14);
+  background: #ffffff;
+  font-size: 15px;
   font-weight: 800;
   line-height: 1.25;
 }
 
 .lp-achievement-card-wide {
-  grid-column: span 2;
+  grid-column: auto;
 }
 
 .lp-achievement-card-tall {
-  grid-row: span 2;
+  grid-row: auto;
 }
 
 .lp-about-founder-section {
-  padding: 98px 0;
+  padding: 98px 0 55px;
   background: #fff7f1;
 }
 
@@ -3958,7 +4124,7 @@ Tags:          event, conference, marketing, business
 }
 
 .lp-about-founder-content p strong {
-  color: #24262c;
+  color: #686b72;
   font-weight: 800;
 }
 
@@ -3967,11 +4133,23 @@ Tags:          event, conference, marketing, business
 }
 
 .lp-about-founder-profile {
-  padding: 38px 34px;
+  overflow: hidden;
+  align-self: center;
+  padding: 0;
   border-left: 6px solid #f05a00;
   border-radius: 18px;
-  background: #24262c;
+  background: #ffffff;
   box-shadow: 0 22px 50px rgba(36, 38, 44, .14);
+}
+
+.lp-about-founder-image {
+  margin: 0;
+}
+
+.lp-about-founder-image img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .lp-about-founder-stat {
@@ -4024,7 +4202,7 @@ Tags:          event, conference, marketing, business
   text-align: center;
 }
 
-.lp-about-cta-section {  padding: 80px 0;
+.lp-about-cta-section {  padding: 55px 0;
   background: #fff7f1;
 }
 
@@ -4880,6 +5058,10 @@ Tags:          event, conference, marketing, business
     padding: 28px 24px;
   }
 
+  .lp-about-cta-section {
+    padding: 40px 0;
+  }
+
   .lp-about-cta-box h2 {
     font-size: 30px;
   }
@@ -4893,7 +5075,11 @@ Tags:          event, conference, marketing, business
   }
 
   .lp-about-founder-profile {
-    padding: 28px 24px;
+    padding: 0;
+  }
+
+  .lp-about-founder-section {
+    padding-bottom: 38px;
   }
 
   .lp-about-achievements-gallery {
@@ -4906,6 +5092,10 @@ Tags:          event, conference, marketing, business
   .lp-achievement-card-tall {
     grid-column: auto;
     grid-row: auto;
+  }
+
+  .lp-achievement-card a {
+    height: 245px;
   }
 
   .lp-achievement-card img {
@@ -5202,4 +5392,107 @@ Tags:          event, conference, marketing, business
 
 .theme-btn span {
   text-transform: capitalize;
+}
+
+/* Homepage content headings and card titles use a softer graphite tone. */
+.lp-about-content h2,
+.lp-about-positioning,
+.lp-solutions-head h2,
+.lp-news-section .sec-title h2,
+.faq-section .sec-title h2,
+.lp-footprint-title h2,
+.lp-event-schedule-section .sec-title h2,
+.lp-industries-intro h2,
+.lp-home-clients-head h2 {
+  color: #686b72;
+}
+
+.lp-about-content h2 span,
+.lp-industries-intro h2 strong {
+  color: #7b7e85;
+}
+
+.lp-about-content p strong {
+  color: #686b72;
+}
+
+.lp-solution-card h3,
+.lp-news-section .news-block-two .inner-box .content-box .title a,
+.lp-footprint-type h3,
+.lp-footprint-events h4,
+.lp-footprint-glance-content h3,
+.lp-footprint-tabs .tab-btn,
+.lp-industries-promise,
+.lp-industry-content h3 {
+  color: #686b72;
+}
+
+/* About page headings and card titles use the same gray tone. */
+.lp-about-page-content h2,
+.lp-about-story-intro h2,
+.lp-about-highlights-section .sec-title h2,
+.lp-about-highlight-card h3,
+.lp-about-mission-grid h3,
+.lp-about-achievements-content h2,
+.lp-achievement-card figcaption,
+.lp-about-founder-content h2,
+.lp-about-cta-box h2,
+.lp-about-page-stats > div > span,
+.lp-about-trust-note {
+  color: #686b72;
+}
+
+/* Exhibition page headings and card titles use the shared gray tone. */
+.lp-exhibition-hero-content h2,
+.lp-exhibition-network h2,
+.lp-exhibition-achievement-box h2,
+.lp-exhibition-services .sec-title h2,
+.lp-exhibition-footprint .sec-title h2,
+.lp-exhibition-gallery .sec-title h2,
+.lp-exhibition-strength-grid h3,
+.lp-exhibition-services-grid h3,
+.lp-exhibition-network-cards h3,
+.lp-exhibition-footprint h3,
+.lp-exhibition-reach span,
+.lp-exhibition-award-photo figcaption {
+  color: #686b72;
+}
+
+.lp-exhibition-services .sec-title .sub-title {
+  color: #f05a00;
+}
+
+.lp-exhibition-footprint .sec-title .sub-title {
+  color: #f05a00;
+}
+
+.lp-exhibition-gallery .sec-title .sub-title {
+  color: #f05a00;
+}
+
+.lp-exhibition-achievements + .lp-about-cta-section .lp-about-cta-box > div > span {
+  text-transform: none;
+}
+
+/* Event page headings and card titles use the shared gray tone. */
+.lp-event-page-content h2,
+.lp-event-types-section .sec-title h2,
+.lp-event-process-section h2,
+.lp-event-capabilities-section .sec-title h2,
+.lp-event-gallery-section .sec-title h2,
+.lp-event-types-grid h3,
+.lp-event-process-list h3,
+.lp-event-capabilities-grid div span {
+  color: #686b72;
+}
+
+.lp-event-types-section .sec-title .sub-title,
+.lp-event-capabilities-section .sec-title .sub-title,
+.lp-event-gallery-section .sec-title .sub-title {
+  color: #f05a00;
+}
+
+.lp-event-page-hero ~ .lp-about-cta-section .lp-about-cta-box > div > span {
+  text-transform: none;
+  color: #f05a00;
 }

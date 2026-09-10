@@ -17,7 +17,7 @@
             <div class="lp-event-page-hero-grid">
                 <div class="lp-event-page-content">
                     <span class="lp-section-tag">Events &amp; Launches</span>
-                    <h2>From concept to execution, we create brand moments people remember.</h2>
+                    <h2>From Concept to Execution, We Create Brand Moments People Remember.</h2>
                     <p>Link Promotions and Exhibits has organized and managed grand events across India for B2B and B2C brands, including product launches, fashion shows, dealer meets, award functions and seminars.</p>
                     <p>We bring the same discipline from exhibition execution into live brand experiences: clear planning, strong visual communication, technical coordination and dependable on-ground delivery.</p>
                     <div class="lp-event-page-actions">
@@ -87,7 +87,7 @@
             <div class="lp-event-process-grid">
                 <div>
                     <span class="lp-section-tag">Our Event Process</span>
-                    <h2>One accountable team from brief to show day.</h2>
+                    <h2>One Accountable Team from Brief to Show Day.</h2>
                     <p>Every event is planned around the message it needs to deliver. We build backward from your objective and manage the details that make execution feel smooth.</p>
                 </div>
                 <div class="lp-event-process-list">
@@ -164,7 +164,7 @@
             <div class="lp-about-cta-box">
                 <div>
                     <span>Your next event starts with a conversation</span>
-                    <h2>Share your dates, venue and goal. We will help plan the next steps.</h2>
+                <h2>Share Your Dates, Venue and Goal. We Will Help Plan the Next Steps.</h2>
                 </div>
                 <a href="proposal.php" class="theme-btn btn-style-one bg-orange"><span class="btn-title">Get Event Proposal <i class="fa fa-arrow-right"></i></span></a>
             </div>
