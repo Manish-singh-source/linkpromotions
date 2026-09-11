@@ -301,8 +301,10 @@ Tags:          event, conference, marketing, business
 
 .lp-banner .bg-video {
   display: block;
-  object-fit: cover;
+  /* Keep the complete video visible at every desktop/laptop aspect ratio. */
+  object-fit: contain;
   object-position: center;
+  background: #151515;
 }
 
 .lp-banner:after {
@@ -648,6 +650,14 @@ Tags:          event, conference, marketing, business
 }
 
 @media (max-width: 575px) {
+  .lp-banner .bg-video {
+    width: 100vw;
+    max-width: none;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
   .lp-header.header-style-one .main-box {
     margin: 0 14px;
     min-height: 82px;
@@ -2017,6 +2027,115 @@ Tags:          event, conference, marketing, business
   overflow: hidden;
   padding: 108px 0 112px;
   background: #f4f4f4;
+}
+
+.lp-footprint-cta-section {
+  position: relative;
+  overflow: hidden;
+  padding: 58px 0;
+  background: #d9d9d9;
+}
+
+.lp-footprint-cta-box {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 28px;
+  padding: 34px 42px;
+  border: 1px solid rgba(36, 38, 44, .14);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, .28);
+  box-shadow: 0 18px 50px rgba(36, 38, 44, .14);
+}
+
+.lp-footprint-cta-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border-radius: 18px;
+  color: #fff;
+  background: linear-gradient(135deg, #ff8a10, #f05a00);
+  font-size: 28px;
+  transform: rotate(-5deg);
+}
+
+.lp-footprint-cta-copy .lp-section-tag {
+  display: block;
+  margin-bottom: 8px;
+  color: #ff8a10;
+}
+
+.lp-footprint-cta-copy h2 {
+  margin: 0 0 10px;
+  color: #686b72;
+  font-size: 34px;
+  line-height: 1.15;
+}
+
+.lp-footprint-cta-copy p {
+  max-width: 670px;
+  margin: 0;
+  color: #4f5158;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.lp-footprint-cta-actions {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  align-items: stretch;
+  justify-content: center;
+  gap: 14px;
+  width: 300px;
+}
+
+.lp-footprint-cta-actions .btn-style-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 58px;
+  padding: 17px 24px;
+  white-space: nowrap;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.lp-footprint-cta-actions a,
+.lp-footprint-cta-actions a:hover,
+.lp-footprint-cta-actions a:focus {
+  text-decoration: none !important;
+}
+
+.lp-footprint-cta-pattern {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  border: 1px solid rgba(240, 90, 0, .28);
+  border-radius: 50%;
+}
+
+.lp-footprint-cta-pattern::after {
+  position: absolute;
+  content: "";
+  inset: 20px;
+  border: 1px solid rgba(255, 138, 16, .18);
+  border-radius: 50%;
+}
+
+.lp-footprint-cta-pattern-left {
+  top: -125px;
+  left: -85px;
+}
+
+.lp-footprint-cta-pattern-right {
+  right: -90px;
+  bottom: -145px;
 }
 
 .lp-event-schedule-section .bg-image {
@@ -5529,4 +5648,56 @@ body .sec-title .sub-title,
 .lp-proof-stat strong,
 .lp-proof-stat strong .count-text {
   color: #686b72;
+}
+
+@media (max-width: 991px) {
+  .lp-footprint-cta-box {
+    grid-template-columns: 60px minmax(0, 1fr);
+    gap: 22px;
+    padding: 30px;
+  }
+
+  .lp-footprint-cta-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 23px;
+  }
+
+  .lp-footprint-cta-actions {
+    grid-column: 2;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+  }
+
+  .lp-footprint-cta-actions .btn-style-one {
+    width: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .lp-footprint-cta-section {
+    padding: 42px 0;
+  }
+
+  .lp-footprint-cta-box {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 26px 22px;
+  }
+
+  .lp-footprint-cta-actions {
+    grid-column: auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .lp-footprint-cta-actions .btn-style-one {
+    width: 100%;
+    text-align: center;
+  }
+
 }

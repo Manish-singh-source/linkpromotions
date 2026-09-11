@@ -491,23 +491,6 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                 </div>
                             </div> 
                             -->
-                            <div class="event-block-two">
-                                <div class="inner-box event-block-inner">
-                                    <div class="shape-thirty"></div><div class="shape-thirtyone"></div>
-                                    <div class="time-box"><i class="icon fal fa-clock"></i><h5 class="time">Advice</h5></div>
-                                    <div class="title-box">
-                                        <h4 class="title"><a href="proposal.php">Planning Your Next Show?</a></h4>
-                                        <div class="speaker-box">
-                                            
-                                            <div class="speaker">Whether it is a domestic trade fair or an international expo, chances are we have already worked that show floor &mdash; and know exactly what it takes to succeed there.</div>
-                                        </div>
-                                    </div>
-                                    <div class="text-box"><div class="text">Get Show-Specific<br>Advice</div></div>
-                                    <div class="btn-box">
-                                        <a href="proposal.php" class="read-more" aria-label="Get Show-Specific Advice"><i class="icon flaticon-arrows"></i></a>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -515,6 +498,25 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
         </div>
 	</section>
 	<!-- End Event Section -->
+
+    <!-- Exhibition Advice CTA -->
+    <section class="lp-footprint-cta-section" aria-labelledby="lp-footprint-cta-title">
+        <div class="lp-footprint-cta-pattern lp-footprint-cta-pattern-left"></div>
+        <div class="lp-footprint-cta-pattern lp-footprint-cta-pattern-right"></div>
+        <div class="auto-container">
+            <div class="lp-footprint-cta-box">
+                <div class="lp-footprint-cta-icon"><i class="fa fa-compass"></i></div>
+                <div class="lp-footprint-cta-copy">
+                    <h2 id="lp-footprint-cta-title">Make your next exhibition count.</h2>
+                    <p>Tell us your show, industry, and objectives. Our team will help you plan a stand that gets noticed and works harder for your brand.</p>
+                </div>
+                <div class="lp-footprint-cta-actions">
+                    <a href="proposal.php" class="theme-btn btn-style-one bg-orange"><span class="btn-title">Get Expert Advice <i class="fa fa-arrow-right"></i></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Gallery Section -->
     <section class="gallery-section p-0">
         <div class="outer-box">
