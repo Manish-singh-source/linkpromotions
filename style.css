@@ -284,8 +284,10 @@ Tags:          event, conference, marketing, business
 }
 
 .lp-banner.banner-section {
-  min-height: 650px;
-  padding: 150px 0 24px;
+  /* Keep the desktop banner in the same 1920:900 frame as the video. */
+  height: min(46.875vw, 900px);
+  min-height: 0;
+  padding: 0;
   display: flex;
   align-items: center;
 }
@@ -301,10 +303,10 @@ Tags:          event, conference, marketing, business
 
 .lp-banner .bg-video {
   display: block;
-  /* Keep the complete video visible at every desktop/laptop aspect ratio. */
+  /* Match the 1920 x 900 source ratio and keep the complete video visible. */
   object-fit: contain;
   object-position: center;
-  background: #151515;
+  background: #000;
 }
 
 .lp-banner:after {
@@ -551,6 +553,12 @@ Tags:          event, conference, marketing, business
 }
 
 @media (max-width: 991px) {
+  /* Keep the mobile banner below the header instead of letting the
+     absolute background video sit behind/under the navigation. */
+  .lp-header {
+    position: relative;
+  }
+
   .lp-header .sticky-header .lp-sticky-proposal {
     display: none;
   }
@@ -560,8 +568,9 @@ Tags:          event, conference, marketing, business
   }
 
   .lp-header.header-style-one .main-box {
+    margin: 0;
     min-height: 82px;
-    border-radius: 0 0 28px 28px;
+    border-radius: 0;
   }
 
   .lp-header.header-style-one .main-box .logo-box {
@@ -580,8 +589,9 @@ Tags:          event, conference, marketing, business
   }
 
   .lp-banner.banner-section {
-    min-height: 760px;
-    padding-top: 155px;
+    height: 46.875vw;
+    min-height: 0;
+    padding-top: 0;
   }
 
   .lp-banner .lp-hero-content .title {
@@ -654,12 +664,12 @@ Tags:          event, conference, marketing, business
     width: 100vw;
     max-width: none;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
   }
 
   .lp-header.header-style-one .main-box {
-    margin: 0 14px;
+    margin: 0;
     min-height: 82px;
     overflow: hidden;
   }
@@ -696,8 +706,9 @@ Tags:          event, conference, marketing, business
   }
 
   .lp-banner.banner-section {
-    min-height: 820px;
-    padding-top: 135px;
+    height: 46.875vw;
+    min-height: 0;
+    padding-top: 0;
   }
 
   .lp-banner .lp-hero-content .title {
