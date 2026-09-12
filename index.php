@@ -29,7 +29,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                         <i class="fa fa-building" aria-hidden="true"></i>
                         <div>
                             <strong><span class="count-text" data-stop="2100" data-speed="1900" data-suffix="+" data-format="comma">0</span></strong>
-                            <span>Exhibition Stalls Delivered Worldwide</span>
+                            <span>Exhibition Booths Delivered Worldwide</span>
                         </div>
                     </div>
                     <div class="lp-proof-stat count-box">
@@ -77,7 +77,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                 <div class="content-column col-xl-6 col-lg-12">
                     <div class="lp-about-content">
                         <div class="lp-section-tag">About Link Promotions and Exhibits Worldwide</div>
-                        <h2>We Build Your Space,<br><span>You Build Your Business.</span></h2>
+                        <h2>We Build Your <span>Space</span>,<br>You Build Your <span>Business</span>.</h2>
                         <p>Every exhibition is a powerful opportunity to put your brand in front of the people who matter most — buyers, distributors, investors, and industry leaders. At Link Promotions and Exhibits Worldwide, we transform that opportunity into impactful brand experiences that capture attention, create meaningful connections, and drive business growth.</p>
                         <p>We design and deliver exhibition spaces that position your brand with confidence, purpose, and impact.</p>
                         <p>Link Promotions and Exhibits Worldwide have designed and fabricated exhibition stalls for both B2B and B2C brands across
@@ -207,7 +207,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                     <div class="inner-column">
                         <div class="sec-title orange">
                             <!-- <span class="sub-title">Our Work</span> -->
-                            <h2>Recent Work, Real Results</h2>
+                            <h2>Recent <span>Work</span>, Real <span>Results</span></h2>
                             <div class="text">From compact modular units to landmark double-height pavilions, our portfolio spans India, Europe, the UAE, and beyond.</div>
                         </div>
                         <div class="btn-box">

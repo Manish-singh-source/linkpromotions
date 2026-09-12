@@ -29,7 +29,7 @@
                     <img src="images/myimage/Hannover.jpeg" alt="Premium exhibition stand">
                     <div class="lp-exhibition-project-badge">
                         <strong>2,100+</strong>
-                        <span>Stalls Delivered Worldwide</span>
+                        <span>Project Delivered Worldwide</span>
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@ Tags:          event, conference, marketing, business
 }
 
 .lp-header {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -100,12 +100,12 @@ Tags:          event, conference, marketing, business
 }
 
 .lp-header.header-style-one .main-box {
-  margin: 0 48px;
+  margin: 0;
   min-height: 105px;
-  background: rgba(255, 255, 255, 0.96);
-  border-radius: 0 0 48px 48px;
+  background: #ffffff;
+  border-radius: 0;
   overflow: hidden;
-  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.10);
+  box-shadow: none;
 }
 
 .lp-header > .auto-container {
@@ -298,7 +298,6 @@ Tags:          event, conference, marketing, business
 
 .lp-banner .bg {
   opacity: 1;
-  filter: grayscale(0.65);
 }
 
 .lp-banner .bg-video {
@@ -1350,6 +1349,10 @@ Tags:          event, conference, marketing, business
   color: #24242b;
 }
 
+.lp-news-section .sec-title h2 span {
+  color: var(--lp-orange);
+}
+
 .lp-news-section .sec-title .text {
   color: #62646b;
 }
@@ -1361,6 +1364,11 @@ Tags:          event, conference, marketing, business
 
 .lp-news-section .news-block-two .inner-box:before {
   background: #eeeeee;
+}
+
+.lp-news-section .news-block-two .shape-sixteen,
+.lp-news-section .news-block-two .shape-seventeen {
+  filter: grayscale(1);
 }
 
 .lp-news-section .news-block-two .inner-box .content-box .cat,
@@ -5551,7 +5559,10 @@ Tags:          event, conference, marketing, business
   color: #686b72;
 }
 
-.lp-about-content h2 span,
+.lp-about-content h2 span {
+  color: var(--lp-orange);
+}
+
 .lp-industries-intro h2 strong {
   color: #7b7e85;
 }

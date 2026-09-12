@@ -133,8 +133,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['form_type'] ?? '') === 'co
                             <li>
                                 <i class="lp-contact-icon fa fa-map-marker-alt"></i>
                                 <div class="content">
-                                    <h4 class="title">Visit Us</h4>
-                                    <div class="text">Ghanshyam Enclave, 913, 9th Floor, Next To Laljipada Police Station, Laljipada, Link Road, Kandivali(W), Mumbai - 400067.</div>
+                                    <h4 class="title">Address</h4>
+                                    <div class="text">913, Ghanshyam Enclave,<br>Kandivali(W), Mumbai - 400067.<br>India</div>
                                 </div>
                             </li>
                             <li>
