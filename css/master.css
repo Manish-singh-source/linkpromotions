@@ -2462,6 +2462,7 @@ Scroll To Top style
   transition: all 400ms linear;
 }
 
+/* Custom mouse cursor disabled: using normal browser cursor.
 .circle {
   position: fixed;
   width: 10px;
@@ -2513,6 +2514,7 @@ Scroll To Top style
     display: none !important;
   }
 }
+*/
 
 /***====================================================================
   Search Popup

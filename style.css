@@ -2831,7 +2831,7 @@ Tags:          event, conference, marketing, business
 .lp-industry-content h3 {
   min-height: 58px;
   margin: 0;
-  color: #141414;
+  color: var(--lp-orange);
   font-size: 19px;
   font-weight: 700;
   line-height: 1.3;
@@ -5577,9 +5577,12 @@ Tags:          event, conference, marketing, business
 .lp-footprint-events h4,
 .lp-footprint-glance-content h3,
 .lp-footprint-tabs .tab-btn,
-.lp-industries-promise,
-.lp-industry-content h3 {
+.lp-industries-promise {
   color: #686b72;
+}
+
+.lp-industry-content h3 {
+  color: var(--lp-orange);
 }
 
 /* About page headings and card titles use the same gray tone. */

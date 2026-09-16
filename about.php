@@ -33,8 +33,8 @@
                     <!-- <p>Exhibitions offer no second chances. There is no dress rehearsal and no opening-night retake. Since the year 2000, Link Promotions and Exhibits has built its reputation the hard way: one flawless, deadline-driven build at a time.</p>
                     <p>Whether it is a modular unit or a double-height custom pavilion, our process has proven itself consistently - from Mumbai to Frankfurt, Dubai to Barcelona, and every major exhibition hub in between.</p>
                     <p>Because design and fabrication both happen in-house, our clients benefit from fewer handoffs, fewer surprises, and one accountable partner guiding every project from the first sketch through to final teardown.</p> -->
-                    <p>Since 2000, Link Promotions and Exhibits Worldwide has been creating exhibition experiences that make brands stand out. With 21+ years of expertise, we combine innovative design, precision fabrication, and seamless execution to deliver impactful exhibition spaces that attract attention, engage audiences, and elevate brand presence.</p>
-                    <p>Every project reflects our commitment to quality, creativity, and on-time execution from concept to completion.</p>
+                    <p>Since 2000, Link Promotions and Exhibits Worldwide has been creating exhibition experiences that help brands stand out. With 21+ years of expertise, we combine innovative design, precision fabrication, and seamless execution to deliver impactful exhibition spaces that attract attention, engage audiences, and elevate brand presence.</p>
+                    <p>Every project reflects our commitment to quality, creativity, and on-time execution, from concept to completion.</p>
                     <p>Whether it is a modular unit or a double-height custom pavilion, our process has proven itself consistently from Mumbai to Frankfurt, Dubai to Barcelona, and every major exhibition hub in between.</p>
                     <p>Because design and fabrication both happen in-house, our clients benefit from fewer handoffs, fewer surprises, and one accountable partner guiding every project from the first sketch through to final teardown.</p>
                     <div class="lp-about-page-stats">
@@ -43,7 +43,7 @@
                             <span>Years in Exhibition Design &amp; Fabrication</span>
                         </div>
                         <div class="count-box">
-                            <strong><span class="count-text" data-stop="2100" data-speed="1900" data-suffix="+" data-format="comma">0</span></strong>
+                            <strong><span class="count-text" data-stop="2500" data-speed="1900" data-suffix="+" data-format="comma">0</span></strong>
                             <span>Stalls Designed and Executed</span>
                         </div>
                         <div class="count-box">
@@ -64,13 +64,13 @@
                 <div class="lp-about-story-intro">
                     <h2>We Build Your Space, You Build Your Business.</h2>
                     <figure class="lp-about-story-video">
-                        <video src="images/myimage/video/about-video.mp4" controls muted loop playsinline preload="metadata"></video>
+                        <video src="images/myimage/video/about-video.mp4" controls muted playsinline preload="metadata"></video>
                     </figure>
                 </div>
                 <div class="lp-about-story-text">
-                    <p>Every exhibition is a brief but critical window to convince the people who matter most - buyers, distributors and investors - that your brand deserves their attention. Link Promotions and Exhibits exists to make sure that moment works decisively in your favour.</p>
+                    <p>Every exhibition is a brief but critical window to convince the people who matter most - buyers, distributors, and investors - that your brand deserves their attention. Link Promotions and Exhibits exists to make sure that moment works decisively in your favour.</p>
                     <p>Link Promotions and Exhibits has designed and fabricated exhibition stalls for both B2B and B2C brands across pharmaceuticals, engineering, chemicals, FMCG, jewellery, textiles, manufacturing, construction, food and beverage, electronics, automation, renewable energy, packaging, healthcare, logistics and supply chain industries.</p>
-                    <p>What has remained constant across more than two decades is our process: we begin by understanding exactly what you need to prove at that specific show, then design backward from that objective - shaping layout, materials, lighting, signage and visitor flow around your goals, not around a template.</p>
+                    <p>What has remained constant across more than two decades is our process: we begin by understanding exactly what you need to prove at that specific show, then design backward from that objective - shaping layout, materials, lighting, signage, and visitor flow around your goals, not around a template.</p>
                 </div>
             </div>
         </div>
@@ -89,12 +89,12 @@
                 <article class="lp-about-highlight-card">
                     <i class="fa fa-flag"></i>
                     <h3>Inception</h3>
-                    <p>Millennium year 2000. With a dynamic vision to serve through custom build exhibition stands and events and launches, Link Promotions and Exhibits has built a proven record as one of the strongest players in this industry for over two decades.</p>
+                    <p>Founded in 2000, Link Promotions and Exhibits began with a dynamic vision to serve brands through custom-built exhibition stands, events, and launches. Over the past two decades, we have built a proven record as one of the strongest players in the industry.</p>
                 </article>
                 <article class="lp-about-highlight-card">
                     <i class="fa fa-pencil-ruler"></i>
                     <h3>Creation</h3>
-                    <p>An in-house design studio with a core creative team, skilled supervisors and thorough technical guidance ensures every stand is designed for greater visitor visibility and strong brand presence.</p>
+                    <p>Our in-house design studio, supported by a core creative team, skilled supervisors, and thorough technical guidance, ensures every stand is designed for greater visitor visibility and strong brand presence.</p>
                 </article>
                 <article class="lp-about-highlight-card">
                     <i class="fa fa-industry"></i>
@@ -114,7 +114,7 @@
                 <article class="lp-about-highlight-card">
                     <i class="fa fa-globe-asia"></i>
                     <h3>Cultivation</h3>
-                    <p>A cultivated team - a true amalgamation of experience and technology - works to promote clients' brands and products worldwide across trade show platforms.</p>
+                    <p>Our cultivated team - a true amalgamation of experience and technology - works to promote clients' brands and products worldwide across trade show platforms.</p>
                 </article>
             </div>
 
@@ -134,7 +134,7 @@
                 <article>
                     <span>Our Mission</span>
                     <h3>Free Clients to Focus on Growth.</h3>
-                    <p>Our mission is to empower clients with strong online and offline marketing strategies and execute them well. Whether on-ground exhibition stands or virtual experiences, our goal is to make this activity easier for clients so they can focus on their path to success.</p>
+	                    <p>Our mission is to empower clients with strong online and offline marketing strategies and execute them effectively. Whether through on-ground exhibition stands or virtual experiences, our goal is to make this process easier for clients so they can focus on their path to success.</p>
                 </article>
                 <article>
                     <span>Our Vision</span>

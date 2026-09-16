@@ -4,6 +4,34 @@
 $clientLogoFiles = glob('images/myimage/client-logo/*.{jpg,jpeg,png,webp,gif,svg}', GLOB_BRACE);
 
 sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
+
+$featuredClientOrder = [
+    '13_Adobe',
+    '14_HP',
+    '08_Swarovski_Gemstones',
+    '06_Midea',
+    '20_SANY',
+    '03_FORBES',
+    '09_DYMO',
+    '12_Titan_Laboratories',
+    '05_BARNES_Molding_Solutions',
+    '04_Bliss_GVS',
+];
+
+$featuredClientOrder = array_flip($featuredClientOrder);
+
+usort($clientLogoFiles, function ($firstLogo, $secondLogo) use ($featuredClientOrder) {
+    $firstName = pathinfo($firstLogo, PATHINFO_FILENAME);
+    $secondName = pathinfo($secondLogo, PATHINFO_FILENAME);
+    $firstRank = $featuredClientOrder[$firstName] ?? PHP_INT_MAX;
+    $secondRank = $featuredClientOrder[$secondName] ?? PHP_INT_MAX;
+
+    if ($firstRank === $secondRank) {
+        return strnatcasecmp($firstLogo, $secondLogo);
+    }
+
+    return $firstRank <=> $secondRank;
+});
 ?>
 
     <!-- Page Title -->

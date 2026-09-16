@@ -640,8 +640,9 @@
 
 
 
-	if($('.circle-follow').length){		
-		// Mouse Circle Animation 
+	/*
+	if($('.circle-follow').length){
+		// Mouse Circle Animation disabled: using normal browser cursor.
 		var $circle = $('.circle'),
 		$follow = $('.circle-follow');
 		function moveCircle(e) {
@@ -675,6 +676,7 @@
 		$(window).on('mousemove', moveCircle);
 		$("a, .clink").hover(hoverFunc, unhoverFunc);
 	}
+	*/
 
 	// Elements Animation
 	if($('.wow').length){

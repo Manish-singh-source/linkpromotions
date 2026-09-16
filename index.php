@@ -753,7 +753,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                 </div>
                             </article>
 
-                            <article class="swiper-slide lp-industry-card is-featured">
+                            <article class="swiper-slide lp-industry-card">
                                 <div class="lp-industry-image">
                                     <img src="images/myimage/i2.png" alt="Industrial and engineering">
                                     <span class="lp-industry-icon"><i class="fa fa-industry"></i></span>

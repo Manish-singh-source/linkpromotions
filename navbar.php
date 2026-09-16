@@ -5,9 +5,10 @@ if ($lp_current_page === '' || $lp_current_page === 'index.html') {
     $lp_current_page = 'index.php';
 }
 ?>
-    <!-- Cursor Animation -->
+    <!-- Cursor Animation disabled: using normal browser cursor.
     <div class="circle"></div>
     <div class="circle-follow"></div>
+    -->
 
     <!-- Preloader -->
     <!-- <div class="preloader"></div> -->
