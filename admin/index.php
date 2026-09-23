@@ -92,7 +92,7 @@ function uploadPortfolioImage(array $file): string
         throw new RuntimeException('Please choose a valid image.');
     }
 
-    if ((int)$file['size'] > 6 * 1024 * 1024) {
+    if ((int)$file['size'] > 10 * 1024 * 1024) {
         throw new RuntimeException('Image size must be under 6 MB.');
     }
 
