@@ -28,7 +28,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                     <div class="lp-proof-stat count-box">
                         <i class="fa fa-building" aria-hidden="true"></i>
                         <div>
-                            <strong><span class="count-text" data-stop="2100" data-speed="1900" data-suffix="+" data-format="comma">0</span></strong>
+                            <strong><span class="count-text" data-stop="2500" data-speed="1900" data-suffix="+" data-format="comma">0</span></strong>
                             <span>Exhibition Booths Delivered Worldwide</span>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                         </figure>
                         <div class="lp-project-badge">
                             <span><i class="fa fa-chart-line"></i></span>
-                            <strong>2100+</strong>
+                            <strong>2500+</strong>
                             <small>Projects Delivered</small>
                         </div>
                     </div>
@@ -213,6 +213,11 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                         <div class="btn-box">
                             <a href="exhibition.php#lp-exhibition-gallery" class="theme-btn btn-style-one bg-orange"><span class="btn-title">View Our Full Portfolio</span></a>
                         </div>
+                        <div class="lp-recent-video">
+                            <video controls preload="metadata" playsinline>
+                                <source src="images/myimage/video/home-recent.mp4" type="video/mp4">
+                            </video>
+                        </div>
                     </div>
                 </div>
 
@@ -253,19 +258,18 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                 <div class="content-box">
                                     <div class="cat">Featured Projects</div>
                                     <ul class="post-meta">
-                                        <li><i class="icon fa fa-map-marker-alt"></i> Germany</li>
-                                        <li><i class="icon fa fa-industry"></i> Engineering</li>
+                                        <li><i class="icon fa fa-map-marker-alt"></i> Dusseldorf, Germany</li>
+                                        <li><i class="icon fa fa-industry"></i> K Show</li>
                                     </ul>
-                                    <!-- <h3 class="title"><a href="exhibition.php#lp-exhibition-gallery">Engineering Pavilion - Hannover Messe</a></h3> -->
-                                    <h3 class="title"><a href="exhibition.php#lp-exhibition-gallery">Dusseldorf, Germany</a></h3>
+                                    <h3 class="title"><a href="exhibition.php#lp-exhibition-gallery">K Show - Dusseldorf, Germany</a></h3>
                                 </div>
                                 <div class="image-box">
                                     <div class="date-box"><h4 class="date">02</h4><div class="month">Work</div></div>
                                     <div class="btn-box"><a href="exhibition.php#lp-exhibition-gallery" class="read-more"><i class="fa fa-arrow-right"></i></a></div>
                                     <figure class="image">
                                         <a href="exhibition.php#lp-exhibition-gallery">
-                                            <img src="images/myimage/Hannover.jpeg" alt="Engineering pavilion exhibition stand at Hannover Messe">
-                                            <img src="images/myimage/Hannover.jpeg" alt="Engineering pavilion exhibition stand at Hannover Messe">
+                                            <img src="images/myimage/Hannover.jpeg" alt="K Show exhibition stand in Dusseldorf, Germany">
+                                            <img src="images/myimage/Hannover.jpeg" alt="K Show exhibition stand in Dusseldorf, Germany">
                                         </a>
                                     </figure>
                                 </div>
@@ -280,17 +284,17 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
                                 <div class="content-box">
                                     <div class="cat">Featured Projects</div>
                                     <ul class="post-meta">
-                                        <li><i class="icon fa fa-map-marker-alt"></i> Mumbai</li>
-                                        <li><i class="icon fa fa-building"></i> Double-Height</li>
+                                        <li><i class="icon fa fa-map-marker-alt"></i> IEML, Noida</li>
+                                        <li><i class="icon fa fa-building"></i> Elecrama</li>
                                     </ul>
-                                    <h3 class="title"><a href="exhibition.php#lp-exhibition-gallery">Custom Double-Height Stand - Plastivision, Mumbai</a></h3>
+                                    <h3 class="title"><a href="exhibition.php#lp-exhibition-gallery">Elecrama - IEML, Noida</a></h3>
                                 </div>
                                 <div class="image-box">
                                     <div class="date-box"><h4 class="date">03</h4><div class="month">Work</div></div>
                                     <figure class="image">
                                         <a href="exhibition.php#lp-exhibition-gallery">
-                                            <img src="images/myimage/hm.jpeg" alt="Custom double-height exhibition stand">
-                                            <img src="images/myimage/hm.jpeg" alt="Custom double-height exhibition stand">
+                                            <img src="images/myimage/hm.jpeg" alt="Elecrama exhibition stand at IEML, Noida">
+                                            <img src="images/myimage/hm.jpeg" alt="Elecrama exhibition stand at IEML, Noida">
                                         </a>
                                     </figure>
                                 </div>

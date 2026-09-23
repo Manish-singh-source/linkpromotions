@@ -1406,6 +1406,23 @@ Tags:          event, conference, marketing, business
   background: #f05a00;
 }
 
+.lp-recent-video {
+  width: 100%;
+  max-width: 460px;
+  margin-top: 28px;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #111217;
+  box-shadow: 0 16px 36px rgba(36, 36, 43, 0.16);
+}
+
+.lp-recent-video video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
 .lp-work-layout {
   display: grid;
   grid-template-columns: minmax(300px, 0.78fr) minmax(0, 1.22fr);
@@ -3648,7 +3665,7 @@ Tags:          event, conference, marketing, business
 }
 
 .lp-contact-title {
-  padding: 245px 0 38px;
+  padding: 165px 0 28px;
   background: #f05a00;
 }
 
@@ -3666,7 +3683,7 @@ Tags:          event, conference, marketing, business
 .lp-contact-title .title {
   color: #ffffff;
   display: block;
-  font-size: 72px;
+  font-size: 54px;
   line-height: 1.05;
   margin: 0;
   text-align: center;
@@ -4459,7 +4476,7 @@ Tags:          event, conference, marketing, business
 }
 
 .lp-exhibition-title .title {
-  font-size: 66px;
+  font-size: 54px;
 }
 
 .lp-exhibition-hero {
@@ -4821,7 +4838,7 @@ Tags:          event, conference, marketing, business
 }
 
 .lp-event-page-title .title {
-  font-size: 66px;
+  font-size: 54px;
 }
 
 .lp-event-page-hero {
@@ -5041,11 +5058,11 @@ Tags:          event, conference, marketing, business
 
 @media (max-width: 991px) {
   .lp-contact-title {
-    padding: 210px 0 34px;
+    padding: 145px 0 26px;
   }
 
   .lp-contact-title .title {
-    font-size: 58px;
+    font-size: 46px;
   }
 
   .lp-about-page-grid,
@@ -5106,7 +5123,7 @@ Tags:          event, conference, marketing, business
   }
 
   .lp-exhibition-title .title {
-    font-size: 52px;
+    font-size: 44px;
   }
 
   .lp-exhibition-hero-grid,
@@ -5128,7 +5145,7 @@ Tags:          event, conference, marketing, business
   }
 
   .lp-event-page-title .title {
-    font-size: 52px;
+    font-size: 44px;
   }
 
   .lp-event-page-hero-grid,
@@ -5146,11 +5163,11 @@ Tags:          event, conference, marketing, business
 
 @media (max-width: 575px) {
   .lp-contact-title {
-    padding: 170px 0 30px;
+    padding: 124px 0 22px;
   }
 
   .lp-contact-title .title {
-    font-size: 42px;
+    font-size: 34px;
   }
 
   .lp-about-page-section,
@@ -5264,7 +5281,7 @@ Tags:          event, conference, marketing, business
   }
 
   .lp-exhibition-title .title {
-    font-size: 38px;
+    font-size: 34px;
   }
 
   .lp-exhibition-hero,
@@ -5301,7 +5318,7 @@ Tags:          event, conference, marketing, business
   }
 
   .lp-event-page-title .title {
-    font-size: 38px;
+    font-size: 34px;
   }
 
   .lp-event-page-hero,
@@ -5598,6 +5615,10 @@ Tags:          event, conference, marketing, business
 .lp-about-page-stats > div > span,
 .lp-about-trust-note {
   color: #686b72;
+}
+
+.lp-about-story-intro h2 span {
+  color: var(--lp-orange);
 }
 
 /* Exhibition page headings and card titles use the shared gray tone. */

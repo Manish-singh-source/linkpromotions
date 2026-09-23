@@ -62,9 +62,9 @@
         <div class="auto-container">
             <div class="lp-about-story-grid">
                 <div class="lp-about-story-intro">
-                    <h2>We Build Your Space, You Build Your Business.</h2>
+                    <h2>We Build Your <span>Space</span>, You Build Your <span>Business</span>.</h2>
                     <figure class="lp-about-story-video">
-                        <video src="images/myimage/video/about-video.mp4" controls muted playsinline preload="metadata"></video>
+                        <video src="images/myimage/video/about.mp4" controls muted playsinline preload="metadata"></video>
                     </figure>
                 </div>
                 <div class="lp-about-story-text">
