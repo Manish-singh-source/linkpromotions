@@ -983,7 +983,7 @@ if ($adminUser) {
                         <input id="password" name="password" type="password" autocomplete="current-password" required>
                         <button type="submit">Sign In</button>
                     </form>
-                    <!-- <div class="switch-link">Need an account? <a href="?action=register">Create account</a></div> -->
+                    <div class="switch-link">Need an account? <a href="?action=register">Create account</a></div>
                 <?php endif; ?>
             </section>
         </main>
