@@ -17,7 +17,7 @@
                 <div class="lp-footer-right">
                     <div class="lp-footer-event">
                         <div class="lp-footer-event-image">
-                            <img src="images/resource/lp-footprint-stand.jpg" alt="Link Promotions exhibition stand">
+                            <img src="images/myimage/footer-image.jpeg" alt="Link Promotions exhibition stand">
                         </div>
                         <div class="lp-footer-event-content">
                             <div class="lp-footer-date">India | UAE | Europe | UK | USA</div>

@@ -2481,11 +2481,11 @@ Tags:          event, conference, marketing, business
     display: none;
   }
 
-  .lp-project-badge {
-    left: 18px;
-    bottom: 18px;
+.lp-project-badge {
+    left: 14px;
+    bottom: -40px;
     min-width: 210px;
-  }
+}
 
   .lp-about-content h2 {
     font-size: 34px;
@@ -3297,7 +3297,6 @@ Tags:          event, conference, marketing, business
 
 .lp-footer-event-image img {
   width: 100%;
-  height: 168px;
   object-fit: cover;
   border-radius: 12px;
 }
