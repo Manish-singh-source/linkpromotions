@@ -15639,7 +15639,7 @@ Scroll To Top style
 .page-title .inner-container .title {
   position: relative;
   color: var(--theme-color-light);
-  margin-bottom: 130px;
+  margin-bottom: 75px;
 }
 @media (max-width: 991.98px) {
   .page-title .inner-container .title {
@@ -15654,7 +15654,7 @@ Scroll To Top style
 }
 @media (max-width: 575.98px) {
   .page-title .inner-container .title {
-    font-size: 48px;
+    font-size: 35px;
     margin-bottom: 20px;
   }
 }

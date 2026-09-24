@@ -1026,7 +1026,7 @@ Tags:          event, conference, marketing, business
   align-items: center;
   justify-content: center;
   min-width: 190px;
-  padding: 14px 28px;
+  padding: 8px 28px;
   border: 1px solid var(--lp-orange);
   border-radius: 28px;
   color: var(--lp-orange);
@@ -2504,6 +2504,15 @@ Tags:          event, conference, marketing, business
     line-height: 1.7;
   }
 
+  .lp-industries-pagination {
+    position: absolute;
+    bottom: -34px !important;
+    left: 0 !important;
+    width: 100%;
+    text-align: center;
+}
+
+
   .lp-solutions-section {
     padding: 56px 0 60px;
   }
@@ -2528,7 +2537,7 @@ Tags:          event, conference, marketing, business
   }
 
   .lp-news-section {
-    padding: 62px 0 58px;
+    padding: 62px 0 15px;
   }
 
   .lp-work-intro h2 {
@@ -2929,7 +2938,7 @@ Tags:          event, conference, marketing, business
 
 .lp-industries-pagination {
   position: absolute;
-  bottom: 0 !important;
+  bottom: 0;
   left: 0 !important;
   width: 100%;
   text-align: center;
@@ -3051,7 +3060,10 @@ Tags:          event, conference, marketing, business
   .lp-home-clients-section {
     padding: 58px 0;
   }
-
+  .faq-section {
+    position: relative;
+    padding: 0 0 20px;
+}
   .lp-home-clients-head h2 {
     font-size: 32px;
   }
@@ -3665,8 +3677,8 @@ Tags:          event, conference, marketing, business
 }
 
 .lp-contact-title {
-  padding: 165px 0 28px;
-  background: #f05a00;
+    padding: 97px 0 28px;
+    background: #f05a00;
 }
 
 .lp-contact-title:before {

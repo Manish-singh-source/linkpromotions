@@ -5,12 +5,16 @@ $clientLogoFiles = glob('images/myimage/client-logo/*.{jpg,jpeg,png,webp,gif,svg
 
 sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
 
+$clientLogoFiles = array_values(array_filter($clientLogoFiles, function ($clientLogoFile) {
+    return pathinfo($clientLogoFile, PATHINFO_FILENAME) !== '20_SANY';
+}));
+
 $featuredClientOrder = [
     '13_Adobe',
     '14_HP',
     '08_Swarovski_Gemstones',
     '06_Midea',
-    '20_SANY',
+    'new-sany',
     '03_FORBES',
     '09_DYMO',
     '12_Titan_Laboratories',

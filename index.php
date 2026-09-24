@@ -1,9 +1,20 @@
 <?php include 'header.php'; ?>
 <?php include 'navbar.php'; ?>
 <?php
+require __DIR__ . '/admin/config.php';
+
 $clientLogoFiles = glob('images/myimage/client-logo/*.{jpg,jpeg,png,webp,gif,svg}', GLOB_BRACE);
 
 sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
+
+$clientLogoFiles = array_values(array_filter($clientLogoFiles, function ($clientLogoFile) {
+    return pathinfo($clientLogoFile, PATHINFO_FILENAME) !== '20_SANY';
+}));
+
+$portfolioItems = [];
+$result = $conn->query('SELECT title, image_path FROM portfolio_items WHERE is_active = 1 ORDER BY display_order ASC, id ASC');
+$portfolioItems = $result->fetch_all(MYSQLI_ASSOC);
+$homeGalleryRows = array_chunk($portfolioItems, max(1, (int)ceil(count($portfolioItems) / 2)));
 ?>
     <!-- Banner Section -->
     <section class="banner-section lp-banner">
@@ -523,207 +534,29 @@ sort($clientLogoFiles, SORT_NATURAL | SORT_FLAG_CASE);
 
     <!-- Gallery Section -->
     <section class="gallery-section p-0">
-        <div class="outer-box">
-            <div class="gallery one">
-
-                <!-- Gallery Block -->
-                <div class="gallery-block">
-                    <div class="inner-box">
-                        <figure class="image">
-                            <a href="images/myimage/ev1.png" data-fancybox="home-gallery">
-                                <img src="images/myimage/ev1.png" alt="Event glimpse">
-                                <img src="images/myimage/ev1.png" alt="Event glimpse">
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-                
-                <!-- Gallery Block -->
-                <div class="gallery-block">
-                    <div class="inner-box">
-                        <figure class="image">
-                            <a href="images/myimage/ev2.png" data-fancybox="home-gallery">
-                                <img src="images/myimage/ev2.png" alt="Event glimpse">
-                                <img src="images/myimage/ev2.png" alt="Event glimpse">
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-                
-                 <!-- Gallery Block -->
-                <div class="gallery-block">
-                    <div class="inner-box">
-                        <figure class="image">
-                        <a href="images/myimage/ev3.png" data-fancybox="home-gallery">
-                            <img src="images/myimage/ev3.png" alt="Event glimpse">
-                            <img src="images/myimage/ev3.png" alt="Event glimpse">
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-            
-                <!-- Gallery Block -->
-                <div class="gallery-block">
-                    <div class="inner-box">
-                        <figure class="image">
-                        <a href="images/myimage/ev4.png" data-fancybox="home-gallery">
-                            <img src="images/myimage/ev4.png" alt="Event glimpse">
-                            <img src="images/myimage/ev4.png" alt="Event glimpse">
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-
-                <!-- Gallery Block -->
-                <div class="gallery-block">
-                    <div class="inner-box">
-                        <figure class="image">
-                            <a href="images/myimage/ev5.png" data-fancybox="home-gallery">
-                                <img src="images/myimage/ev5.png" alt="Event glimpse">
-                                <img src="images/myimage/ev5.png" alt="Event glimpse">
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-                
-                <!-- Gallery Block -->
-                <div class="gallery-block">
-                    <div class="inner-box">
-                        <figure class="image">
-                            <a href="images/myimage/ev6.png" data-fancybox="home-gallery">
-                                <img src="images/myimage/ev6.png" alt="Event glimpse">
-                                <img src="images/myimage/ev6.png" alt="Event glimpse">
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-                
-                 <!-- Gallery Block -->
-                <div class="gallery-block">
-                    <div class="inner-box">
-                        <figure class="image">
-                        <a href="images/myimage/ev7.png" data-fancybox="home-gallery">
-                            <img src="images/myimage/ev7.png" alt="Event glimpse">
-                            <img src="images/myimage/ev7.png" alt="Event glimpse">
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-            
-                <!-- Gallery Block -->
-                <div class="gallery-block">
-                    <div class="inner-box">
-                        <figure class="image">
-                        <a href="images/myimage/ev8.png" data-fancybox="home-gallery">
-                            <img src="images/myimage/ev8.png" alt="Event glimpse">
-                            <img src="images/myimage/ev8.png" alt="Event glimpse">
-                            </a>
-                        </figure>
-                    </div>
+        <?php foreach ($homeGalleryRows as $rowIndex => $homeGalleryItems) : ?>
+            <?php if (!$homeGalleryItems) { continue; } ?>
+            <div class="outer-box">
+                <div class="gallery <?php echo $rowIndex % 2 === 0 ? 'one' : 'two'; ?>">
+                    <?php foreach ($homeGalleryItems as $index => $item) : ?>
+                        <?php
+                        $image = (string)$item['image_path'];
+                        $title = trim((string)($item['title'] ?? '')) ?: 'Portfolio ' . ($index + 1);
+                        ?>
+                        <div class="gallery-block">
+                            <div class="inner-box">
+                                <figure class="image">
+                                    <a href="<?php echo htmlspecialchars($image, ENT_QUOTES, 'UTF-8'); ?>" data-fancybox="home-gallery" data-caption="<?php echo htmlspecialchars($title, ENT_QUOTES, 'UTF-8'); ?>">
+                                        <img src="<?php echo htmlspecialchars($image, ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($title, ENT_QUOTES, 'UTF-8'); ?>">
+                                        <img src="<?php echo htmlspecialchars($image, ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($title, ENT_QUOTES, 'UTF-8'); ?>">
+                                    </a>
+                                </figure>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
-        </div>
-
-        <div class="outer-box">
-            <div class="gallery two">
-
-                <!-- Gallery Block -->
-                <div class="gallery-block">
-                    <div class="inner-box">
-                        <figure class="image">
-                            <a href="images/myimage/ev9.png" data-fancybox="home-gallery">
-                                <img src="images/myimage/ev9.png" alt="Event glimpse">
-                                <img src="images/myimage/ev9.png" alt="Event glimpse">
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-                
-                <!-- Gallery Block -->
-                <div class="gallery-block">
-                    <div class="inner-box">
-                        <figure class="image">
-                            <a href="images/myimage/ev10.png" data-fancybox="home-gallery">
-                                <img src="images/myimage/ev10.png" alt="Event glimpse">
-                                <img src="images/myimage/ev10.png" alt="Event glimpse">
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-                
-                 <!-- Gallery Block -->
-                <div class="gallery-block">
-                    <div class="inner-box">
-                        <figure class="image">
-                            <a href="images/myimage/ev11.png" data-fancybox="home-gallery">
-                                <img src="images/myimage/ev11.png" alt="Event glimpse">
-                                <img src="images/myimage/ev11.png" alt="Event glimpse">
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-            
-                <!-- Gallery Block -->
-                <div class="gallery-block">
-                    <div class="inner-box">
-                        <figure class="image">
-                            <a href="images/myimage/ev12.png" data-fancybox="home-gallery">
-                                <img src="images/myimage/ev12.png" alt="Event glimpse">
-                                <img src="images/myimage/ev12.png" alt="Event glimpse">
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-
-                <!-- Gallery Block -->
-                <div class="gallery-block">
-                    <div class="inner-box">
-                        <figure class="image">
-                            <a href="images/myimage/ev13.png" data-fancybox="home-gallery">
-                                <img src="images/myimage/ev13.png" alt="Event glimpse">
-                                <img src="images/myimage/ev13.png" alt="Event glimpse">
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-                
-                <!-- Gallery Block -->
-                <div class="gallery-block">
-                    <div class="inner-box">
-                        <figure class="image">
-                            <a href="images/myimage/ev22.png" data-fancybox="home-gallery">
-                                <img src="images/myimage/ev22.png" alt="Event glimpse">
-                                <img src="images/myimage/ev22.png" alt="Event glimpse">
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-                
-                 <!-- Gallery Block -->
-                <div class="gallery-block">
-                    <div class="inner-box">
-                        <figure class="image">
-                            <a href="images/myimage/ev16.png" data-fancybox="home-gallery">
-                                <img src="images/myimage/ev16.png" alt="Event glimpse">
-                                <img src="images/myimage/ev16.png" alt="Event glimpse">
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-            
-                <!-- Gallery Block -->
-                <div class="gallery-block">
-                    <div class="inner-box">
-                        <figure class="image">
-                            <a href="images/myimage/ev17.png" data-fancybox="home-gallery">
-                                <img src="images/myimage/ev17.png" alt="Event glimpse">
-                                <img src="images/myimage/ev17.png" alt="Event glimpse">
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php endforeach; ?>
     </section>
 	<!-- End Gallery Section -->
     <!-- Industries Section -->
